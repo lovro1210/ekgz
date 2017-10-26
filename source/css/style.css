@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*------------------------------------*    $ABSTRACTS
 \*------------------------------------*/
 /*------------------------------------*    #VARIABLES
@@ -92,6 +93,76 @@ body {
 
 /*------------------------------------*    #ANIMATION
 \*------------------------------------*/
+/*
+   Animation example, for spinners
+*/
+.animate-spin {
+  -moz-animation: spin 2s infinite linear;
+  -o-animation: spin 2s infinite linear;
+  -webkit-animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
+  display: inline-block; }
+
+@-moz-keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -moz-transform: rotate(359deg);
+    -o-transform: rotate(359deg);
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg); } }
+
+@-webkit-keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -moz-transform: rotate(359deg);
+    -o-transform: rotate(359deg);
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg); } }
+
+@-o-keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -moz-transform: rotate(359deg);
+    -o-transform: rotate(359deg);
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg); } }
+
+@-ms-keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -moz-transform: rotate(359deg);
+    -o-transform: rotate(359deg);
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg); } }
+
+@keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -moz-transform: rotate(359deg);
+    -o-transform: rotate(359deg);
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg); } }
+
 /*------------------------------------*    #FORMS
 \*------------------------------------*/
 /**
@@ -469,6 +540,456 @@ abbr {
   border-bottom: 1px dotted #808080;
   cursor: help; }
 
+/*------------------------------------*    #ICONS
+\*------------------------------------*/
+@font-face {
+  font-family: 'ekokarta';
+  src: url("../fonts/ekokarta.eot");
+  src: url("../fonts/ekokarta.eot#iefix") format("embedded-opentype"), url("../fonts/ekokarta.woff2") format("woff2"), url("../fonts/ekokarta.woff") format("woff"), url("../fonts/ekokarta.ttf") format("truetype"), url("../fonts/ekokarta.svg#ekokarta") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+      font-family: 'ekokarta';
+      src: url('../font/ekokarta.svg?43437785#ekokarta') format('svg');
+    }
+  }
+  */
+[class^="ek-"]:before, [class*=" ek-"]:before {
+  font-family: "ekokarta";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */ }
+
+.ek-pelud:before {
+  content: '\0e01'; }
+
+/* 'ก' */
+.ek-pipa:before {
+  content: '\0e02'; }
+
+/* 'ข' */
+.ek-temp:before {
+  content: '\0e03'; }
+
+/* 'ฃ' */
+.ek-tlo:before {
+  content: '\0e04'; }
+
+/* 'ค' */
+.ek-zrak:before {
+  content: '\0e05'; }
+
+/* 'ฅ' */
+.ek-position:before {
+  content: '\0e06'; }
+
+/* 'ฆ' */
+.ek-ekokartalogo:before {
+  content: '\0e07'; }
+
+/* 'ง' */
+.ek-layers-all:before {
+  content: '\0e08'; }
+
+/* 'จ' */
+.ek-globe:before {
+  content: '\e800'; }
+
+/* '' */
+.ek-layers:before {
+  content: '\e801'; }
+
+/* '' */
+.ek-layers-alt:before {
+  content: '\e802'; }
+
+/* '' */
+.ek-picture:before {
+  content: '\e803'; }
+
+/* '' */
+.ek-plus:before {
+  content: '\e804'; }
+
+/* '' */
+.ek-minus:before {
+  content: '\e805'; }
+
+/* '' */
+.ek-bookmark:before {
+  content: '\e806'; }
+
+/* '' */
+.ek-cancel:before {
+  content: '\e807'; }
+
+/* '' */
+.ek-cancel-1:before {
+  content: '\e808'; }
+
+/* '' */
+.ek-cancel-2:before {
+  content: '\e809'; }
+
+/* '' */
+.ek-print:before {
+  content: '\e80a'; }
+
+/* '' */
+.ek-windy-rain-inv:before {
+  content: '\e80b'; }
+
+/* '' */
+.ek-clouds-flash:before {
+  content: '\e80c'; }
+
+/* '' */
+.ek-snow-inv:before {
+  content: '\e80d'; }
+
+/* '' */
+.ek-rain:before {
+  content: '\e80e'; }
+
+/* '' */
+.ek-drizzle-inv:before {
+  content: '\e80f'; }
+
+/* '' */
+.ek-cloud-flash-inv:before {
+  content: '\e810'; }
+
+/* '' */
+.ek-windy:before {
+  content: '\e811'; }
+
+/* '' */
+.ek-drizzle:before {
+  content: '\e812'; }
+
+/* '' */
+.ek-cloud-flash-alt:before {
+  content: '\e813'; }
+
+/* '' */
+.ek-cloud-inv:before {
+  content: '\e814'; }
+
+/* '' */
+.ek-cloud-moon-inv:before {
+  content: '\e815'; }
+
+/* '' */
+.ek-cloud-flash:before {
+  content: '\e816'; }
+
+/* '' */
+.ek-cloud:before {
+  content: '\e817'; }
+
+/* '' */
+.ek-cloud-sun-inv:before {
+  content: '\e818'; }
+
+/* '' */
+.ek-moon-inv:before {
+  content: '\e819'; }
+
+/* '' */
+.ek-sun-inv:before {
+  content: '\e81a'; }
+
+/* '' */
+.ek-fog-cloud:before {
+  content: '\e81b'; }
+
+/* '' */
+.ek-fog:before {
+  content: '\e81c'; }
+
+/* '' */
+.ek-fog-moon:before {
+  content: '\e81d'; }
+
+/* '' */
+.ek-clouds-flash-alt:before {
+  content: '\e81e'; }
+
+/* '' */
+.ek-fahrenheit:before {
+  content: '\e81f'; }
+
+/* '' */
+.ek-celcius:before {
+  content: '\e820'; }
+
+/* '' */
+.ek-na:before {
+  content: '\e821'; }
+
+/* '' */
+.ek-compass-1:before {
+  content: '\e822'; }
+
+/* '' */
+.ek-temperature:before {
+  content: '\e823'; }
+
+/* '' */
+.ek-clouds-flash-inv:before {
+  content: '\e824'; }
+
+/* '' */
+.ek-clouds-inv:before {
+  content: '\e825'; }
+
+/* '' */
+.ek-hail-inv:before {
+  content: '\e826'; }
+
+/* '' */
+.ek-snow-heavy-inv:before {
+  content: '\e827'; }
+
+/* '' */
+.ek-windy-inv:before {
+  content: '\e828'; }
+
+/* '' */
+.ek-sunrise:before {
+  content: '\e829'; }
+
+/* '' */
+.ek-sun-1:before {
+  content: '\e82a'; }
+
+/* '' */
+.ek-moon:before {
+  content: '\e82b'; }
+
+/* '' */
+.ek-eclipse:before {
+  content: '\e82c'; }
+
+/* '' */
+.ek-mist:before {
+  content: '\e82d'; }
+
+/* '' */
+.ek-wind:before {
+  content: '\e82e'; }
+
+/* '' */
+.ek-snowflake:before {
+  content: '\e82f'; }
+
+/* '' */
+.ek-cloud-sun:before {
+  content: '\e830'; }
+
+/* '' */
+.ek-cloud-moon:before {
+  content: '\e831'; }
+
+/* '' */
+.ek-fog-sun:before {
+  content: '\e832'; }
+
+/* '' */
+.ek-snow-heavy:before {
+  content: '\e833'; }
+
+/* '' */
+.ek-hail:before {
+  content: '\e834'; }
+
+/* '' */
+.ek-snow-alt:before {
+  content: '\e835'; }
+
+/* '' */
+.ek-snow:before {
+  content: '\e836'; }
+
+/* '' */
+.ek-windy-rain:before {
+  content: '\e837'; }
+
+/* '' */
+.ek-share:before {
+  content: '\e838'; }
+
+/* '' */
+.ek-water:before {
+  content: '\e839'; }
+
+/* '' */
+.ek-droplet:before {
+  content: '\e83a'; }
+
+/* '' */
+.ek-mail:before {
+  content: '\e83b'; }
+
+/* '' */
+.ek-ok:before {
+  content: '\e83c'; }
+
+/* '' */
+.ek-search:before {
+  content: '\e83d'; }
+
+/* '' */
+.ek-down-open-mini:before {
+  content: '\e83e'; }
+
+/* '' */
+.ek-up-open-mini:before {
+  content: '\e83f'; }
+
+/* '' */
+.ek-down-open-big:before {
+  content: '\e840'; }
+
+/* '' */
+.ek-down-open:before {
+  content: '\e841'; }
+
+/* '' */
+.ek-down-dir:before {
+  content: '\e842'; }
+
+/* '' */
+.ek-up-dir:before {
+  content: '\e843'; }
+
+/* '' */
+.ek-hammer:before {
+  content: '\e844'; }
+
+/* '' */
+.ek-spin3:before {
+  content: '\e845'; }
+
+/* '' */
+.ek-globe-inv:before {
+  content: '\f019'; }
+
+/* '' */
+.ek-bookmark-empty:before {
+  content: '\f097'; }
+
+/* '' */
+.ek-twitter:before {
+  content: '\f099'; }
+
+/* '' */
+.ek-facebook:before {
+  content: '\f09a'; }
+
+/* '' */
+.ek-gplus-squared:before {
+  content: '\f0d4'; }
+
+/* '' */
+.ek-gplus:before {
+  content: '\f0d5'; }
+
+/* '' */
+.ek-mail-alt:before {
+  content: '\f0e0'; }
+
+/* '' */
+.ek-direction:before {
+  content: '\f124'; }
+
+/* '' */
+.ek-info:before {
+  content: '\f129'; }
+
+/* '' */
+.ek-compass:before {
+  content: '\f14e'; }
+
+/* '' */
+.ek-sun:before {
+  content: '\f185'; }
+
+/* '' */
+.ek-google:before {
+  content: '\f1a0'; }
+
+/* '' */
+.ek-share-1:before {
+  content: '\f1e0'; }
+
+/* '' */
+.ek-facebook-official:before {
+  content: '\f230'; }
+
+/* '' */
+.ek-map:before {
+  content: '\f279'; }
+
+/* '' */
+.ek-google-plus-circle:before {
+  content: '\f2b3'; }
+
+/* '' */
+.ek-thermometer:before {
+  content: '\f2c7'; }
+
+/* '' */
+.ek-thermometer-3:before {
+  content: '\f2c8'; }
+
+/* '' */
+.ek-thermometer-2:before {
+  content: '\f2c9'; }
+
+/* '' */
+.ek-thermometer-quarter:before {
+  content: '\f2ca'; }
+
+/* '' */
+.ek-thermometer-0:before {
+  content: '\f2cb'; }
+
+/* '' */
+.ek-twitter-squared:before {
+  content: '\f304'; }
+
+/* '' */
+.ek-facebook-squared:before {
+  content: '\f308'; }
+
+/* '' */
 /*------------------------------------*    $COMPONENTS
 \*------------------------------------*/
 .box-green {
@@ -507,6 +1028,3 @@ abbr {
   .item--active {
     border-color: #0e8041;
     background-color: #0e8041; }
-  .item i {
-    font-size: 1.4375rem;
-    font-style: normal; }
