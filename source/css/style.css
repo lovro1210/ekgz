@@ -83,7 +83,7 @@
  */
 body {
   background: #fff;
-  color: #808080;
+  color: #222222;
   font: 100%/1.5 "HelveticaNeue", "Helvetica", "Arial", sans-serif;
   -webkit-text-size-adjust: 100%;
   min-height: 100vh;
@@ -471,6 +471,16 @@ abbr {
 
 /*------------------------------------*    $COMPONENTS
 \*------------------------------------*/
+.box-green {
+  width: 200px;
+  height: 50px;
+  border-radius: 2px;
+  background-color: #0e8041;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 .btn {
   padding: 15px 20px;
   border: 1px solid darkgrey;
@@ -483,3 +493,20 @@ abbr {
   .btn:hover {
     background-color: darkgrey;
     color: white; }
+
+.item {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #283242;
+  border-radius: 2px;
+  background-color: #283242;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .item--active {
+    border-color: #0e8041;
+    background-color: #0e8041; }
+  .item i {
+    font-size: 1.4375rem;
+    font-style: normal; }

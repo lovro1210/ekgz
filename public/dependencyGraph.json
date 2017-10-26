@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1509004356284,
+  "timestamp": 1509011694056,
   "graph": {
     "options": {
       "directed": true,
@@ -9,7 +9,19 @@
     },
     "nodes": [
       {
+        "v": "01-base\\color.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
         "v": "02-atoms\\buttons\\button.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-atoms\\menu\\item-active.mustache",
         "value": {
           "compileState": "clean"
         }
@@ -21,13 +33,37 @@
         }
       },
       {
-        "v": "C:\\Users\\mateji\\sites\\EKGZ\\ekgz-patternlab\\source\\_meta\\_00-head.mustache",
+        "v": "03-molecules\\test.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "04-organisms\\test.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "05-templates\\test.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "06-pages\\test.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "C:\\Users\\mateji\\sites\\EKGZ\\patternlab-ekgz\\ekgz\\source\\_meta\\_00-head.mustache",
         "value": {
           "compileState": null
         }
       },
       {
-        "v": "C:\\Users\\mateji\\sites\\EKGZ\\ekgz-patternlab\\source\\_meta\\_01-foot.mustache",
+        "v": "C:\\Users\\mateji\\sites\\EKGZ\\patternlab-ekgz\\ekgz\\source\\_meta\\_01-foot.mustache",
         "value": {
           "compileState": null
         }

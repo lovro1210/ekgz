@@ -1,0 +1,10 @@
+@include b('box-green') {
+    width: 200px;
+    height: 50px;    
+    border-radius: 2px;
+    background-color: $color-brand-green;
+    color: $color-white;     
+    display: flex;
+    justify-content: center;
+    align-items: center;      
+}
