@@ -23,7 +23,15 @@
     }
   }
   */
-   
+
+  .ek{
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+      
    [class^="ek-"]:before, [class*=" ek-"]:before {
     font-family: "ekokarta";
     font-style: normal;
