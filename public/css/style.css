@@ -25,9 +25,9 @@
  *    read https://medium.com/eightshapes-llc/color-in-design-systems-a1c80f65fa3#.brevrq67p
  */
 /**
- * Utility Colors
- * 1) Utility colors are colors used to provide feedback, such as alert messages,
- * form validation, etc.
+ * Application Colors
+ * All Colors for application
+ *
  */
 /*
   * Text Colors
@@ -197,7 +197,7 @@ button, input, select, textarea {
 input, textarea {
   width: 100%;
   border: 1px solid #a5a5a5;
-  border-radius: 6px;
+  border-radius: 2px;
   padding: 1rem; }
 
 /**
@@ -211,7 +211,7 @@ input[type=text], input[type=search], input[type=url], input[type=number], texta
  * Button/Submit button base styles
  */
 button, input[type="submit"] {
-  padding: 0.5em;
+  padding: 4px;
   background: #444444;
   border: 1px solid #808080;
   cursor: pointer; }
@@ -312,27 +312,27 @@ input[type="search"]::-webkit-search-decoration {
 /**
  * Show valid text color
  */
-.valid {
-  color: #03804d; }
-
+/*.valid {
+	color: $color-utility-positive;
+}*/
 /**
  * Show error text color
  */
-.error {
-  color: #b12a0b; }
-
+/*.error {
+	color: $color-utility-negative;
+}*/
 /**
  * Show warning text color
  */
-.warning {
-  color: #a59b15; }
-
+/*.warning {
+    color: $color-utility-caution;
+}*/
 /**
  * Show informational text color
  */
-.information {
-  color: #0192d0; }
-
+/*.information {
+    color: $color-utility-neutral;
+}*/
 /**
  * Display secondary font family
  */
@@ -403,7 +403,7 @@ ol, ul {
  */
 dl {
   overflow: hidden;
-  margin: 0 0 1em; }
+  margin: 0 0 8px; }
 
 /**
  * Terms/Names base styles
@@ -438,18 +438,18 @@ img, video, object {
  * Iframe base styles
  */
 iframe {
-  margin-bottom: 1em; }
+  margin-bottom: 8px; }
 
 /**
  * Figure base styles
  */
 figure {
-  margin-bottom: 1em;
+  margin-bottom: 8px;
   /**
 	 * Figure image base styles
 	 */ }
   figure img {
-    margin-bottom: 0.5em; }
+    margin-bottom: 4px; }
 
 /**
  * Figure caption base styles
@@ -512,7 +512,7 @@ td {
  * Paragraph base styles
  */
 p {
-  margin-bottom: 1em; }
+  margin-bottom: 8px; }
 
 /**
  * Blockquote base styles
@@ -521,8 +521,8 @@ blockquote {
   font-style: italic;
   border-left: 1px solid #808080;
   color: #808080;
-  padding-left: 1em;
-  margin-bottom: 1em; }
+  padding-left: 8px;
+  margin-bottom: 8px; }
 
 /**
  * Horizontal rule base styles
@@ -531,7 +531,7 @@ hr {
   border: 0;
   height: 2px;
   background: #d9d9d9;
-  margin: 2em 0; }
+  margin: 16px 0; }
 
 /**
  * Abbreviation base styles
@@ -1003,28 +1003,19 @@ abbr {
   align-items: center; }
 
 .btn {
-  padding: 15px 20px;
-  border: 1px solid darkgrey;
+  width: 48px;
+  height: 48px;
+  border: 1px solid;
   border-radius: 2px;
-  background: lightgrey;
-  font-size: 16px;
-  font-weight: bold;
-  cursor: pointer;
-  outline: none; }
-  .btn:hover {
-    background-color: darkgrey;
-    color: white; }
-
-.item {
-  width: 50px;
-  height: 50px;
-  border: 1px solid #283242;
-  border-radius: 2px;
-  background-color: #283242;
-  color: #fff;
+  box-shadow: 0 0 8px 0 rgba(74, 74, 74, 0.1), 0 2px 4px 0 rgba(0, 0, 0, 0.1);
   display: flex;
-  justify-content: center;
-  align-items: center; }
-  .item--active {
-    border-color: #0e8041;
-    background-color: #0e8041; }
+  align-items: center;
+  justify-content: center; }
+  .btn__icon {
+    padding: 12px; }
+  .btn--dark {
+    background-color: #283242;
+    color: #fff; }
+  .btn--green {
+    background-color: #FFF;
+    color: #0e8041; }

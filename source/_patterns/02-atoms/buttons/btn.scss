@@ -3,14 +3,23 @@
     height: 48px;
     border: 1px solid;
     border-radius: $border-radius;    
-    color: $color-white;
+    box-shadow: 0 0 8px 0 rgba(74,74,74,0.1), 0 2px 4px 0 rgba(0,0,0,0.1);  
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;  
+
+    @include e(icon){
+        padding: $pad-one-and-half;
+    }  
+    
+    @include m('dark'){
+        background-color: $palette-secondary;
+        color: $color-white;
+    }
 
     @include m('green'){
-        border-color: $palette-primary;
-        background-color: $color-brand-green;
-    }    
+        background-color: $pallete-primary-bg;
+        color: $palette-primary;
+    }
         
 }
