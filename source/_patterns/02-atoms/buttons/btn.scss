@@ -1,25 +1,110 @@
 @include b('btn') {
     width: 48px;
-    height: 48px;
+    height: 48px;    
     border: 1px solid;
-    border-radius: $border-radius;    
-    box-shadow: 0 0 8px 0 rgba(74,74,74,0.1), 0 2px 4px 0 rgba(0,0,0,0.1);  
-    display: flex;
-    align-items: center;
-    justify-content: center;  
-
-    @include e(icon){
-        padding: $pad-one-and-half;
-    }  
+    border-radius: $border-radius;   
+    cursor: pointer; 
+    box-shadow: 0 0 8px 0 rgba(74,74,74,0.1), 0 2px 4px 0 rgba(0,0,0,0.1);      
     
-    @include m('dark'){
+    @include m('primary'){
         background-color: $palette-secondary;
         color: $color-white;
+        display: flex;
+        justify-content: center;
+        align-items: center;       
+        
+        &.is-active{
+            background-color: $palette-primary;       
+        }
+
+        &:hover{
+            opacity: 0.9;
+        }
     }
 
-    @include m('green'){
+    @include m('secondary'){
         background-color: $pallete-primary-bg;
+<<<<<<< HEAD
         color: $palette-primary;
     }
+
+    @include e('close') {
+        color:   $icon-close-color;
+        height: 18px;	
+        width: 18px;	
+        border-radius: 9px;
+        &:hover {
+             cursor: pointer;
+        }
+    }
+=======
+        color: $color-gray;
+        border-color: $color-gray;
+        display: block;        
+        overflow: hidden; 
+>>>>>>> c4d191ee429d254e72419cfe1c21efa15e293f9d
         
+        &:hover{
+            border-color: $palette-primary;
+            color: $palette-primary;
+        }
+
+        &.is-active{
+            background-color: $palette-primary;
+            color: $color-white;  
+            
+            .btn__caption{
+                transform: translate(0,-4px);
+                
+            }
+            .btn__caption-text{
+                transform: translate(0,-16px);
+            }
+
+            &:hover{
+                background-color: $pallete-primary-bg;
+                color: $color-gray;
+                border-color: $color-gray;
+
+                .btn__caption{
+                    transform: translate(0,0);
+                    
+                }
+                .btn__caption-text{
+                    transform: translate(0,0);
+                }
+            }
+
+        }
+    } 
+
+
+@include e('caption'){
+    width: 48px;
+    height: 48px;
+    padding: $pad-one-and-half;
+    transition: transform 500ms,-webkit-transform 500ms;
+    position: relative; 
+
+    &-text{
+        position: absolute;
+        bottom: -16px;
+        font-size: 10px;
+        text-align: center;
+        width: 48px;
+        left: 0;
+        overflow: hidden;
+        text-overflow: clip;
+    }   
+
+    &:hover{  
+        transform: translate(0,-4px);
+        .btn__caption-text{
+            transform: translate(0,-16px);
+        }
+
+    }
+
+}   
+     
 }
