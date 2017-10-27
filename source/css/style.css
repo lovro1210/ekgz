@@ -1019,3 +1019,20 @@ abbr {
   .btn--green {
     background-color: #FFF;
     color: #0e8041; }
+
+.brand__logo {
+  height: auto;
+  width: 32px; }
+
+.brand__slogan {
+  color: #0e8041; }
+
+.brand {
+  display: flex;
+  padding: 16px; }
+
+.left-menu {
+  height: 100vh;
+  width: 320px;
+  background-color: #fff;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2); }

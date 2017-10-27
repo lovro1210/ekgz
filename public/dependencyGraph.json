@@ -1,10 +1,6 @@
 {
   "version": 1,
-<<<<<<< HEAD
-  "timestamp": 1509092316747,
-=======
-  "timestamp": 1509093657225,
->>>>>>> 30cfc6a3b62bfe47a221ccdaa3ae9c2262270424
+  "timestamp": 1509114761156,
   "graph": {
     "options": {
       "directed": true,
@@ -67,12 +63,52 @@
         }
       },
       {
-        "v": "03-molecules\\left-menu\\left-menu.mustache",
+        "v": "04-organisms\\left-menu\\left-menu.mustache",
         "value": {
           "compileState": "clean"
         }
+      },
+      {
+        "v": "02-atoms\\brand\\logo.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-molecules-brand-brand\\03-molecules-brand-brand.rendered.html",
+          "lineagePattern": "molecules-brand"
+        }
+      },
+      {
+        "v": "03-molecules\\brand\\brand.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-organisms-left-menu-left-menu\\04-organisms-left-menu-left-menu.rendered.html",
+          "lineagePattern": "organisms-left-menu"
+        }
+      },
+      {
+        "v": "02-atoms\\brand\\slogan.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-molecules-brand-brand\\03-molecules-brand-brand.rendered.html",
+          "lineagePattern": "molecules-brand"
+        }
       }
     ],
-    "edges": []
+    "edges": [
+      {
+        "v": "03-molecules\\brand\\brand.mustache",
+        "w": "02-atoms\\brand\\logo.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-molecules\\brand\\brand.mustache",
+        "w": "02-atoms\\brand\\slogan.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-organisms\\left-menu\\left-menu.mustache",
+        "w": "03-molecules\\brand\\brand.mustache",
+        "value": {}
+      }
+    ]
   }
 }
