@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1509089811565,
+  "timestamp": 1509093657225,
   "graph": {
     "options": {
       "directed": true,
@@ -51,15 +51,21 @@
         }
       },
       {
-        "v": "C:\\Users\\mateji\\sites\\EKGZ\\patternlab-ekgz\\ekgz\\source\\_meta\\_00-head.mustache",
+        "v": "C:\\Users\\lovrof\\sites\\ekgz-patternlab\\ekgz\\source\\_meta\\_00-head.mustache",
         "value": {
           "compileState": null
         }
       },
       {
-        "v": "C:\\Users\\mateji\\sites\\EKGZ\\patternlab-ekgz\\ekgz\\source\\_meta\\_01-foot.mustache",
+        "v": "C:\\Users\\lovrof\\sites\\ekgz-patternlab\\ekgz\\source\\_meta\\_01-foot.mustache",
         "value": {
           "compileState": null
+        }
+      },
+      {
+        "v": "03-molecules\\left-menu\\left-menu.mustache",
+        "value": {
+          "compileState": "clean"
         }
       }
     ],
