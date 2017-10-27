@@ -1,0 +1,17 @@
+@include b('icons-menu') {
+    width: inherit;
+
+    @include e('item'){
+        margin: $pad;
+
+        @include m('first'){
+            margin-bottom: $pad-double;   
+            
+        } 
+        @include m('last'){
+            margin-top: $pad-double;   
+            
+        } 
+    }    
+
+}

@@ -1,10 +1,6 @@
 {
   "version": 1,
-<<<<<<< HEAD
-  "timestamp": 1509092316747,
-=======
-  "timestamp": 1509093657225,
->>>>>>> 30cfc6a3b62bfe47a221ccdaa3ae9c2262270424
+  "timestamp": 1509108448634,
   "graph": {
     "options": {
       "directed": true,
@@ -14,18 +10,6 @@
     "nodes": [
       {
         "v": "01-base\\color.mustache",
-        "value": {
-          "compileState": "clean"
-        }
-      },
-      {
-        "v": "02-atoms\\buttons\\btn-dark.mustache",
-        "value": {
-          "compileState": "clean"
-        }
-      },
-      {
-        "v": "02-atoms\\buttons\\btn-green.mustache",
         "value": {
           "compileState": "clean"
         }
@@ -55,19 +39,49 @@
         }
       },
       {
-        "v": "C:\\Users\\lovrof\\sites\\ekgz-patternlab\\ekgz\\source\\_meta\\_00-head.mustache",
-        "value": {
-          "compileState": null
-        }
-      },
-      {
-        "v": "C:\\Users\\lovrof\\sites\\ekgz-patternlab\\ekgz\\source\\_meta\\_01-foot.mustache",
-        "value": {
-          "compileState": null
-        }
-      },
-      {
         "v": "03-molecules\\left-menu\\left-menu.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "C:\\Users\\mateji\\sites\\EKGZ\\patternlab-ekgz\\ekgz\\source\\_meta\\_00-head.mustache",
+        "value": {
+          "compileState": null
+        }
+      },
+      {
+        "v": "C:\\Users\\mateji\\sites\\EKGZ\\patternlab-ekgz\\ekgz\\source\\_meta\\_01-foot.mustache",
+        "value": {
+          "compileState": null
+        }
+      },
+      {
+        "v": "02-atoms\\buttons\\btn-secondary.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-atoms\\buttons\\btn-primary.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-atoms\\buttons\\btn-primary-active.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-atoms\\buttons\\btn-secondary-active.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "03-molecules\\icons-menu\\icons-menu.mustache",
         "value": {
           "compileState": "clean"
         }
