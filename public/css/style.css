@@ -1019,3 +1019,10 @@ abbr {
   .btn--green {
     background-color: #FFF;
     color: #0e8041; }
+  .btn__close {
+    color: #aaaeb0;
+    height: 18px;
+    width: 18px;
+    border-radius: 9px; }
+    .btn__close:hover {
+      cursor: pointer; }

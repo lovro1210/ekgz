@@ -1,10 +1,6 @@
 {
   "version": 1,
-<<<<<<< HEAD
-  "timestamp": 1509092316747,
-=======
-  "timestamp": 1509093657225,
->>>>>>> 30cfc6a3b62bfe47a221ccdaa3ae9c2262270424
+  "timestamp": 1509111319177,
   "graph": {
     "options": {
       "directed": true,
@@ -55,24 +51,57 @@
         }
       },
       {
-        "v": "C:\\Users\\lovrof\\sites\\ekgz-patternlab\\ekgz\\source\\_meta\\_00-head.mustache",
-        "value": {
-          "compileState": null
-        }
-      },
-      {
-        "v": "C:\\Users\\lovrof\\sites\\ekgz-patternlab\\ekgz\\source\\_meta\\_01-foot.mustache",
-        "value": {
-          "compileState": null
-        }
-      },
-      {
         "v": "03-molecules\\left-menu\\left-menu.mustache",
         "value": {
           "compileState": "clean"
         }
+      },
+      {
+        "v": "C:\\Users\\mislavz\\Documents\\Projects\\ekgz\\source\\_meta\\_00-head.mustache",
+        "value": {
+          "compileState": null
+        }
+      },
+      {
+        "v": "C:\\Users\\mislavz\\Documents\\Projects\\ekgz\\source\\_meta\\_01-foot.mustache",
+        "value": {
+          "compileState": null
+        }
+      },
+      {
+        "v": "02-atoms\\buttons\\btn-close.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-molecules-location-details-title\\03-molecules-location-details-title.rendered.html",
+          "lineagePattern": "molecules-title"
+        }
+      },
+      {
+        "v": "03-molecules\\location-details\\title.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-atoms\\titles\\location-title.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-molecules-location-details-title\\03-molecules-location-details-title.rendered.html",
+          "lineagePattern": "molecules-title"
+        }
       }
     ],
-    "edges": []
+    "edges": [
+      {
+        "v": "03-molecules\\location-details\\title.mustache",
+        "w": "02-atoms\\titles\\location-title.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-molecules\\location-details\\title.mustache",
+        "w": "02-atoms\\buttons\\btn-close.mustache",
+        "value": {}
+      }
+    ]
   }
 }
