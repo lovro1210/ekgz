@@ -1,0 +1,16 @@
+@include b('btn') {
+    width: 48px;
+    height: 48px;
+    border: 1px solid;
+    border-radius: $border-radius;    
+    color: $color-white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @include m('green'){
+        border-color: $palette-primary;
+        background-color: $color-brand-green;
+    }    
+        
+}

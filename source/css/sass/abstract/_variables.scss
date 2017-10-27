@@ -44,19 +44,20 @@ $color-black: #000;
 $color-dim-50: rgba(0,0,0,0.5);
 $color-dim-70: rgba(0,0,0,0.7);
 
+
+
 /**
- * Utility Colors
- * 1) Utility colors are colors used to provide feedback, such as alert messages,
- * form validation, etc.
+ * Application Colors
+ * All Colors for application
+ *
  */
-$color-utility-positive: #03804d;
-$color-utility-postitive-subtle: #d4f3e6;
-$color-utility-caution: #a59b15;
-$color-utility-caution-subtle: #fffecf;
-$color-utility-negative: #b12a0b;
-$color-utility-negative-subtle: #fdded8;
-$color-utility-neutral: #0192d0;
-$color-utility-neutral-subtle: #d3f2ff;
+
+ $pallete-primary-bg: #FFF;
+ $palette-primary: #0e8041;
+ $palette-secondary: #283242;
+ $palette-tertiary: #CCCC;
+
+
 
  /*
   * Text Colors
@@ -123,15 +124,16 @@ $l-max-width: 80em;
 /**
  * Spacing Defaults
  */
-$space : 1em;
-$space-and-half : $space*1.5;
-$space-double : $space*2;
-$space-quad : $space*4;
-$space-half : $space/2;
-$pad : 1em;
-$pad-and-half : $pad*1.5;
-$pad-double : $pad*2;
+$space : 8px;
+$space-half : $space/2; //4px
+$space-double : $space*2;  //16px
+$space-triple : $space*3;  //24px
+$space-quad : $space*4;  //32px
+
+$pad : 8px;
 $pad-half : $pad/2;
+$pad-double : $pad*2;
+$pad-triple : $pad*3;
 $pad-quarter :$pad/4;
 
 
@@ -145,13 +147,14 @@ $pad-quarter :$pad/4;
 /**
  * Border Width
  */
-$border-med: 3px;
+$border-sm: 1px; 
+$border-med: 2px;
 $border-thick: 7px;
 
 /**
  * Border Radius
  */
-$border-radius: 6px;
+$border-radius: 2px;
 
 
 
