@@ -87,6 +87,7 @@
         border-radius: 9px;
         &:hover {
              cursor: pointer;
+             color: $color-gray-active;
         }
     }
 
@@ -117,6 +118,27 @@
 
     }
 
-}   
+}
+
+@include e('tab') {
+    cursor: pointer;
+    color: $palette-tertiary;
+    font-size: $font-size-small-2;	
+    line-height: 16px;	
+    text-align: center;
+    padding-bottom: $pad-half;
+    padding-left: $pad-half;
+    padding-right: $pad-half;
+    &:hover {
+        color: $palette-primary;
+
+    }
+
+    @include m('active') {
+        color: $palette-primary;
+        border-bottom: $palette-primary;
+        border-bottom-style: solid;
+    }
+}
      
 }
