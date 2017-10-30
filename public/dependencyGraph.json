@@ -1,10 +1,6 @@
 {
   "version": 1,
-<<<<<<< HEAD
-  "timestamp": 1509381748436,
-=======
-  "timestamp": 1509373030640,
->>>>>>> 98361120ca4d7d0d0687960f8f08f81b423f3504
+  "timestamp": 1509391687427,
   "graph": {
     "options": {
       "directed": true,
@@ -58,22 +54,16 @@
         "v": "02-atoms\\titles\\location-title.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/03-molecules-location-details-title\\03-molecules-location-details-title.rendered.html",
-          "lineagePattern": "molecules-title"
-        }
-      },
-      {
-        "v": "03-molecules\\location-details\\title.mustache",
-        "value": {
-          "compileState": "clean"
+          "lineagePath": "../../patterns/03-molecules-title-group-title-subtitle-icon\\03-molecules-title-group-title-subtitle-icon.rendered.html",
+          "lineagePattern": "molecules-title-subtitle-icon"
         }
       },
       {
         "v": "02-atoms\\buttons\\btn-close.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/03-molecules-location-details-title\\03-molecules-location-details-title.rendered.html",
-          "lineagePattern": "molecules-title"
+          "lineagePath": "../../patterns/03-molecules-title-group-title-subtitle-icon\\03-molecules-title-group-title-subtitle-icon.rendered.html",
+          "lineagePattern": "molecules-title-subtitle-icon"
         }
       },
       {
@@ -112,14 +102,8 @@
         "v": "04-organisms\\menu\\menu.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/05-templates-template\\05-templates-template.rendered.html",
-          "lineagePattern": "templates-template"
-        }
-      },
-      {
-        "v": "C:\\Users\\mateji\\sites\\EKGZ\\patternlab-ekgz\\ekgz\\source\\_meta\\_01-foot.mustache",
-        "value": {
-          "compileState": null
+          "lineagePath": "../../patterns/06-pages-opened-details\\06-pages-opened-details.rendered.html",
+          "lineagePattern": "pages-opened-details"
         }
       },
       {
@@ -163,33 +147,137 @@
       {
         "v": "02-atoms\\buttons\\btn-tab-active.mustache",
         "value": {
-          "compileState": "clean"
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-molecules-tabs-tab\\03-molecules-tabs-tab.rendered.html",
+          "lineagePattern": "molecules-tab"
         }
       },
       {
         "v": "02-atoms\\buttons\\btn-tab.mustache",
         "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-molecules-tabs-tab\\03-molecules-tabs-tab.rendered.html",
+          "lineagePattern": "molecules-tab"
+        }
+      },
+      {
+        "v": "03-molecules\\tabs\\tabs.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-organisms-menu-menu\\04-organisms-menu-menu.rendered.html",
+          "lineagePattern": "organisms-menu"
+        }
+      },
+      {
+        "v": "03-molecules\\tabs\\tab.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/05-templates-location-details-location-details\\05-templates-location-details-location-details.rendered.html",
+          "lineagePattern": "templates-location-details"
+        }
+      },
+      {
+        "v": "02-atoms\\cells\\round-cell.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-molecules-rows-parameter-data\\03-molecules-rows-parameter-data.rendered.html",
+          "lineagePattern": "molecules-parameter-data"
+        }
+      },
+      {
+        "v": "02-atoms\\cells\\normal-cell.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-molecules-rows-parameter-data\\03-molecules-rows-parameter-data.rendered.html",
+          "lineagePattern": "molecules-parameter-data"
+        }
+      },
+      {
+        "v": "02-atoms\\cells\\number-cell.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-molecules-rows-parameter-data\\03-molecules-rows-parameter-data.rendered.html",
+          "lineagePattern": "molecules-parameter-data"
+        }
+      },
+      {
+        "v": "02-atoms\\items\\item.mustache",
+        "value": {
           "compileState": "clean"
         }
       },
       {
-        "v": "C:\\Users\\mateji\\sites\\EKGZ\\patternlab-ekgz\\ekgz\\source\\_meta\\_00-head.mustache",
+        "v": "02-atoms\\tabs\\tab.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "03-molecules\\item-list\\list.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "C:\\Users\\mislavz\\Documents\\Projects\\ekgz\\source\\_meta\\_00-head.mustache",
         "value": {
           "compileState": null
+        }
+      },
+      {
+        "v": "C:\\Users\\mislavz\\Documents\\Projects\\ekgz\\source\\_meta\\_01-foot.mustache",
+        "value": {
+          "compileState": null
+        }
+      },
+      {
+        "v": "03-molecules\\rows\\parameter-data.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-organisms-tables-parameter-table\\04-organisms-tables-parameter-table.rendered.html",
+          "lineagePattern": "organisms-parameter-table"
+        }
+      },
+      {
+        "v": "04-organisms\\tables\\parameter-table.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/05-templates-location-details-location-details\\05-templates-location-details-location-details.rendered.html",
+          "lineagePattern": "templates-location-details"
+        }
+      },
+      {
+        "v": "03-molecules\\title-group\\title-subtitle-icon.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/05-templates-location-details-location-details\\05-templates-location-details-location-details.rendered.html",
+          "lineagePattern": "templates-location-details"
+        }
+      },
+      {
+        "v": "02-atoms\\texts\\medium-text.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/05-templates-location-details-location-details\\05-templates-location-details-location-details.rendered.html",
+          "lineagePattern": "templates-location-details"
+        }
+      },
+      {
+        "v": "05-templates\\location-details\\location-details.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/06-pages-opened-details\\06-pages-opened-details.rendered.html",
+          "lineagePattern": "pages-opened-details"
+        }
+      },
+      {
+        "v": "06-pages\\opened-details.mustache",
+        "value": {
+          "compileState": "clean"
         }
       }
     ],
     "edges": [
-      {
-        "v": "03-molecules\\location-details\\title.mustache",
-        "w": "02-atoms\\titles\\location-title.mustache",
-        "value": {}
-      },
-      {
-        "v": "03-molecules\\location-details\\title.mustache",
-        "w": "02-atoms\\buttons\\btn-close.mustache",
-        "value": {}
-      },
       {
         "v": "03-molecules\\brand\\brand.mustache",
         "w": "02-atoms\\brand\\logo.mustache",
@@ -276,18 +364,68 @@
         "value": {}
       },
       {
-        "v": "03-molecules\\rows\\details-row.mustache",
+        "v": "03-molecules\\rows\\parameter-data.mustache",
         "w": "02-atoms\\cells\\round-cell.mustache",
         "value": {}
       },
       {
-        "v": "03-molecules\\rows\\details-row.mustache",
+        "v": "03-molecules\\rows\\parameter-data.mustache",
         "w": "02-atoms\\cells\\normal-cell.mustache",
         "value": {}
       },
       {
-        "v": "03-molecules\\rows\\details-row.mustache",
+        "v": "03-molecules\\rows\\parameter-data.mustache",
         "w": "02-atoms\\cells\\number-cell.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-organisms\\tables\\parameter-table.mustache",
+        "w": "03-molecules\\rows\\parameter-data.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-molecules\\title-group\\title-subtitle-icon.mustache",
+        "w": "02-atoms\\titles\\location-title.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-molecules\\title-group\\title-subtitle-icon.mustache",
+        "w": "02-atoms\\buttons\\btn-close.mustache",
+        "value": {}
+      },
+      {
+        "v": "05-templates\\location-details\\location-details.mustache",
+        "w": "03-molecules\\title-group\\title-subtitle-icon.mustache",
+        "value": {}
+      },
+      {
+        "v": "05-templates\\location-details\\location-details.mustache",
+        "w": "03-molecules\\tabs\\tab.mustache",
+        "value": {}
+      },
+      {
+        "v": "05-templates\\location-details\\location-details.mustache",
+        "w": "04-organisms\\tables\\parameter-table.mustache",
+        "value": {}
+      },
+      {
+        "v": "05-templates\\location-details\\location-details.mustache",
+        "w": "02-atoms\\texts\\medium-text.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-pages\\opened-details.mustache",
+        "w": "04-organisms\\menu\\menu.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-pages\\opened-details.mustache",
+        "w": "05-templates\\location-details\\location-details.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-pages\\opened-details.mustache",
+        "w": "04-organisms\\details\\details.mustache",
         "value": {}
       }
     ]

@@ -1,7 +1,15 @@
 @include b('parameter-data') {
     display: flex;
     flex-direction: row;
-    div {
+    justify-content: space-between;
+    align-items: center; 
+    margin-bottom: $pad;
 
+    @include e('main') {
+        flex-grow: 5;
+    }
+
+    @include e('first') {
+        margin-right:$pad;
     }
 }

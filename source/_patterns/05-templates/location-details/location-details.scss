@@ -1,0 +1,27 @@
+@include b('location-details') {
+    width: 420px;
+    background-color: #FFFFFF;	
+    box-shadow: 0 0 8px 0 rgba(0,0,0,0.3);
+    height: 100vh;
+    @include e('text') {
+        border-top-style: solid;
+        border-top-width: 1px;
+        border-top-color: $light-gray;
+        padding-top: $pad-double;
+        margin-left: $pad-double;
+        margin-right: $pad-double;
+    }
+    @include e('tables') {
+        padding: $pad;
+        padding-top: $pad-double;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        article {
+            width: 48%;
+        }
+    }
+    @include e('tab') {
+        padding-top: $pad;
+    }
+}

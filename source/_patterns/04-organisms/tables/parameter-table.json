@@ -1,0 +1,19 @@
+{
+    "rowList" : [
+        {"round" : "NO",
+         "normal": "Dušićni monoksid",
+         "number": "2" },
+        {"round" : "NO2",
+         "normal": "Dušićni oksid",
+         "number": "2" },
+        {"round" : "NOX",
+         "normal": "Bakar",
+         "number": "2" },
+        {"round" : "CO",
+          "normal": "Ugljični monoksid",
+          "number": "2" },
+        {"round" : "S",
+            "normal": "Sumpor",
+            "number": "2" }
+    ]
+}
