@@ -1,0 +1,13 @@
+@include b('location-details') {
+    @include e('title') {
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        flex-flow: row wrap;
+        width: 30%;
+    }
+    @include e('close-btn') {
+        width: inherit;
+        display: flex;
+        justify-content: flex-end;
+    }
+} 
