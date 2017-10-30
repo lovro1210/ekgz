@@ -1086,16 +1086,26 @@ abbr {
       .btn__caption:hover .btn__caption-text {
         transform: translate(0, -16px); }
 
-.brand__logo {
+.logo {
   height: auto;
   width: 32px; }
 
-.brand__slogan {
+.slogan {
   color: #0e8041; }
 
 .brand {
   display: flex;
-  padding: 16px; }
+  padding: 16px;
+  align-items: center; }
+  .brand__logo {
+    display: flex;
+    align-items: center; }
+  .brand__slogan {
+    font-size: 0.875rem;
+    line-height: 16px;
+    letter-spacing: 1px;
+    font-weight: 800;
+    padding-left: 16px; }
 
 .icons-menu {
   width: inherit; }

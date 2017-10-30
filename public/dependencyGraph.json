@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1509357131005,
+  "timestamp": 1509373014906,
   "graph": {
     "options": {
       "directed": true,
@@ -151,6 +151,32 @@
         "value": {
           "compileState": "clean"
         }
+      },
+      {
+        "v": "02-atoms\\tabs\\tab.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "03-molecules\\tabs\\tabs.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-organisms-menu-menu\\04-organisms-menu-menu.rendered.html",
+          "lineagePattern": "organisms-menu"
+        }
+      },
+      {
+        "v": "03-molecules\\item-list\\list.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-atoms\\items\\item.mustache",
+        "value": {
+          "compileState": "clean"
+        }
       }
     ],
     "edges": [
@@ -197,6 +223,11 @@
       {
         "v": "04-organisms\\menu\\menu.mustache",
         "w": "03-molecules\\brand\\brand.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-organisms\\menu\\menu.mustache",
+        "w": "03-molecules\\tabs\\tabs.mustache",
         "value": {}
       }
     ]
