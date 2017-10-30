@@ -1,4 +1,18 @@
 @include b('brand'){
     display: flex;
     padding: $space-double;
+    align-items: center;
+
+    @include e('logo'){
+        display: flex;
+        align-items: center;
+    }
+    
+    @include e('slogan'){
+        font-size: $font-size-small-2;
+        line-height: $space-double;
+        letter-spacing: 1px;
+        font-weight: 800;
+        padding-left: $space-double;
+    }
 }

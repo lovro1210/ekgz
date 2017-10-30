@@ -1,14 +1,9 @@
-<aside class="left-menu" role="" >
+<aside class="menu" role="" >
+  <section class="menu__box">
     {{> 03-molecules/brand/brand }}
     <div class="tabs">
-   <nav>
-    <ul>
-     <li><a href="#tab-1">Tab 1</a></li>
-     <li><a href="#tab-2">Tab 2</a></li>
-     <li><a href="#tab-3">Tab 3</a></li>
-    </ul>
-   </nav>
-   <div class="container">
+   {{> 03-molecules/tabs/tabs }}
+   <!--<div class="container">
     <section class="default" id="tab-1">
      <header>
       <h2>Tab 1</h2>
@@ -27,6 +22,10 @@
      </header>
      <p>This is the third tab.</p>
     </section>
-   </div>
+   </div>-->
   </div>
+  </section>
+  <section class="menu__icons">
+    {{> 03-molecules/icons/icons-menu}}
+  </section>
 <aside>
