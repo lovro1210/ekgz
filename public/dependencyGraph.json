@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1509357628060,
+  "timestamp": 1509372572575,
   "graph": {
     "options": {
       "directed": true,
@@ -15,46 +15,16 @@
         }
       },
       {
-        "v": "03-molecules\\test.mustache",
-        "value": {
-          "compileState": "clean"
-        }
-      },
-      {
-        "v": "04-organisms\\test.mustache",
-        "value": {
-          "compileState": "clean"
-        }
-      },
-      {
-        "v": "05-templates\\test.mustache",
-        "value": {
-          "compileState": "clean"
-        }
-      },
-      {
         "v": "06-pages\\test.mustache",
         "value": {
           "compileState": "clean"
         }
       },
       {
-        "v": "C:\\Users\\mateji\\sites\\EKGZ\\patternlab-ekgz\\ekgz\\source\\_meta\\_00-head.mustache",
-        "value": {
-          "compileState": null
-        }
-      },
-      {
-        "v": "C:\\Users\\mateji\\sites\\EKGZ\\patternlab-ekgz\\ekgz\\source\\_meta\\_01-foot.mustache",
-        "value": {
-          "compileState": null
-        }
-      },
-      {
         "v": "02-atoms\\buttons\\btn-secondary.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/03-molecules-icons-menu-icons-menu\\03-molecules-icons-menu-icons-menu.rendered.html",
+          "lineagePath": "../../patterns/03-molecules-icons-icons-menu\\03-molecules-icons-icons-menu.rendered.html",
           "lineagePattern": "molecules-icons-menu"
         }
       },
@@ -62,8 +32,8 @@
         "v": "02-atoms\\buttons\\btn-primary.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/03-molecules-icons-menu-icons-menu\\03-molecules-icons-menu-icons-menu.rendered.html",
-          "lineagePattern": "molecules-icons-menu"
+          "lineagePath": "../../patterns/03-molecules-icons-icons-top\\03-molecules-icons-icons-top.rendered.html",
+          "lineagePattern": "molecules-icons-top"
         }
       },
       {
@@ -76,16 +46,8 @@
         "v": "02-atoms\\buttons\\btn-secondary-active.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/03-molecules-icons-menu-icons-menu\\03-molecules-icons-menu-icons-menu.rendered.html",
+          "lineagePath": "../../patterns/03-molecules-icons-icons-menu\\03-molecules-icons-icons-menu.rendered.html",
           "lineagePattern": "molecules-icons-menu"
-        }
-      },
-      {
-        "v": "03-molecules\\icons-menu\\icons-menu.mustache",
-        "value": {
-          "compileState": "clean",
-          "lineagePath": "../../patterns/04-organisms-asideL-asideL\\04-organisms-asideL-asideL.rendered.html",
-          "lineagePattern": "organisms-asideL"
         }
       },
       {
@@ -130,34 +92,72 @@
         "v": "03-molecules\\brand\\brand.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/04-organisms-left-menu-left-menu\\04-organisms-left-menu-left-menu.rendered.html",
-          "lineagePattern": "organisms-left-menu"
-        }
-      },
-      {
-        "v": "04-organisms\\left-menu\\left-menu.mustache",
-        "value": {
-          "compileState": "clean",
-          "lineagePath": "../../patterns/04-organisms-asideL-asideL\\04-organisms-asideL-asideL.rendered.html",
-          "lineagePattern": "organisms-asideL"
+          "lineagePath": "../../patterns/04-organisms-menu-menu\\04-organisms-menu-menu.rendered.html",
+          "lineagePattern": "organisms-menu"
         }
       },
       {
         "v": "02-atoms\\buttons\\btn-secondary-disabled.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/03-molecules-icons-menu-icons-menu\\03-molecules-icons-menu-icons-menu.rendered.html",
+          "lineagePath": "../../patterns/03-molecules-icons-icons-menu\\03-molecules-icons-icons-menu.rendered.html",
           "lineagePattern": "molecules-icons-menu"
         }
       },
       {
-        "v": "04-organisms\\asideL\\asideL.mustache",
+        "v": "04-organisms\\menu\\menu.mustache",
         "value": {
-          "compileState": "clean"
+          "compileState": "clean",
+          "lineagePath": "../../patterns/05-templates-template\\05-templates-template.rendered.html",
+          "lineagePattern": "templates-template"
         }
       },
       {
-        "v": "05-templates\\content.mustache",
+        "v": "C:\\Users\\mateji\\sites\\EKGZ\\patternlab-ekgz\\ekgz\\source\\_meta\\_00-head.mustache",
+        "value": {
+          "compileState": null
+        }
+      },
+      {
+        "v": "C:\\Users\\mateji\\sites\\EKGZ\\patternlab-ekgz\\ekgz\\source\\_meta\\_01-foot.mustache",
+        "value": {
+          "compileState": null
+        }
+      },
+      {
+        "v": "04-organisms\\details\\details.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/05-templates-template\\05-templates-template.rendered.html",
+          "lineagePattern": "templates-template"
+        }
+      },
+      {
+        "v": "03-molecules\\icons\\icons-menu.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-organisms-menu-menu\\04-organisms-menu-menu.rendered.html",
+          "lineagePattern": "organisms-menu"
+        }
+      },
+      {
+        "v": "03-molecules\\icons\\icons-top.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-organisms-details-details\\04-organisms-details-details.rendered.html",
+          "lineagePattern": "organisms-details"
+        }
+      },
+      {
+        "v": "03-molecules\\icons\\icons-bottom.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-organisms-details-details\\04-organisms-details-details.rendered.html",
+          "lineagePattern": "organisms-details"
+        }
+      },
+      {
+        "v": "05-templates\\template.mustache",
         "value": {
           "compileState": "clean"
         }
@@ -185,38 +185,63 @@
         "value": {}
       },
       {
-        "v": "04-organisms\\left-menu\\left-menu.mustache",
+        "v": "04-organisms\\menu\\menu.mustache",
         "w": "03-molecules\\brand\\brand.mustache",
         "value": {}
       },
       {
-        "v": "03-molecules\\icons-menu\\icons-menu.mustache",
+        "v": "03-molecules\\icons\\icons-menu.mustache",
         "w": "02-atoms\\buttons\\btn-primary.mustache",
         "value": {}
       },
       {
-        "v": "03-molecules\\icons-menu\\icons-menu.mustache",
+        "v": "03-molecules\\icons\\icons-menu.mustache",
         "w": "02-atoms\\buttons\\btn-secondary.mustache",
         "value": {}
       },
       {
-        "v": "03-molecules\\icons-menu\\icons-menu.mustache",
+        "v": "03-molecules\\icons\\icons-menu.mustache",
         "w": "02-atoms\\buttons\\btn-secondary-active.mustache",
         "value": {}
       },
       {
-        "v": "03-molecules\\icons-menu\\icons-menu.mustache",
+        "v": "03-molecules\\icons\\icons-menu.mustache",
         "w": "02-atoms\\buttons\\btn-secondary-disabled.mustache",
         "value": {}
       },
       {
-        "v": "04-organisms\\asideL\\asideL.mustache",
-        "w": "04-organisms\\left-menu\\left-menu.mustache",
+        "v": "03-molecules\\icons\\icons-top.mustache",
+        "w": "02-atoms\\buttons\\btn-primary.mustache",
         "value": {}
       },
       {
-        "v": "04-organisms\\asideL\\asideL.mustache",
-        "w": "03-molecules\\icons-menu\\icons-menu.mustache",
+        "v": "04-organisms\\details\\details.mustache",
+        "w": "03-molecules\\icons\\icons-top.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-organisms\\menu\\menu.mustache",
+        "w": "03-molecules\\icons\\icons-menu.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-organisms\\details\\details.mustache",
+        "w": "03-molecules\\icons\\icons-bottom.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-molecules\\icons\\icons-bottom.mustache",
+        "w": "02-atoms\\buttons\\btn-primary.mustache",
+        "value": {}
+      },
+      {
+        "v": "05-templates\\template.mustache",
+        "w": "04-organisms\\menu\\menu.mustache",
+        "value": {}
+      },
+      {
+        "v": "05-templates\\template.mustache",
+        "w": "04-organisms\\details\\details.mustache",
         "value": {}
       }
     ]

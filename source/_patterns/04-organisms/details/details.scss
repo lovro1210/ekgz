@@ -1,0 +1,36 @@
+@include b('details'){
+    height: 100vh;    
+    width: inherit;
+    display: flex;  
+    transition: transform 500ms,-webkit-transform 500ms;  
+    right: -428px;
+    position: absolute; 
+
+    &.is-active{
+        transform: translate(-428px,0);
+    }
+    
+    @include e('box'){
+        width: 420px;
+        background-color:  $pallete-primary-bg;
+        box-shadow: 0 0 8px 0 rgba(0,0,0,0.2); 
+        margin-left: $pad;        
+    }
+       
+    @include e('icons'){
+        padding-top: $pad-triple;
+        padding-bottom: $pad-triple;
+        background-color:  transparent;
+        width: 64px;    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+        .top{
+
+        }
+        .bottom{
+
+        }
+    }
+}

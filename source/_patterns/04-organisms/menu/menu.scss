@@ -1,0 +1,25 @@
+@include b('menu'){
+    height: 100vh;    
+    width: inherit;
+    display: flex;  
+    transition: transform 500ms,-webkit-transform 500ms;  
+    left: -328px;
+    position: absolute; 
+
+    &.is-active{
+        transform: translate(328px,0);
+    }
+    
+    @include e('box'){
+        width: 320px;
+        background-color:  $pallete-primary-bg;
+        box-shadow: 0 0 8px 0 rgba(0,0,0,0.2); 
+        margin-right: $pad;
+    }
+       
+    @include e('icons'){
+        padding-top: $pad-triple;
+        background-color:  transparent;
+        width: 64px;         
+    }
+}
