@@ -1067,7 +1067,8 @@ abbr {
     width: 18px;
     border-radius: 9px; }
     .btn__close:hover {
-      cursor: pointer; }
+      cursor: pointer;
+      color: #444444; }
   .btn__caption {
     width: 48px;
     height: 48px;
@@ -1087,6 +1088,21 @@ abbr {
       transform: translate(0, -4px); }
       .btn__caption:hover .btn__caption-text {
         transform: translate(0, -16px); }
+  .btn__tab {
+    cursor: pointer;
+    color: #aaaeb0;
+    font-size: 0.875rem;
+    line-height: 16px;
+    text-align: center;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 4px; }
+    .btn__tab:hover {
+      color: #0e8041; }
+    .btn__tab--active {
+      color: #0e8041;
+      border-bottom: #0e8041;
+      border-bottom-style: solid; }
 
 .brand__logo {
   height: auto;
@@ -1094,6 +1110,25 @@ abbr {
 
 .brand__slogan {
   color: #0e8041; }
+
+.location-title {
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap; }
+  .location-title__icon {
+    font-size: 40px;
+    color: #0e8041;
+    margin-right: 24px; }
+  .location-title__title {
+    font-size: 1.0625rem;
+    font-weight: bold;
+    line-height: 33px; }
+  .location-title__subtitle {
+    color: #72727D;
+    font-size: 0.875rem;
+    line-height: 19px; }
+  .location-title__open-icon {
+    color: #72727D; }
 
 .brand {
   display: flex;
@@ -1107,6 +1142,17 @@ abbr {
       margin-bottom: 16px; }
     .icons__item--last {
       margin-top: 16px; }
+
+.location-details__title {
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  width: 30%; }
+
+.location-details__close-btn {
+  width: inherit;
+  display: flex;
+  justify-content: flex-end; }
 
 .menu {
   height: 100vh;

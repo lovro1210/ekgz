@@ -1,3 +1,7 @@
-<i class="{{location-icon}}{{^location-icon}}ek-zrak{{/location-icon}}"></i>
-<h1>{{location-name}}{{^location-name}}Default Title{{/location-name}}</h1>
-<p>{{location-address}}{{^location-address}}Default subTitle{{/location-address}}</p>
+<div class="location-title">
+<i class="{{location-details.location-icon}} location-title__icon"></i>
+<div class="location-title__title-wrapper">
+<h1 class="location-title__title">{{location-details.location-name}}<i class="ek-down-open-mini location-title__open-icon"></i></h1>
+<p class="location-title__subtitle">{{location-details.location-address}}</p>
+</div>
+</div>
