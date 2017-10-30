@@ -1018,12 +1018,14 @@ abbr {
   box-shadow: 0 0 8px 0 rgba(74, 74, 74, 0.1), 0 2px 4px 0 rgba(0, 0, 0, 0.1); }
   .btn--primary {
     background-color: #283242;
+    border-color: #283242;
     color: #fff;
     display: flex;
     justify-content: center;
     align-items: center; }
     .btn--primary.is-active {
-      background-color: #0e8041; }
+      background-color: #0e8041;
+      border-color: #0e8041; }
     .btn--primary:hover {
       opacity: 0.9; }
   .btn--secondary {
@@ -1111,3 +1113,14 @@ abbr {
   width: 320px;
   background-color: #fff;
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2); }
+
+.asideL {
+  height: 100vh;
+  width: inherit;
+  display: flex; }
+  .asideL__menubox {
+    width: 320px;
+    background-color: red; }
+  .asideL__navbox {
+    width: 64px;
+    background-color: blue; }

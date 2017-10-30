@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1509354872537,
+  "timestamp": 1509357628060,
   "graph": {
     "options": {
       "directed": true,
@@ -83,7 +83,9 @@
       {
         "v": "03-molecules\\icons-menu\\icons-menu.mustache",
         "value": {
-          "compileState": "clean"
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-organisms-asideL-asideL\\04-organisms-asideL-asideL.rendered.html",
+          "lineagePattern": "organisms-asideL"
         }
       },
       {
@@ -135,7 +137,9 @@
       {
         "v": "04-organisms\\left-menu\\left-menu.mustache",
         "value": {
-          "compileState": "clean"
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-organisms-asideL-asideL\\04-organisms-asideL-asideL.rendered.html",
+          "lineagePattern": "organisms-asideL"
         }
       },
       {
@@ -147,7 +151,13 @@
         }
       },
       {
-        "v": "04-organisms\\aside-left\\aside-left.mustache",
+        "v": "04-organisms\\asideL\\asideL.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "05-templates\\content.mustache",
         "value": {
           "compileState": "clean"
         }
@@ -197,6 +207,16 @@
       {
         "v": "03-molecules\\icons-menu\\icons-menu.mustache",
         "w": "02-atoms\\buttons\\btn-secondary-disabled.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-organisms\\asideL\\asideL.mustache",
+        "w": "04-organisms\\left-menu\\left-menu.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-organisms\\asideL\\asideL.mustache",
+        "w": "03-molecules\\icons-menu\\icons-menu.mustache",
         "value": {}
       }
     ]

@@ -8,13 +8,15 @@
     
     @include m('primary'){
         background-color: $palette-secondary;
+        border-color: $palette-secondary;
         color: $color-white;
         display: flex;
         justify-content: center;
         align-items: center;       
         
         &.is-active{
-            background-color: $palette-primary;       
+            background-color: $palette-primary;   
+            border-color: $palette-primary;    
         }
 
         &:hover{
