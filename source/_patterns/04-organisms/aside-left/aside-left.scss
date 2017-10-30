@@ -1,0 +1,17 @@
+@include b('aside-left') {
+    height: 100vh;
+    width: inherit;
+    display: flex;
+
+
+    @include e('menubox'){
+        width: 320px;
+        background-color: red;
+    }
+       
+    @include e('navbox'){
+        width: 60px;
+        background-color: blue;
+    }
+
+}

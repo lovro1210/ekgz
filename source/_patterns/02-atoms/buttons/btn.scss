@@ -4,7 +4,7 @@
     border: 1px solid;
     border-radius: $border-radius;   
     cursor: pointer; 
-    box-shadow: 0 0 8px 0 rgba(74,74,74,0.1), 0 2px 4px 0 rgba(0,0,0,0.1);      
+    box-shadow: 0 0 8px 0 rgba(74,74,74,0.1), 0 2px 4px 0 rgba(0,0,0,0.1);       
     
     @include m('primary'){
         background-color: $palette-secondary;
@@ -28,7 +28,7 @@
         border-color: $color-gray;
         display: block;        
         overflow: hidden; 
-        
+            
         &:hover{
             border-color: $palette-primary;
             color: $palette-primary;
@@ -59,9 +59,36 @@
                     transform: translate(0,0);
                 }
             }
+        }
 
+        &.is-disabled{
+            background-color: $palette-secondary;
+            color: $color-white;  
+            border-color: $palette-secondary;          
+            opacity: 0.8;
+
+            &:hover{               
+
+                .btn__caption{
+                    transform: translate(0,0);
+                    
+                }
+                .btn__caption-text{
+                    transform: translate(0,0);
+                }
+            }
         }
     } 
+
+    @include e('close') {
+        color:   $icon-close-color;
+        height: 18px;	
+        width: 18px;	
+        border-radius: 9px;
+        &:hover {
+             cursor: pointer;
+        }
+    }
 
 
 @include e('caption'){

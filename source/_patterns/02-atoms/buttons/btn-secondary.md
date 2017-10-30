@@ -1,4 +1,4 @@
 ---
-title: Button secondary active
+title: Button secondary
 ---
 This is a *Markdown* description .

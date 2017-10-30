@@ -1,23 +1,11 @@
 {
-    "company" : {
-        "name" : "HikeTracker",
-        "url" : "http://hiketracker.com"
+    "brand" : {
+        "name" : "EKOKARTA ZAGREB"
     },
-    "title" : "Pattern Lab",
-    "pageTitle": "Page Title",
-    "htmlClass": "pl",
-    "bodyClass": "body",
-    "btnText" : "Button",
-    "progress" : true,
-    "max" : "100",
-    "progressValue" : "85",
-	"alertText" : "An alert is messaging that tells the user some information. Alerts can be error, warning, success, or info messages",
-    "quoteText" : "A block quotation (also known as a long quotation or extract) is a quotation in a written document, that is set off from the main text as a paragraph, or block of text, and typically distinguished visually using indentation and a different typeface or smaller size quotation.",
-    "quoteSource" : "<a href='https://en.wikipedia.org/wiki/Block_quotation'>Wikiepedia</a>",
     "img": {
-        "landscape-4x3": {
-            "src": "../../images/fpo_4x3.png",
-            "alt": "4x3 Image"
+        "brand": {
+            "src": "../../images/EkoKartaLogo@1x.png",
+            "alt": "Brand Logo"
         },
         "landscape-16x9": {
             "src": "../../images/fpo_hero.png",
