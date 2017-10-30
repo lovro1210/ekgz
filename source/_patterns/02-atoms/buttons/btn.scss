@@ -134,7 +134,7 @@
 
     }
 
-    @include m('active') {
+    &.is-active {
         color: $palette-primary;
         border-bottom: $palette-primary;
         border-bottom-style: solid;

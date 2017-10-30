@@ -1,0 +1,12 @@
+@include b('tab') {
+    border-bottom: black;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding-bottom: $pad-one-quarter;
+    border-bottom-color:  $light-gray;
+    li {
+        display: inline;
+        padding-left: $pad;
+        padding-right: $pad;
+    }
+}

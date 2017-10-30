@@ -1097,7 +1097,7 @@ abbr {
     padding-right: 4px; }
     .btn__tab:hover {
       color: #0e8041; }
-    .btn__tab--active {
+    .btn__tab.is-active {
       color: #0e8041;
       border-bottom: #0e8041;
       border-bottom-style: solid; }
@@ -1126,7 +1126,28 @@ abbr {
     font-size: 0.875rem;
     line-height: 19px; }
   .location-title__open-icon {
-    color: #72727D; }
+    color: #72727D;
+    cursor: pointer; }
+
+.rounded-cell {
+  border-radius: 100%;
+  border-style: solid;
+  border-color: #c3c5ca;
+  border-width: 1px;
+  font-size: 0.75rem;
+  padding: 8px;
+  font-weight: 700; }
+
+.normal-cell {
+  font-size: 0.875rem;
+  color: #aaaeb0;
+  line-height: 18px; }
+
+.number-cell {
+  font-size: 0.75rem;
+  color: #444444;
+  line-height: 18px;
+  font-weight: 700; }
 
 .brand {
   display: flex;
@@ -1145,12 +1166,27 @@ abbr {
   display: flex;
   -webkit-flex-flow: row wrap;
   flex-flow: row wrap;
-  width: 30%; }
+  justify-content: space-between;
+  background-color: rgba(235, 237, 238, 0.3);
+  box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1); }
 
 .location-details__close-btn {
-  width: inherit;
+  margin-right: 16px; }
+
+.tab {
+  border-bottom: black;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  padding-bottom: 2px;
+  border-bottom-color: #c3c5ca; }
+  .tab li {
+    display: inline;
+    padding-left: 8px;
+    padding-right: 8px; }
+
+.parameter-data {
   display: flex;
-  justify-content: flex-end; }
+  flex-direction: row; }
 
 .left-menu {
   height: 100vh;

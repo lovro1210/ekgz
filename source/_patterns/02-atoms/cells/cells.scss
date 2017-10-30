@@ -1,0 +1,22 @@
+@include b('rounded-cell') {
+    border-radius: 100%;
+    border-style: solid;
+    border-color:  $light-gray;
+    border-width: 1px;
+    font-size: $font-size-small;
+    padding: $pad;
+    font-weight: 700;
+}
+
+@include b('normal-cell') {
+    font-size: $font-size-small-2;
+    color:  $palette-tertiary;
+    line-height: 18px;
+}
+
+@include b('number-cell') {
+    font-size: $font-size-small;
+    color:   $color-gray-active;
+    line-height: 18px;
+    font-weight: 700;
+}

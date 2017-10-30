@@ -229,6 +229,12 @@
         "location-icon" : "ek-zrak"
     },
     "btn" : {
-        "tab" : "INDEX"
+        "tab" : "INDEX",
+        "tab-active" : "INDEX"
+    } ,
+    "cell" : {
+        "round" : "NO",
+        "normal": "Dušićni monoksid",
+        "number": "2"
     }
 }
