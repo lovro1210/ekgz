@@ -1215,25 +1215,6 @@ abbr {
     .icons__item--last {
       margin-top: 16px; }
 
-.menu {
-  height: 100vh;
-  width: inherit;
-  display: flex;
-  transition: transform 500ms,-webkit-transform 500ms;
-  left: -328px;
-  position: absolute; }
-  .menu.is-active {
-    transform: translate(328px, 0); }
-  .menu__box {
-    width: 320px;
-    background-color: white;
-    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
-    margin-right: 8px; }
-  .menu__icons {
-    padding-top: 24px;
-    background-color: transparent;
-    width: 64px; }
-
 /*@include b('details'){
     height: 100vh;    
     width: 30%;
@@ -1276,10 +1257,11 @@ abbr {
 .parameter-table {
   padding: 8px; }
 
-.app {
-  min-height: 100vh;
-  width: 100%;
-  background-color: lightblue; }
+.left-menu {
+  width: 320px;
+  background-color: white;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+  margin-right: 8px; }
 
 .location-details {
   width: 100%;
@@ -1303,6 +1285,25 @@ abbr {
       width: 48%; }
   .location-details__tab {
     padding-top: 8px; }
+
+.menu {
+  height: 100vh;
+  width: inherit;
+  display: flex;
+  transition: transform 500ms,-webkit-transform 500ms;
+  left: -328px;
+  position: absolute; }
+  .menu.is-active {
+    transform: translate(328px, 0); }
+  .menu__box {
+    width: 320px;
+    background-color: white;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+    margin-right: 8px; }
+  .menu__icons {
+    padding-top: 24px;
+    background-color: transparent;
+    width: 64px; }
 
 .right-aside {
   position: absolute;
