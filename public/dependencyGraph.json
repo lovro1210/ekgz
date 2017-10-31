@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1509444908741,
+  "timestamp": 1509452560212,
   "graph": {
     "options": {
       "directed": true,
@@ -245,27 +245,21 @@
         }
       },
       {
-        "v": "06-pages\\opened-details.mustache",
-        "value": {
-          "compileState": "clean"
-        }
-      },
-      {
-        "v": "C:\\Users\\mateji\\sites\\EKGZ\\patternlab-ekgz\\ekgz\\source\\_meta\\_00-head.mustache",
-        "value": {
-          "compileState": null
-        }
-      },
-      {
-        "v": "C:\\Users\\mateji\\sites\\EKGZ\\patternlab-ekgz\\ekgz\\source\\_meta\\_01-foot.mustache",
-        "value": {
-          "compileState": null
-        }
-      },
-      {
         "v": "06-pages\\page-location.mustache",
         "value": {
           "compileState": "clean"
+        }
+      },
+      {
+        "v": "C:\\Users\\mislavz\\Documents\\Projects\\ekgz\\source\\_meta\\_00-head.mustache",
+        "value": {
+          "compileState": null
+        }
+      },
+      {
+        "v": "C:\\Users\\mislavz\\Documents\\Projects\\ekgz\\source\\_meta\\_01-foot.mustache",
+        "value": {
+          "compileState": null
         }
       }
     ],
@@ -393,21 +387,6 @@
       {
         "v": "05-templates\\location-details\\location-details.mustache",
         "w": "02-atoms\\texts\\medium-text.mustache",
-        "value": {}
-      },
-      {
-        "v": "06-pages\\opened-details.mustache",
-        "w": "04-organisms\\menu\\menu.mustache",
-        "value": {}
-      },
-      {
-        "v": "06-pages\\opened-details.mustache",
-        "w": "05-templates\\location-details\\location-details.mustache",
-        "value": {}
-      },
-      {
-        "v": "06-pages\\opened-details.mustache",
-        "w": "04-organisms\\details\\details.mustache",
         "value": {}
       },
       {
