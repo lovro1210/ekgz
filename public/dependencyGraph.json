@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1509391687427,
+  "timestamp": 1509444908741,
   "graph": {
     "options": {
       "directed": true,
@@ -10,12 +10,6 @@
     "nodes": [
       {
         "v": "01-base\\color.mustache",
-        "value": {
-          "compileState": "clean"
-        }
-      },
-      {
-        "v": "06-pages\\test.mustache",
         "value": {
           "compileState": "clean"
         }
@@ -102,16 +96,14 @@
         "v": "04-organisms\\menu\\menu.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/06-pages-opened-details\\06-pages-opened-details.rendered.html",
-          "lineagePattern": "pages-opened-details"
+          "lineagePath": "../../patterns/06-pages-page-location\\06-pages-page-location.rendered.html",
+          "lineagePattern": "pages-page-location"
         }
       },
       {
         "v": "04-organisms\\details\\details.mustache",
         "value": {
-          "compileState": "clean",
-          "lineagePath": "../../patterns/05-templates-template\\05-templates-template.rendered.html",
-          "lineagePattern": "templates-template"
+          "compileState": "clean"
         }
       },
       {
@@ -126,22 +118,16 @@
         "v": "03-molecules\\icons\\icons-top.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/04-organisms-details-details\\04-organisms-details-details.rendered.html",
-          "lineagePattern": "organisms-details"
+          "lineagePath": "../../patterns/06-pages-page-location\\06-pages-page-location.rendered.html",
+          "lineagePattern": "pages-page-location"
         }
       },
       {
         "v": "03-molecules\\icons\\icons-bottom.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/04-organisms-details-details\\04-organisms-details-details.rendered.html",
-          "lineagePattern": "organisms-details"
-        }
-      },
-      {
-        "v": "05-templates\\template.mustache",
-        "value": {
-          "compileState": "clean"
+          "lineagePath": "../../patterns/06-pages-page-location\\06-pages-page-location.rendered.html",
+          "lineagePattern": "pages-page-location"
         }
       },
       {
@@ -219,18 +205,6 @@
         }
       },
       {
-        "v": "C:\\Users\\mislavz\\Documents\\Projects\\ekgz\\source\\_meta\\_00-head.mustache",
-        "value": {
-          "compileState": null
-        }
-      },
-      {
-        "v": "C:\\Users\\mislavz\\Documents\\Projects\\ekgz\\source\\_meta\\_01-foot.mustache",
-        "value": {
-          "compileState": null
-        }
-      },
-      {
         "v": "03-molecules\\rows\\parameter-data.mustache",
         "value": {
           "compileState": "clean",
@@ -266,12 +240,30 @@
         "v": "05-templates\\location-details\\location-details.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/06-pages-opened-details\\06-pages-opened-details.rendered.html",
-          "lineagePattern": "pages-opened-details"
+          "lineagePath": "../../patterns/06-pages-page-location\\06-pages-page-location.rendered.html",
+          "lineagePattern": "pages-page-location"
         }
       },
       {
         "v": "06-pages\\opened-details.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "C:\\Users\\mateji\\sites\\EKGZ\\patternlab-ekgz\\ekgz\\source\\_meta\\_00-head.mustache",
+        "value": {
+          "compileState": null
+        }
+      },
+      {
+        "v": "C:\\Users\\mateji\\sites\\EKGZ\\patternlab-ekgz\\ekgz\\source\\_meta\\_01-foot.mustache",
+        "value": {
+          "compileState": null
+        }
+      },
+      {
+        "v": "06-pages\\page-location.mustache",
         "value": {
           "compileState": "clean"
         }
@@ -336,16 +328,6 @@
       {
         "v": "03-molecules\\icons\\icons-bottom.mustache",
         "w": "02-atoms\\buttons\\btn-primary.mustache",
-        "value": {}
-      },
-      {
-        "v": "05-templates\\template.mustache",
-        "w": "04-organisms\\menu\\menu.mustache",
-        "value": {}
-      },
-      {
-        "v": "05-templates\\template.mustache",
-        "w": "04-organisms\\details\\details.mustache",
         "value": {}
       },
       {
@@ -426,6 +408,31 @@
       {
         "v": "06-pages\\opened-details.mustache",
         "w": "04-organisms\\details\\details.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-pages\\page-location.mustache",
+        "w": "04-organisms\\menu\\menu.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-pages\\page-location.mustache",
+        "w": "04-organisms\\details\\details.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-pages\\page-location.mustache",
+        "w": "03-molecules\\icons\\icons-top.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-pages\\page-location.mustache",
+        "w": "03-molecules\\icons\\icons-bottom.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-pages\\page-location.mustache",
+        "w": "05-templates\\location-details\\location-details.mustache",
         "value": {}
       }
     ]

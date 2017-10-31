@@ -2,3 +2,49 @@
     position: absolute;
     right: 0;
 }
+
+@include b('app') {
+    min-height: 100vh;    
+    width: 100%;     
+    background-color: lightblue;   
+}
+
+@include b('details'){
+    height: 100vh;    
+    width: initial;
+    display: flex;  
+    transition: transform 500ms,-webkit-transform 500ms;      
+    position: absolute; 
+    right: -420px;
+    //overflow: hidden;
+
+    &.is-active{
+        //transform: translate(calc(100% - 64px),0);
+        transform: translate(-420px,0);
+    }
+    
+    @include e('box'){
+        width: 420px;        
+        background-color:  $pallete-primary-bg;
+        box-shadow: 0 0 8px 0 rgba(0,0,0,0.2); 
+        margin-left: $pad;     
+        
+    }
+       
+    @include e('icons'){
+        padding-top: $pad-triple;
+        padding-bottom: $pad-triple;
+        background-color:  transparent;
+        width: 64px;    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+        .top{
+
+        }
+        .bottom{
+
+        }
+    }
+}
