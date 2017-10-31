@@ -1,7 +1,6 @@
-<nav>
-    <ul>
-     <li><a href="#tab-1">Lokacije</a></li>
-     <li><a href="#tab-2">Moji slojevi</a></li>
-     <li><a href="#tab-3">Svi slojevi</a></li>
-    </ul>
-</nav>
+<ul class="tab"> 
+  <li>{{> 02-atoms/buttons/btn-tab-active}}</li>
+  {{# btn.tabList }}
+       <li>{{> 02-atoms/buttons/btn-tab}}</li>
+  {{/ btn.tabList }} 
+</ul>
