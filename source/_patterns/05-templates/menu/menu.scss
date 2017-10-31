@@ -8,6 +8,25 @@
 
     &.is-active{
         transform: translate(328px,0);
+
+        .btn--main{
+            .inactive{
+                display: none;
+            }
+            .active{
+                display: block;
+            }
+        }
+    }
+
+    &.is-selected{
+        .menu__legend{
+            display: block;
+        }
+
+        .icons__item .btn--secondary{
+            display: none;
+        }
     }
     
     @include e('box'){
@@ -22,5 +41,14 @@
         padding-top: $pad-triple;
         background-color:  transparent;
         width: 64px;         
+    }
+
+    @include e('legend'){
+        margin: $pad;
+        padding-top: $pad-triple;
+        background-color:  transparent;   
+        height: fit-content;
+        display: none;      
+        
     }
 }

@@ -1,0 +1,9 @@
+@include b('close') {
+    color: $icon-close-color;
+    display: flex;
+    text-align: center;
+
+    &:hover{
+        color: $color-gray-active;
+    }
+}

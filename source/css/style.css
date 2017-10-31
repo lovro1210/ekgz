@@ -84,12 +84,10 @@
  */
 body {
   background: #fff;
-  color: #222222;
+  color: #525455;
   font: 100%/1.5 "HelveticaNeue", "Helvetica", "Arial", sans-serif;
-  -webkit-text-size-adjust: 100%;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column; }
+  overflow-x: hidden; }
 
 /*------------------------------------*    #ANIMATION
 \*------------------------------------*/
@@ -1016,6 +1014,19 @@ abbr {
   border-radius: 2px;
   cursor: pointer;
   box-shadow: 0 0 8px 0 rgba(74, 74, 74, 0.1), 0 2px 4px 0 rgba(0, 0, 0, 0.1); }
+  .btn--main {
+    background-color: rgba(39, 49, 66, 0.9);
+    border-color: #273142;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .btn--main .active {
+      display: none; }
+    .btn--main .inactive {
+      display: block; }
+    .btn--main:hover {
+      opacity: 0.8; }
   .btn--primary {
     background-color: rgba(39, 49, 66, 0.9);
     border-color: #273142;
@@ -1150,7 +1161,7 @@ abbr {
 .rounded-cell {
   border-radius: 100%;
   border-style: solid;
-  border-color: #c3c5ca;
+  border-color: #e9ebef;
   border-width: 1px;
   font-size: 0.75rem;
   padding: 4px;
@@ -1248,7 +1259,7 @@ abbr {
   border-bottom-width: 1px;
   padding-top: 2px;
   padding-bottom: 2px;
-  border-bottom-color: #c3c5ca;
+  border-bottom-color: #e9ebef;
   margin-left: 16px;
   margin-right: 16px; }
   .tab li {
@@ -1348,7 +1359,7 @@ abbr {
   .location-details__text {
     border-top-style: solid;
     border-top-width: 1px;
-    border-top-color: #c3c5ca;
+    border-top-color: #e9ebef;
     padding-top: 16px;
     margin-left: 16px;
     margin-right: 16px; }
@@ -1372,6 +1383,14 @@ abbr {
   position: absolute; }
   .menu.is-active {
     transform: translate(328px, 0); }
+    .menu.is-active .btn--main .inactive {
+      display: none; }
+    .menu.is-active .btn--main .active {
+      display: block; }
+  .menu.is-selected .menu__legend {
+    display: block; }
+  .menu.is-selected .icons__item .btn--secondary {
+    display: none; }
   .menu__box {
     width: 320px;
     background-color: white;
@@ -1381,6 +1400,12 @@ abbr {
     padding-top: 24px;
     background-color: transparent;
     width: 64px; }
+  .menu__legend {
+    margin: 8px;
+    padding-top: 24px;
+    background-color: transparent;
+    height: fit-content;
+    display: none; }
 
 .right-aside {
   position: absolute;

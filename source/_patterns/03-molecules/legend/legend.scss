@@ -1,0 +1,36 @@
+@include b('legend-menu') {
+    width: fit-content;
+    height: 48px;
+    background-color: $pallete-primary-bg;
+    border: 1px solid $border-light;
+    display: flex;    
+
+    @include e('icon'){
+       height: inherit;  
+       padding: $pad;
+       border-right: 1px solid $border-light;
+       display: flex;
+       align-items: center;
+    }    
+    @include e('item'){   
+        height: inherit;    
+        padding: $pad;
+        border-right: 1px solid $border-light;
+        display: flex;
+        align-items: center;
+    } 
+    @include e('legend'){
+        padding: 0 $pad;
+        border-right: 1px solid $border-light;
+        display: flex;
+        align-items: center;
+    } 
+    @include e('close'){
+        width: 48px;
+        padding: $pad;   
+        display: flex;
+        align-items: center; 
+        justify-content: center;  
+    } 
+
+}
