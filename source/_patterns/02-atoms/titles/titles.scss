@@ -1,7 +1,5 @@
 @include b('location-title') {
     display: flex;
-    -webkit-flex-flow: row wrap;
-    flex-flow: row wrap;
     @include e('icon') {
         font-size: 40px;
         color:  $palette-primary;

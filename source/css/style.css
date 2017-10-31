@@ -1111,10 +1111,23 @@ abbr {
 .slogan {
   color: #0e8041; }
 
+.item {
+  display: flex; }
+  .item__icon {
+    font-size: 24px;
+    color: #0e8041;
+    margin-right: 12px; }
+  .item__title {
+    font-size: 0.875rem;
+    color: #525455;
+    line-height: 21px; }
+  .item__subtitle {
+    color: #72727D;
+    font-size: 0.75rem;
+    line-height: 14px; }
+
 .location-title {
-  display: flex;
-  -webkit-flex-flow: row wrap;
-  flex-flow: row wrap; }
+  display: flex; }
   .location-title__icon {
     font-size: 40px;
     color: #0e8041;
@@ -1214,6 +1227,15 @@ abbr {
       margin-bottom: 16px; }
     .icons__item--last {
       margin-top: 16px; }
+
+.item-list__item:hover {
+  background-color: #c3c5ca; }
+
+.item-list__item.is-active .item-list__icon-ok {
+  display: block; }
+
+.item-list__item .item-list__icon-ok {
+  display: none; }
 
 /*@include b('details'){
     height: 100vh;    
