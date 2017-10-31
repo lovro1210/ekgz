@@ -1,0 +1,9 @@
+{
+    "btn" : {
+        "tabList" : [
+            { "tab" : "MOJI SLOJEVI"},
+            { "tab" : "SVI SLOJEVI"}
+        ],
+        "tab-active" : "LOKACIJE"
+    } 
+    }

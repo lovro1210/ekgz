@@ -1,0 +1,17 @@
+@include b("item-list"){
+    @include e("item"){
+        &:hover {
+            background-color: $light-gray;
+        }
+    
+        &.is-active {
+            .item-list__icon-ok {
+                display: block;
+            }
+        }
+
+        @include e("icon-ok"){
+            display: none;
+        }
+    }
+}

@@ -1,0 +1,20 @@
+@include b('item') {
+    display: flex;
+    @include e('icon') {
+        font-size: 24px;
+        color:  $palette-primary;
+        margin-right: $pad-one-and-half;
+    }
+    @include e('title') {
+        font-size: $font-size-small-2;
+        color: $palette-tertiary;		
+        line-height: 21px;
+    }
+    @include e('subtitle') {
+        color: #72727D;	
+        font-size: $font-size-small;
+        line-height: 14px;
+    }
+    
+    
+}
