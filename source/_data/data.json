@@ -1,15 +1,25 @@
 {
-    "item-list" : [
+    "location-list" : [
         {
             "item-title" : "Vukovarska",
+            "item-address" : "Vukovarska uca",
+            "item-icon": "ek-pipa",
+            "css": "is-active"
+        },
+        {
+            "item-title" : "Slavonska",
             "item-address" : "Vukovarska ulica",
-            "item-icon": "ek-pipa"
-        }
-        
-    ],
-    "item-title" : "Vukovarska",
-    "item-address" : "Vukovarska ulica",
-    "item-icon": "ek-pipa",
+            "item-icon": "ek-pipa",
+            "css": ""
+        },
+        {
+            "item-title" : "Držićeva",
+            "item-address" : "Vukovarska ulica",
+            "item-icon": "ek-pipa",
+            "css": "is-active"
+        }          
+        ],
+
     "brand" : {
         "name" : "EKOKARTA ZAGREB"
     },
@@ -19,11 +29,7 @@
             "alt": "Brand Logo"
         }
     },
-    "items": {
-        "item-icon": "ek-pipa",
-        "item-title": "Vukovarska Miramarska",
-        "item-address": "Križanje Vukovarske i miramarske"
-    },
+    
     "location-details" : {
         "location-name" : "Kajzerica",
         "location-address" : "Negdje na hipodromu",

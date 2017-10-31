@@ -2,7 +2,7 @@
     display: flex;
     padding: $space-double;
     align-items: center;
-    background-color: rgba(235,237,238,0.3);	
+    background-color: $light-gray;	
     box-shadow: 0 1px 0 0 rgba(0,0,0,0.1);
 
     @include e('logo'){

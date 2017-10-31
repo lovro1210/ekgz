@@ -1,12 +1,17 @@
 @include b("item-list"){
     @include e("item"){
+        display: flex;
+        justify-content: space-between;
+        padding: $pad-half 0;
+
         &:hover {
             background-color: $light-gray;
         }
     
         &.is-active {
             .item-list__icon-ok {
-                display: block;
+                display: flex;
+                align-items: center;
             }
         }
 
