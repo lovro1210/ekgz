@@ -1,0 +1,49 @@
+@include b('input-with-icon') {
+    padding:0;
+    margin:0;
+    display: flex;
+    color: $light-gray;
+   
+    
+    @include e('input') {
+        height: 16px;
+        margin:0;
+        padding-left:30px;
+        color:  $light-gray;
+        border-color: $light-gray;
+        border-width: 1.5px;
+        &:focus {
+            outline: -webkit-focus-ring-color auto 5px; 
+            outline-color: $palette-primary;   
+        }
+
+        
+    }
+
+    @include e('icon') {
+        position:absolute;
+        left: 0px;
+        padding: $pad-half/2;
+        font-size: 20px;
+    }
+
+    
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    $light-gray;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    $light-gray;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    $light-gray;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    $light-gray;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    $light-gray;
+}

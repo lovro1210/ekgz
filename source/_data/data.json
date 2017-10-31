@@ -256,5 +256,11 @@
         {"round" : "CO",
           "normal": "Ugljični monoksid",
           "number": "2" }
-    ]
+    ],
+    "input" : {
+        "with-icon" : {
+            "icon" : "ek-search",
+            "placeholder" : "Upiši adresu"
+        }
+    }
 }
