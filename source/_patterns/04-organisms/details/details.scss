@@ -1,20 +1,23 @@
-@include b('details'){
+/*@include b('details'){
     height: 100vh;    
-    width: inherit;
+    width: 30%;
     display: flex;  
-    transition: transform 500ms,-webkit-transform 500ms;  
-    right: -428px;
+    transition: transform 500ms,-webkit-transform 500ms;      
     position: absolute; 
+    right: 0;
+    //overflow: hidden;
 
     &.is-active{
-        transform: translate(-428px,0);
+        transform: translate(calc(100% - 64px),0);
     }
     
     @include e('box'){
-        width: 420px;
+        //width: 420px;        
         background-color:  $pallete-primary-bg;
         box-shadow: 0 0 8px 0 rgba(0,0,0,0.2); 
-        margin-left: $pad;        
+        margin-left: $pad;     
+        
+        width: 100%;
     }
        
     @include e('icons'){
@@ -33,4 +36,4 @@
 
         }
     }
-}
+}*/
