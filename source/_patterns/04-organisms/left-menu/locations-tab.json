@@ -1,6 +1,5 @@
-{ 
-
-"tabs" : [
+{
+    "tabs" : [
         {
             "content" : "LOKACIJE",
             "is-active": "is-active"
@@ -10,8 +9,17 @@
             "is-active": ""
         },
         {
-            "content" : "SVI SLOJEVI",
+            "content" : "SVI",
             "is-active": ""
         }
-    ]
+    ] ,
+    "input" : {
+        "with-icon" : {
+            "icon" : "ek-search",
+            "placeholder" : "Upiši adresu"
+        }
     }
+
+
+    
+}

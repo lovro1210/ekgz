@@ -1,0 +1,13 @@
+<ul class="layers-list">
+{{# categories}}
+    {{> 02-atoms/titles/category-title }}
+    {{# layers-list}}
+
+        <li class="layers-list__item {{ css }}">    
+            {{> 02-atoms/items/item }}
+            <div class="layers-list__icon-ok"><i class="ek-ok"></i></div>
+        </li>
+
+    {{/ layers-list }}
+    {{/ categories}}
+</ul>

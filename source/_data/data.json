@@ -1,24 +1,150 @@
 {
+    "item-title" : "Vukovarska",
+    "item-address" : "Vukovarska ulica",
+    "item-icon": "ek-pipa",
     "location-list" : [
         {
             "item-title" : "Vukovarska",
-            "item-address" : "Vukovarska uca",
+            "item-subtitle" : "Vukovarska ulica",
             "item-icon": "ek-pipa",
             "css": "is-active"
         },
         {
             "item-title" : "Slavonska",
-            "item-address" : "Vukovarska ulica",
+            "item-subtitle" : "Slavonska ulica",
             "item-icon": "ek-pipa",
             "css": ""
         },
         {
             "item-title" : "Držićeva",
-            "item-address" : "Vukovarska ulica",
+            "item-subtitle" : "Držićeva ulica",
             "item-icon": "ek-pipa",
             "css": "is-active"
-        }          
-        ],
+        },
+        {
+            "item-title" : "Vukovarska Miramarska",
+            "item-subtitle" : "Vukovarska ulica",
+            "item-icon": "ek-temp",
+            "css": ""
+        },
+        {
+            "item-title" : "Miramarska",
+            "item-subtitle" : "Miramarska ulica",
+            "item-icon": "ek-tlo",
+            "css": ""
+        },
+        {
+            "item-title" : "Miramarska",
+            "item-subtitle" : "Miramarska ulica",
+            "item-icon": "ek-temp",
+            "css": ""
+        },
+        {
+            "item-title" : "Vukovarska",
+            "item-subtitle" : "Vukovarska ulica",
+            "item-icon": "ek-tlo",
+            "css": ""
+        },
+        {
+            "item-title" : "Miramarska",
+            "item-subtitle" : "Miramarska ulica",
+            "item-icon": "ek-pipa",
+            "css": ""
+        },
+        {
+            "item-title" : "Miramarska",
+            "item-subtitle" : "Miramarska ulica",
+            "item-icon": "ek-pipa",
+            "css": ""
+        },
+        {
+            "item-title" : "Vukovarska",
+            "item-subtitle" : "Vukovarska ulica",
+            "item-icon": "ek-zrak",
+            "css": ""
+        }
+   ],
+   "categories": [
+       {
+           "category-name": "ZRAK",
+           "category-icon": "ek-zrak",
+           "layers-list" : [
+            {
+                "item-title" : "Dušikov oksid (NO2)",
+                "item-subtitle" : "Datum zadnje izmjene",
+                "item-icon": "ek-bookmark-empty",
+                "item-icon-style": "small",
+                "css": "is-active"
+            },
+            {
+                "item-title" : "Dušikov oksid (NO2)",
+                "item-subtitle" : "Datum zadnje izmjene",
+                "item-icon": "ek-bookmark-empty",
+                "item-icon-style": "small",
+                "css": ""
+            },
+            {
+                "item-title" : "Dušikov oksid (NO2)",
+                "item-subtitle" : "Datum zadnje izmjene",
+                "item-icon": "ek-bookmark-empty",
+                "item-icon-style": "small",
+                "css": ""
+            },
+            {
+                "item-title" : "Dušikov oksid (NO2)",
+                "item-subtitle" : "Datum zadnje izmjene",
+                "item-icon": "ek-bookmark-empty",
+                "item-icon-style": "small",
+                "css": ""
+            },
+            {
+                "item-title" : "Dušikov oksid (NO2)",
+                "item-subtitle" : "Datum zadnje izmjene",
+                "item-icon": "ek-bookmark-empty",
+                "item-icon-style": "small",
+                "css": ""
+            },
+            {
+                "item-title" : "Dušikov oksid (NO2)",
+                "item-subtitle" : "Datum zadnje izmjene",
+                "item-icon": "ek-bookmark-empty",
+                "item-icon-style": "small",
+                "css": ""
+            },
+            {
+                "item-title" : "Dušikov oksid (NO2)",
+                "item-subtitle" : "Datum zadnje izmjene",
+                "item-icon": "ek-bookmark-empty",
+                "item-icon-style": "small",
+                "css": ""
+            },
+            {
+                "item-title" : "Dušikov oksid (NO2)",
+                "item-subtitle" : "Datum zadnje izmjene",
+                "item-icon": "ek-bookmark-empty",
+                "item-icon-style": "small",
+                "css": ""
+            },
+            {
+                "item-title" : "Dušikov oksid (NO2)",
+                "item-subtitle" : "Datum zadnje izmjene",
+                "item-icon": "ek-bookmark-empty",
+                "item-icon-style": "small",
+                "css": ""
+            },
+            {
+                "item-title" : "Dušikov oksid (NO2)",
+                "item-subtitle" : "Datum zadnje izmjene",
+                "item-icon": "ek-bookmark-empty",
+                "item-icon-style": "small",
+                "css": ""
+            }
+        ]
+       }
+   ]
+       
+   
+   ,
 
     "brand" : {
         "name" : "EKOKARTA ZAGREB"
@@ -35,10 +161,16 @@
         "location-address" : "Negdje na hipodromu",
         "location-icon" : "ek-zrak"
     },
-    "btn" : {
-        "tab" : "INDEX",
-        "tab-active" : "INDEX"
-    } ,
+    "tabs" : [
+        {
+            "content" : "INDEX",
+            "is-active": "is-active"
+        },
+        {
+            "content" : "INDEX",
+            "is-active": ""
+        }
+    ],
     "cell" : {
         "round" : "NO",
         "normal": "Dušićni monoksid",
