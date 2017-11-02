@@ -49,6 +49,7 @@
  */
 /*------------------------------------*    #TYPOGRAPHY
 \*------------------------------------*/
+@import url("https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&subset=latin-ext");
 /*------------------------------------*    #LAYOUT
 \*------------------------------------*/
 /**
@@ -85,7 +86,7 @@
 body {
   background: #fff;
   color: #525455;
-  font: 100%/1.5 "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+  font: 100%/1.5 "Nunito", "HelveticaNeue", "Helvetica", "Arial", sans-serif;
   min-height: 100vh;
   overflow-x: hidden; }
 
@@ -1183,17 +1184,62 @@ abbr {
   font-size: 1rem;
   color: #525455; }
 
+.legend {
+  width: inherit;
+  height: inherit;
+  display: flex; }
+  .legend__item {
+    padding: 0 8px; }
+    .legend__item .element {
+      display: flex;
+      height: 30px;
+      justify-content: center;
+      align-items: center; }
+      .legend__item .element span {
+        border-radius: 50%;
+        background-color: #FFDF00; }
+        .legend__item .element span.xl {
+          width: 25px;
+          height: 25px; }
+        .legend__item .element span.l {
+          width: 20px;
+          height: 20px; }
+        .legend__item .element span.m {
+          width: 15px;
+          height: 15px; }
+        .legend__item .element span.s {
+          width: 8px;
+          height: 8px; }
+    .legend__item .text {
+      font-size: 0.75rem;
+      text-align: center; }
+
+.select-item {
+  font-weight: 600;
+  width: 96px; }
+
+.close {
+  color: #aaaeb0;
+  display: flex;
+  text-align: center; }
+  .close:hover {
+    color: #414040; }
+
+.legend-icon {
+  color: #0e8041;
+  font-size: 1.4375rem; }
+
 .input-with-icon {
   padding: 0;
   margin: 0;
   display: flex;
-  color: #c3c5ca; }
+  color: #e9ebef; }
   .input-with-icon__input {
     height: 16px;
     margin: 0;
     padding-left: 30px;
-    color: #c3c5ca;
-    border-color: #c3c5ca;
+    color: #e9ebef;
+    border-color: #e9ebef;
     border-width: 1.5px; }
     .input-with-icon__input:focus {
       outline: -webkit-focus-ring-color auto 5px;
@@ -1206,31 +1252,103 @@ abbr {
 
 ::-webkit-input-placeholder {
   /* WebKit, Blink, Edge */
-  color: #c3c5ca; }
+  color: #e9ebef; }
 
 :-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
-  color: #c3c5ca;
+  color: #e9ebef;
   opacity: 1; }
 
 ::-moz-placeholder {
   /* Mozilla Firefox 19+ */
-  color: #c3c5ca;
+  color: #e9ebef;
   opacity: 1; }
 
 :-ms-input-placeholder {
   /* Internet Explorer 10-11 */
-  color: #c3c5ca; }
+  color: #e9ebef; }
 
 ::-ms-input-placeholder {
   /* Microsoft Edge */
-  color: #c3c5ca; }
+  color: #e9ebef; }
+
+.pin.is-active .pin__pulse {
+  display: block; }
+
+.pin__image {
+  width: 30px;
+  height: 30px;
+  border-radius: 50% 50% 50% 0;
+  background-color: #89849b;
+  position: absolute;
+  transform: rotate(-45deg);
+  left: 50%;
+  top: 50%;
+  margin: -20px 0 0 -20px;
+  animation-name: bounce;
+  animation-fill-mode: both;
+  animation-duration: 1s; }
+  .pin__image:after {
+    content: '';
+    width: 14px;
+    height: 14px;
+    margin: 8px 0 0 8px;
+    background-color: #2F2F2F;
+    position: absolute;
+    border-radius: 50%; }
+
+.pin__pulse {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: 11px 0px 0px -12px;
+  transform: rotateX(55deg);
+  z-index: -2;
+  display: none; }
+  .pin__pulse:after {
+    content: "";
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    margin: -13px 0 0 -13px;
+    animation: pulsate 1s ease-out;
+    animation-iteration-count: infinite;
+    opacity: 0.0;
+    box-shadow: 0 0 1px 2px #89849b;
+    animation-delay: 1.1s; }
+
+@keyframes pulsate {
+  0% {
+    transform: scale(0.1, 0.1);
+    opacity: 0.0; }
+  50% {
+    opacity: 1.0; }
+  100% {
+    transform: scale(1.2, 1.2);
+    opacity: 0; } }
+
+@keyframes bounce {
+  0% {
+    opacity: 0;
+    transform: translateY(-2000px) rotate(-45deg); }
+  60% {
+    opacity: 1;
+    transform: translateY(30px) rotate(-45deg); }
+  80% {
+    transform: translateY(-10px) rotate(-45deg); }
+  100% {
+    transform: translateY(0) rotate(-45deg); } }
 
 .brand {
   display: flex;
   padding: 16px;
   align-items: center;
-  background-color: #c3c5ca;
+  background-color: #e9ebef;
   box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1); }
   .brand__logo {
     display: flex;
@@ -1287,12 +1405,42 @@ abbr {
     .icons__item--last {
       margin-top: 16px; }
 
+.legend-menu {
+  width: fit-content;
+  height: 48px;
+  background-color: white;
+  border: 1px solid #e9ebef;
+  display: flex; }
+  .legend-menu__icon {
+    height: inherit;
+    padding: 8px;
+    border-right: 1px solid #e9ebef;
+    display: flex;
+    align-items: center; }
+  .legend-menu__item {
+    height: inherit;
+    padding: 8px;
+    border-right: 1px solid #e9ebef;
+    display: flex;
+    align-items: center; }
+  .legend-menu__legend {
+    padding: 0 8px;
+    border-right: 1px solid #e9ebef;
+    display: flex;
+    align-items: center; }
+  .legend-menu__close {
+    width: 48px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+
 .item-list__item {
   display: flex;
   justify-content: space-between;
   padding: 4px 0; }
   .item-list__item:hover {
-    background-color: #c3c5ca; }
+    background-color: #e9ebef; }
   .item-list__item.is-active .item-list__icon-ok {
     display: flex;
     align-items: center; }
