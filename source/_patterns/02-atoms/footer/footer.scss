@@ -1,0 +1,22 @@
+@include b('footer') {   
+    display: flex;  
+    margin: $pad-triple 0;     
+    
+    @include e('icon') {
+        width: 36px;
+        margin-left: $pad-half;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    @include e('text') {        
+        color: $light-gray;      
+        font-size: $font-size-small-2;
+    }
+}

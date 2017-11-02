@@ -1381,6 +1381,27 @@ abbr {
     justify-content: center;
     align-items: center; }
 
+.footer {
+  display: flex;
+  margin: 24px 0; }
+  .footer__icon {
+    width: 36px;
+    margin-left: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .footer__icon img {
+      width: 100%;
+      height: auto; }
+  .footer__text {
+    color: #e9ebef;
+    font-size: 0.875rem; }
+
+.list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
 .brand {
   display: flex;
   padding: 16px;
@@ -1500,6 +1521,9 @@ abbr {
   .layers-list__item .layers-list__icon-ok {
     display: none; }
 
+.water-list .list-item {
+  padding: 4px 0; }
+
 /*@include b('details'){
     height: 100vh;    
     width: 30%;
@@ -1574,6 +1598,9 @@ abbr {
       width: 48%; }
   .location-details__tab {
     padding-top: 8px; }
+  .location-details__list {
+    padding: 8px;
+    padding-top: 16px; }
 
 .menu {
   height: 100vh;
