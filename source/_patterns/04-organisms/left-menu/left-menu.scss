@@ -5,7 +5,7 @@
         margin-right: $pad;
         height: 100vh;
     @include e('tabs') {
-       
+        text-align: center;
     }
     @include e('input') {
             padding: $pad;

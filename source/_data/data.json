@@ -201,5 +201,10 @@
             "icon" : "ek-search",
             "placeholder" : "Upiši adresu"
         }
+    },
+
+    "btn" : {
+        "text" : "Accept",
+        "link" : "Learn more"
     }
 }

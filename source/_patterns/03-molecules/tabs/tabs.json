@@ -1,6 +1,6 @@
 { 
 
-"tabs" : [
+"threeTabs" : [
         {
             "content" : "LOKACIJE",
             "is-active": "is-active"

@@ -1,0 +1,29 @@
+{
+    "tabs" : [
+    {
+        "content" : "INDEX",
+        "is-active": "is-active"
+    },
+    {
+        "content" : "ONEČIŠČUJUČA TVAR",
+        "is-active": ""
+    }
+],
+"threeTabs" : [
+    {
+        "content" : "LOKACIJE",
+        "is-active": "is-active"
+    },
+    {
+        "content" : "MOJI SLOJEVI",
+        "is-active": ""
+    },
+    {
+        "content" : "SVI SLOJEVI",
+        "is-active": ""
+    }
+],
+"lorem" : {
+    "med" : "This website use cookies. By continuing to browse the site you are agreeing to our use of cookies. "
+}
+}
