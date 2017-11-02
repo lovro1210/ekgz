@@ -1,30 +1,29 @@
-@include b('input-with-icon') {
-    padding:0;
-    margin:0;
+@include b('search') {
+    padding: $pad-double;
     display: flex;
+    align-items: center;
     color: $light-gray;
-   
-    
+    box-shadow: 0 1px 0 0 rgba(0,0,0,0.1);
+
     @include e('input') {
-        height: 16px;
         margin:0;
-        padding-left:30px;
+        font-size: $font-size-small-2;
+        padding: $pad-half $pad-half $pad-half $pad-quad;
         color:  $light-gray;
-        border-color: $light-gray;
-        border-width: 1.5px;
+        border: $border-s solid $border-light;
         &:focus {
             outline: -webkit-focus-ring-color auto 5px; 
             outline-color: $palette-primary;   
         }
-
         
+        @include m('small'){
+            font-size: $font-size-small;
+        }
     }
 
     @include e('icon') {
         position:absolute;
-        left: 0px;
-        padding: $pad-half/2;
-        font-size: 20px;
+        padding: $pad-double;
     }
 
     

@@ -1,4 +1,4 @@
 ---
-title: Input field with icon
+title: Search field with icon
 ---
 This is a *Markdown* description of menu item.

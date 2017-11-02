@@ -22,15 +22,3 @@
     
 }
 
-@include b('category-title'){
-    display: flex;
-    @include e('icon') {
-        font-size: 18px;
-        color:  $color-gray;
-        margin-right: $pad-triple;
-    }
-    @include e('title') {
-        font-size: $font-size-med;
-        color:  $color-gray;		
-    }
-}

@@ -2,9 +2,8 @@
     display: flex;
     align-items: center;
     @include e('icon') {
-        font-size: 24px;
         color:  $palette-primary;
-        margin-right: $pad-one-and-half;
+        //margin: $pad $pad-double;
 
         &.small {
             font-size: 12px;
@@ -14,7 +13,8 @@
     }
     
     @include e('text'){
-        text-align: left;
+        color:  $color-black;	
+        flex-basis: calc(100vh - 88px);	
     }
     @include e('title') {
         font-size: $font-size-small;
@@ -28,4 +28,35 @@
     }
     
     
+}
+
+
+@include b('categossry'){
+    &.is-close {
+        .list {
+            display: none;
+        }
+    }
+
+    @include e('item'){
+        background-color: $lightest-gray;
+        display: flex;
+        align-items: center;	
+        border-bottom: $border-xs solid $palette-primary;
+    }
+    @include e('icon') {
+        color:  $palette-primary;
+        margin: $pad $pad-double;
+
+    }
+    @include e('title') {
+        font-size: $font-size-small;
+        color:  $color-black;	
+        flex-basis: calc(100vh - 88px);	
+
+        @include m('big'){
+            
+        }
+    }
+
 }

@@ -9,15 +9,13 @@
             "is-active": "is-active"
         },
         {
-            "content" : "SVI",
+            "content" : "SVI SLOJEVI",
             "is-active": ""
         }
     ] ,
-    "input" : {
-        "with-icon" : {
-            "icon" : "ek-search",
-            "placeholder" : "Upiši adresu"
-        }
+    "search" : {  
+        "icon" : "ek-search",
+        "placeholder" : "Upiši adresu"    
     }
 
 

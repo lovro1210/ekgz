@@ -45,7 +45,7 @@
     }
 
     @include m('secondary'){
-        background-color: rgba($pallete-primary-bg, 0.9);
+        background-color: rgba($palette-primary-bg, 0.9);
         color: $color-gray;
         border-color: $color-gray;
         display: block;        
@@ -69,7 +69,7 @@
             }
 
             &:hover{
-                background-color: rgba($pallete-primary-bg, 0.9);
+                background-color: rgba($palette-primary-bg, 0.9);
                 color: $color-gray;
                 border-color: $color-gray;
 
@@ -141,16 +141,14 @@
     }
 
 }
+}
 
-@include e('tab') {
+@include b('tab') {
     cursor: pointer;
     color: $palette-tertiary;
-    font-size: $font-size-small-2;	
-    line-height: 16px;	
+    font-size: $font-size-small;	
     text-align: center;
-    padding-bottom: $pad-half;
-    padding-left: $pad-half;
-    padding-right: $pad-half;
+    padding: $pad-half $pad;
     &:hover {
         color: $palette-primary;
 
@@ -163,4 +161,3 @@
     }
 }
      
-}

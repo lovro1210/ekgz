@@ -1,14 +1,18 @@
-@include b('tab') {
+@include b('tabs') {
     border-bottom-style: solid;
     border-bottom-width: 1px;
     padding-top: $pad-one-quarter;
     padding-bottom: $pad-one-quarter;
     border-bottom-color:  $light-gray;
-    margin-left: $pad-double;
-    margin-right: $pad-double;
+
     li {
         display: inline;
         padding-left: $pad;
         padding-right: $pad;
+    }
+
+    @include m('centered'){
+        display: flex;
+        justify-content: center;
     }
 }
