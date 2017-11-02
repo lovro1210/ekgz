@@ -1,0 +1,25 @@
+{
+    "tabs" : [
+        {
+            "content" : "LOKACIJE",
+            "is-active": ""
+        },
+        {
+            "content" : "MOJI SLOJEVI",
+            "is-active": "is-active"
+        },
+        {
+            "content" : "SVI",
+            "is-active": ""
+        }
+    ] ,
+    "input" : {
+        "with-icon" : {
+            "icon" : "ek-search",
+            "placeholder" : "Upiši adresu"
+        }
+    }
+
+
+    
+}

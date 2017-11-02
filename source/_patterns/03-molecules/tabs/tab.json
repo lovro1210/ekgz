@@ -1,6 +1,12 @@
 {
-"btn" : {
-    "tab" : "INDEX",
-    "tab-active" : "PARAMETRI"
-} 
+    "tabs" : [
+    {
+        "content" : "PARAMETRI",
+        "is-active": "is-active"
+    },
+    {
+        "content" : "INDEX",
+        "is-active": ""
+    }
+]
 }
