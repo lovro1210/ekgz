@@ -237,5 +237,10 @@
             "name" : "Temperatura",
             "value" : "35°C"            
         }
-    ]
+    ],
+
+    "btn" : {
+        "text" : "Accept",
+        "link" : "Learn more"
+    }
 }
