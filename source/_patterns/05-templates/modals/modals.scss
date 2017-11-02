@@ -1,0 +1,39 @@
+@include b('cookie-alert') {
+    background-color: white;	
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,0.5);
+    display: flex;
+    padding: $pad-double;
+    
+    align-items: center;
+    justify-content: space-between;
+    margin-right: $pad;
+
+}
+
+.cookie-alert .medium-text {
+    flex-basis: 100%;
+   margin-right: $pad;
+}
+
+.cookie-alert img {
+    margin-right: $pad;
+}
+
+@media only screen and (max-width: 480px) {
+    .cookie-alert {
+        flex-direction: column;
+    }
+    .cookie-alert img {
+        display: none;
+    }
+    .cookie-alert .medium-text {
+        margin-bottom: $pad*2;
+        margin-right: 0px;
+    }
+
+    .cookie-alert .btn__with-text{
+        width: 100%;
+    }
+}
+
+

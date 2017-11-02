@@ -1,11 +1,11 @@
 {
     "tabs" : [
     {
-        "content" : "PARAMETRI",
+        "content" : "INDEX",
         "is-active": "is-active"
     },
     {
-        "content" : "INDEX",
+        "content" : "ONEČIŠČUJUČA TVAR",
         "is-active": ""
     }
 ]

@@ -24,4 +24,9 @@
     @include e('tab') {
         padding-top: $pad;
     }
+
+    @include e('list') {
+        padding: $pad;
+        padding-top: $pad-double;        
+    }
 }

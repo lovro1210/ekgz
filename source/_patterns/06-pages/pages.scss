@@ -47,4 +47,31 @@
 
         }
     }
+
+}
+
+@include b('cookie-container') {
+    position: absolute;
+    top: $pad-triple;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    display: none;
+
+    &:active {
+        display: inherit;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .cookie-container {
+        bottom: $pad-triple;
+        top: auto;
+        width: 100%;
+        margin-left: $pad;
+        margin-right: $pad;
+    }
+    
 }

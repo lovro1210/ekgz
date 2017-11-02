@@ -180,6 +180,14 @@
         "brand": {
             "src": "../../images/EkoKartaLogo@1x.png",
             "alt": "Brand Logo"
+        },
+        "link": {
+            "src": "../../images/logoImg@1x.png",
+            "alt": "Link Logo"
+        },
+        "footer": {
+            "src": "../../images/in2_logo.png",
+            "alt": "IN2 Logo"
         }
     },
     
@@ -226,5 +234,38 @@
     "search" : {  
         "icon" : "ek-search",
         "placeholder" : "Upiši adresu"    
+    },
+    
+    "name" : "Temperatura",
+    "value" : "35°C",
+    "water-list" : [
+        {
+            "name" : "Temperatura",
+            "value" : "35°C"            
+        },
+        {
+            "name" : "Temperatura",
+            "value" : "35°C"            
+        },{
+            "name" : "Temperatura",
+            "value" : "35°C"            
+        },
+        {
+            "name" : "Temperatura",
+            "value" : "35°C"            
+        },
+        {
+            "name" : "Temperatura",
+            "value" : "35°C"            
+        },
+        {
+            "name" : "Temperatura",
+            "value" : "35°C"            
+        }
+    ],
+
+    "btn" : {
+        "text" : "Accept",
+        "link" : "Learn more"
     }
 }

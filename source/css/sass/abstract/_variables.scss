@@ -112,10 +112,11 @@ $color-border: $color-gray-50;
 /*------------------------------------*\
     #TYPOGRAPHY
 \*------------------------------------*/
-@import url('https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=latin-ext');
 
-$font : "Nunito", "HelveticaNeue", "Helvetica", "Arial", sans-serif;
-$font-secondary : Georgia, Times, "Times New Roman", serif;
+$font : "Nunito Sans", "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+$font-secondary : "Montserrat", Georgia, Times, "Times New Roman", serif;
 
 $font-size-smallest: 10px;  //625rem
 $font-size-small : 12px; //0.75rem

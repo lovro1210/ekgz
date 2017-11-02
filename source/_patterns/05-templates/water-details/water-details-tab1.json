@@ -1,0 +1,45 @@
+{
+    "location-details" : {
+        "location-icon" : "ek-pipa",
+        "location-name" : "SLJEME",
+        "location-address" : "Negdje na Sljemenu"     
+    },
+
+    "tabs" : [
+        {
+            "content" : "INDEX",
+            "is-active": ""
+        },
+        {
+            "content" : "ONEČIŠĆUJUĆA TVAR",
+            "is-active": "is-active"
+        }
+    ],
+
+    "water-list" : [
+        {
+            "name" : "Temperatura",
+            "value" : "35°C"            
+        },
+        {
+            "name" : "Temperatura",
+            "value" : "35°C"            
+        },{
+            "name" : "Temperatura",
+            "value" : "35°C"            
+        },
+        {
+            "name" : "Temperatura",
+            "value" : "35°C"            
+        },
+        {
+            "name" : "Temperatura",
+            "value" : "35°C"            
+        },
+        {
+            "name" : "Temperatura",
+            "value" : "35°C"            
+        }
+    ]
+
+}
