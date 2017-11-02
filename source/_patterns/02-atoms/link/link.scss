@@ -1,0 +1,28 @@
+@include b('link') {
+    height: 48px;
+    display: flex;
+    cursor: pointer;    
+    
+    @include e('image') {
+        width: 48px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    @include e('text') {
+        background-color: $palette-secondary;
+        color: $color-white;
+        border-radius: $border-radius; 
+        opacity: 0.9;
+        width: 136px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

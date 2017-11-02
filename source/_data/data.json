@@ -153,6 +153,10 @@
         "brand": {
             "src": "../../images/EkoKartaLogo@1x.png",
             "alt": "Brand Logo"
+        },
+        "link": {
+            "src": "../../images/logoImg@1x.png",
+            "alt": ""
         }
     },
     
