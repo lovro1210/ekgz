@@ -36,19 +36,30 @@
         margin-right: $pad;
     }
 
-       
-    @include e('icons'){
-        padding-top: $pad-triple;
+    @include e('iconbox'){
+        padding: $pad-triple 0;
         background-color:  transparent;
-        width: 64px;         
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;           
+    }
+
+    @include e('top'){
+        display: flex;
+    }
+
+    @include e('bottom'){
+        margin-left: $pad;
+    }
+       
+    @include e('icons'){        
+        width: 64px;    
+        height: fit-content;     
     }
 
     @include e('legend'){
-        margin: $pad;
-        padding-top: $pad-triple;
-        background-color:  transparent;   
+        margin: $pad;           
         height: fit-content;
-        display: none;      
-        
+        display: none; 
     }
 }
