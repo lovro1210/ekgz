@@ -10,3 +10,27 @@
         
     }
 }
+
+.pelud-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .first-column{
+        .sort{
+            font-size: $font-size-med;
+            color: $text-gray;
+            font-size: $font-size-small-2;
+        }
+        .type{
+            font-size: $font-size-large;
+            font-weight: 700;          
+        }
+    }
+
+    .state{
+        font-size: $font-size-large;
+        font-weight: 700;
+        color: $text-gray;
+    }
+}

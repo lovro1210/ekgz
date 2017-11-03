@@ -1129,6 +1129,11 @@ abbr {
         transform: translate(0, 0); }
       .btn--secondary.is-disabled:hover .btn__caption-text {
         transform: translate(0, 0); }
+  .btn__share {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px; }
   .btn__close {
     color: #aaaeb0;
     height: 18px;
@@ -1169,6 +1174,9 @@ abbr {
     color: #0e8041;
     border-bottom: #0e8041;
     border-bottom-style: solid; }
+
+.btn__share i {
+  font-size: 54px; }
 
 .logo {
   height: auto;
@@ -1245,7 +1253,7 @@ abbr {
     color: #0e8041;
     margin-right: 24px; }
   .location-title__title {
-    font-size: 17px;
+    font-size: 18px;
     font-weight: bold;
     line-height: 33px; }
   .location-title__subtitle {
@@ -1327,7 +1335,7 @@ abbr {
 
 .legend-icon {
   color: #0e8041;
-  font-size: 23px; }
+  font-size: 24px; }
 
 .search {
   padding: 16px;
@@ -1466,81 +1474,29 @@ abbr {
     justify-content: center;
     align-items: center; }
 
-.donut-chart {
-  position: relative;
-  width: 200px;
-  height: 200px;
-  margin: 0 auto 2rem;
-  border-radius: 100%; }
-  .donut-chart__outline {
-    border-radius: 50%;
-    clip: rect(0px, 200px, 200px, 100px);
-    height: 100%;
-    position: absolute;
-    width: 100%; }
-  .donut-chart__data {
-    border-radius: 50%;
-    clip: rect(0px, 100px, 200px, 0px);
-    height: 100%;
-    position: absolute;
-    width: 100%;
-    font-family: monospace;
-    font-size: 1.5rem; }
-  .donut-chart__hole {
-    background: white;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 85%;
-    height: 85%;
-    margin: auto;
-    border-radius: 50%;
-    line-height: 35px;
-    padding: 15% 0 0; }
+/*** 
+https://markus.oberlehner.net/blog/pure-css-animated-svg-circle-chart/
+ */
+.circle-chart__circle {
+  animation: circle-chart-fill 2s reverse;
+  transform: rotate(-90deg);
+  transform-origin: center; }
+  .circle-chart__circle--negative {
+    transform: rotate(-90deg) scale(1, -1); }
 
-#porcion1 {
-  transform: rotate(0deg); }
+.circle-chart__info {
+  animation: circle-chart-appear 2s forwards;
+  opacity: 0;
+  transform: translateY(0.3em); }
 
-#porcion1 .donut-chart__data {
-  background-color: #E64C65;
-  transform: rotate(76deg); }
+@keyframes circle-chart-fill {
+  to {
+    stroke-dasharray: 0 100; } }
 
-#porcion2 {
-  transform: rotate(76deg); }
-
-#porcion2 .donut-chart__data {
-  background-color: #11A8AB;
-  transform: rotate(140deg); }
-
-#porcion3 {
-  transform: rotate(215deg); }
-
-#porcion3 .donut-chart__data {
-  background-color: #4FC4F6;
-  transform: rotate(113deg); }
-
-#porcionFin {
-  transform: rotate(-32deg); }
-
-#porcionFin .donut-chart__data {
-  background-color: #FCB150;
-  transform: rotate(32deg); }
-
-p.center-date {
-  background: white;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 85%;
-  height: 85%;
-  margin: auto;
-  border-radius: 50%;
-  line-height: 35px;
-  padding: 15% 0 0; }
+@keyframes circle-chart-appear {
+  to {
+    opacity: 1;
+    transform: translateY(0); } }
 
 .footer {
   display: flex;
@@ -1562,6 +1518,22 @@ p.center-date {
   display: flex;
   align-items: center;
   justify-content: space-between; }
+
+.pelud-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  .pelud-row .first-column .sort {
+    font-size: 16px;
+    color: #8c96a9;
+    font-size: 14px; }
+  .pelud-row .first-column .type {
+    font-size: 24px;
+    font-weight: 700; }
+  .pelud-row .state {
+    font-size: 24px;
+    font-weight: 700;
+    color: #8c96a9; }
 
 .brand {
   display: flex;
@@ -1615,6 +1587,14 @@ p.center-date {
     flex-grow: 5; }
   .parameter-data__first {
     margin-right: 8px; }
+
+.icon-text-row {
+  display: flex;
+  align-items: center; }
+  .icon-text-row__text {
+    margin-left: 16px;
+    font-size: 16px;
+    color: #525455; }
 
 .icons {
   width: inherit; }
@@ -1704,6 +1684,22 @@ p.center-date {
 
 .water-list .list-item {
   padding: 4px 0; }
+
+.pelud-list__item {
+  padding: 8px 16px;
+  border-bottom: 2px solid #e9ebef; }
+
+.pelud-list__header {
+  padding: 8px 16px;
+  font-weight: 700;
+  font-size: 14px;
+  border-bottom: 2px solid #e9ebef;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.text-box h4 {
+  padding-bottom: 8px; }
 
 /*@include b('details'){
     height: 100vh;    
@@ -1811,6 +1807,11 @@ p.center-date {
   .location-details__list {
     padding: 8px;
     padding-top: 16px; }
+  .location-details__box-wide {
+    width: 100%;
+    padding-top: 16px; }
+  .location-details__box-text {
+    padding: 16px; }
 
 .menu {
   height: 100vh;

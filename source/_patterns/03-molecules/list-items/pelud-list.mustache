@@ -1,0 +1,11 @@
+<ul class="pelud-list">
+<li class="pelud-list__header">
+    <div>{{pelud-razina}}</div>
+    <div>{{pelud-alergeni}}</div>
+<li>
+{{# pelud-list}}
+<li class="pelud-list__item">
+    {{> 02-atoms/list/pelud-list-item }}
+</li>
+{{/ pelud-list}}
+</ul>

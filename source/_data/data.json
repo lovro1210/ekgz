@@ -214,6 +214,7 @@
     "lorem" : {
         "med" : "Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcorper metus. Sed sollicitudin ipsum quis nunc sollicitudin ultrices. acerat metus rutrum sit amet. Aenean ut suscipit justo."
     },
+    "text-header": "Naslov", 
     "rowList" : [
         {"round" : "NO",
          "normal": "Dušićni monoksid",
@@ -266,6 +267,40 @@
 
     "btn" : {
         "text" : "Accept",
+        "link" : "Learn more",
+        "share" : "ek-facebook-official"
+    },
+
+    "donut" : {
+        "percent" : "60",
+        "text" : "0.4",
+        "legend" : "Niska"
+    },
+
+    "icon-text" : "Podijeli na facebook-u"
         "link" : "Learn more"
-    }
+    },
+
+    "pelud-type": "Čempres",
+    "pelud-sort": "DRVEĆE",
+    "pelud-state": "Niska",
+    "pelud-alergeni": "DOMINANTNI ALERGENI",
+    "pelud-razina": "RAZINA OSJETLJIVOSTI",
+    "pelud-list" : [
+        {
+            "pelud-type": "Čempres",
+            "pelud-sort": "DRVEĆE",
+            "pelud-state": "Niska"           
+        },
+        {
+            "pelud-type": "Čempres",
+            "pelud-sort": "DRVEĆE",
+            "pelud-state": "Niska"           
+        },
+        {
+            "pelud-type": "Čempres",
+            "pelud-sort": "DRVEĆE",
+            "pelud-state": "Niska"           
+        }
+    ]
 }

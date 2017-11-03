@@ -152,7 +152,16 @@
                 }
             }
         }
+
+        
     } 
+
+    @include e('share') {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+    }
 
     @include e('close') {
         color:   $icon-close-color;
@@ -214,4 +223,6 @@
 }
      
 
-
+.btn__share i {
+    font-size: 54px;
+}

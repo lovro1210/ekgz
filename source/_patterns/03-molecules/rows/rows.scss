@@ -14,3 +14,14 @@
         
     }
 }
+
+@include b('icon-text-row') {
+    display: flex;
+    align-items: center;
+
+    @include e('text') {
+        margin-left: $pad-double;
+        font-size: $font-size-med;
+        color: $palette-tertiary;
+    }
+}
