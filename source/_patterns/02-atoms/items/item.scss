@@ -1,17 +1,17 @@
 @include b('item') {
-    display: flex;
-    align-items: center;
     @include e('icon') {
         color:  $palette-primary;
-        //margin: $pad $pad-double;
-
-        &.small {
-            font-size: 12px;
-            padding: 8px;
-            color:  $palette-tertiary;
-        }
+        margin: $pad $pad-double;
     }
     
+    @include e('icon-ok'){
+        display: none;
+        align-items: center;
+        margin-right: $pad;
+        font-size: $font-size-small;
+        color: $color-gray;
+    }
+
     @include e('text'){
         color:  $color-black;	
         flex-basis: calc(100vh - 88px);	

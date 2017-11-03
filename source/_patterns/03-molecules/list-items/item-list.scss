@@ -62,18 +62,16 @@
         display: flex;
         justify-content: space-between;
         padding: $pad-half 0;
+        border-bottom: $border-xs solid $border-light;
 
         &:hover {
             background-color: $lightest-gray;
         }
     
         &.is-active {
-            .list__icon-ok {
+            .item__icon-ok {
                 display: flex;
-                align-items: center;
-                margin-right: $pad;
-                font-size: $font-size-small;
-                color: $color-gray;
+                
             }
         }
 
@@ -85,6 +83,11 @@
 
     }
 
+}
+
+@include b('categories'){
+    height: calc(100vh - 220px);
+    overflow-y: auto;
 }
 
 
