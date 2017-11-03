@@ -3,17 +3,18 @@
     @include e('icon') {
         font-size: 40px;
         color:  $palette-primary;
-        margin-right: $pad-triple;
+        padding: 0 $pad;
+        //margin-right: $pad-triple;
     }
     @include e('title') {
         font-size: $font-size-med-2;	
         font-weight: bold;	
-        line-height: 33px;
+        line-height: 2;
     }
     @include e('subtitle') {
         color: #72727D;	
         font-size: $font-size-small-2;
-        line-height: 19px;
+        line-height: 1;
     }
     @include e('open-icon') {
         color: #72727D;	

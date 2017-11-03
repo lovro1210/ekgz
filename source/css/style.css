@@ -586,11 +586,9 @@ abbr {
   font-family: "ekokarta";
   font-style: normal;
   font-weight: normal;
-  speak: none;
   display: inline-block;
   text-decoration: inherit;
   width: 1em;
-  margin-right: .2em;
   text-align: center;
   /* opacity: .8; */
   /* For safety - reset parent styles, that can break glyph codes*/
@@ -600,7 +598,6 @@ abbr {
   line-height: 1em;
   /* Animation center compensation - margins should be symmetric */
   /* remove if not needed */
-  margin-left: .2em;
   /* you can be more comfortable with increased icons size */
   /* font-size: 120%; */
   /* Font smoothing. That was taken from TWBS */
@@ -1251,15 +1248,15 @@ abbr {
   .location-title__icon {
     font-size: 40px;
     color: #0e8041;
-    margin-right: 24px; }
+    padding: 0 8px; }
   .location-title__title {
     font-size: 18px;
     font-weight: bold;
-    line-height: 33px; }
+    line-height: 2; }
   .location-title__subtitle {
     color: #72727D;
     font-size: 14px;
-    line-height: 19px; }
+    line-height: 1; }
   .location-title__open-icon {
     color: #72727D;
     cursor: pointer; }
@@ -1524,16 +1521,46 @@ https://markus.oberlehner.net/blog/pure-css-animated-svg-circle-chart/
   align-items: center;
   justify-content: space-between; }
   .pelud-row .first-column .sort {
-    font-size: 16px;
+    font-size: 12px;
     color: #8c96a9;
-    font-size: 14px; }
+    line-height: 2; }
   .pelud-row .first-column .type {
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 700; }
-  .pelud-row .state {
-    font-size: 24px;
-    font-weight: 700;
-    color: #8c96a9; }
+  .pelud-row .second-column {
+    text-align: center; }
+    .pelud-row .second-column .state {
+      font-size: 16px;
+      font-weight: 700; }
+      .pelud-row .second-column .state.green {
+        color: #4CAF50; }
+      .pelud-row .second-column .state.yellow {
+        color: #F5A623; }
+      .pelud-row .second-column .state.red {
+        color: #EF6F6C; }
+      .pelud-row .second-column .state.grey {
+        color: #9B9B9B; }
+      .pelud-row .second-column .state.light {
+        color: #CFE3F0; }
+    .pelud-row .second-column .date {
+      font-size: 10px;
+      color: #8c96a9; }
+
+.circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: block; }
+  .circle--green {
+    background-color: #4CAF50; }
+  .circle--yellow {
+    background-color: #F5A623; }
+  .circle--red {
+    background-color: #EF6F6C; }
+  .circle--grey {
+    background-color: #9B9B9B; }
+  .circle--light {
+    background-color: #CFE3F0; }
 
 .brand {
   display: flex;
@@ -1635,6 +1662,23 @@ https://markus.oberlehner.net/blog/pure-css-animated-svg-circle-chart/
     align-items: center;
     justify-content: center; }
 
+.legend-list__header {
+  padding-bottom: 8px;
+  font-size: 14px;
+  font-weight: 700; }
+
+.legend-list__item {
+  display: flex;
+  align-items: baseline; }
+  .legend-list__item .color {
+    padding-right: 8px; }
+  .legend-list__item .textbox .state {
+    font-weight: 600;
+    font-size: 12px; }
+  .legend-list__item .textbox .description {
+    font-size: 10px;
+    color: #8c96a9; }
+
 .locations-list__item {
   display: flex;
   justify-content: space-between;
@@ -1692,14 +1736,16 @@ https://markus.oberlehner.net/blog/pure-css-animated-svg-circle-chart/
 .pelud-list__header {
   padding: 8px 16px;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 12px;
   border-bottom: 2px solid #e9ebef;
   display: flex;
   align-items: center;
   justify-content: space-between; }
 
-.text-box h4 {
-  padding-bottom: 8px; }
+.text-box .text-header {
+  padding-bottom: 8px;
+  font-size: 14px;
+  font-weight: 700; }
 
 /*@include b('details'){
     height: 100vh;    
@@ -1860,7 +1906,8 @@ https://markus.oberlehner.net/blog/pure-css-animated-svg-circle-chart/
 .app {
   min-height: 100vh;
   width: 100%;
-  background-color: lightblue; }
+  background-color: lightblue;
+  display: block; }
 
 .details {
   height: 100vh;

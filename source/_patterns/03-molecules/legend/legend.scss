@@ -34,3 +34,31 @@
     } 
 
 }
+
+@include b("legend-list"){
+    @include e("header"){
+        padding-bottom: $pad;
+        font-size: $font-size-small-2;
+        font-weight: 700;
+    }
+    
+    @include e("item"){
+        display: flex;
+        align-items: baseline;
+
+        .color{
+            padding-right: $pad;
+        }
+        .textbox{
+            .state{
+                font-weight: 600;
+                font-size: $font-size-small;
+            }
+            .description{
+                font-size: $font-size-smallest;
+                color:  $text-gray;
+            }
+        }
+    }        
+    
+}
