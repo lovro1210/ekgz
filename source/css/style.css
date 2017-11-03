@@ -577,6 +577,11 @@ abbr {
   height: 12px;
   font-size: 12px; }
 
+.ek--12x16 {
+  width: 16px;
+  height: 12px;
+  font-size: 16px; }
+
 [class^="ek-"]:before, [class*=" ek-"]:before {
   font-family: "ekokarta";
   font-style: normal;
@@ -1180,26 +1185,30 @@ abbr {
 .slogan {
   color: #0e8041; }
 
-.item {
-  display: flex;
-  align-items: center; }
-  .item__icon {
-    color: #0e8041; }
-    .item__icon.small {
-      font-size: 12px;
-      padding: 8px;
-      color: #525455; }
-  .item__text {
-    color: black;
-    flex-basis: calc(100vh - 88px); }
-  .item__title {
-    font-size: 12px;
-    color: #525455;
-    line-height: 21px; }
-  .item__subtitle {
-    color: #72727D;
-    font-size: 10px;
-    line-height: 14px; }
+.item__icon {
+  color: #0e8041;
+  margin: 8px 16px; }
+
+.item__icon-ok {
+  display: none;
+  align-items: center;
+  margin-right: 8px;
+  font-size: 12px;
+  color: #8a9a9a; }
+
+.item__text {
+  color: black;
+  flex-basis: calc(100vh - 88px); }
+
+.item__title {
+  font-size: 12px;
+  color: #525455;
+  line-height: 21px; }
+
+.item__subtitle {
+  color: #72727D;
+  font-size: 10px;
+  line-height: 14px; }
 
 .categossry.is-close .list {
   display: none; }
@@ -1491,9 +1500,9 @@ https://markus.oberlehner.net/blog/pure-css-animated-svg-circle-chart/
 
 .footer {
   display: flex;
-  margin: 24px 0; }
+  padding: 32px 16px 16px 16px; }
   .footer__icon {
-    width: 36px;
+    width: 32px;
     margin-left: 4px;
     display: flex;
     justify-content: center;
@@ -1503,7 +1512,7 @@ https://markus.oberlehner.net/blog/pure-css-animated-svg-circle-chart/
       height: auto; }
   .footer__text {
     color: rgba(188, 197, 212, 0.705);
-    font-size: 14px; }
+    font-size: 12px; }
 
 .list-item {
   display: flex;
@@ -1660,17 +1669,18 @@ https://markus.oberlehner.net/blog/pure-css-animated-svg-circle-chart/
 .list__item {
   display: flex;
   justify-content: space-between;
-  padding: 4px 0; }
+  padding: 4px 0;
+  border-bottom: 1px solid #e9ebef; }
   .list__item:hover {
     background-color: rgba(235, 237, 238, 0.3); }
-  .list__item.is-active .list__icon-ok {
-    display: flex;
-    align-items: center;
-    margin-right: 8px;
-    font-size: 12px;
-    color: #8a9a9a; }
+  .list__item.is-active .item__icon-ok {
+    display: flex; }
   .list__item .list__icon-ok {
     display: none; }
+
+.categories {
+  height: calc(100vh - 220px);
+  overflow-y: auto; }
 
 .water-list .list-item {
   padding: 4px 0; }
@@ -1894,3 +1904,83 @@ https://markus.oberlehner.net/blog/pure-css-animated-svg-circle-chart/
     width: 100%;
     margin-left: 8px;
     margin-right: 8px; } }
+
+/*!
+ * 
+ *         SimpleBar.js - v2.5.0
+ *         Scrollbars, simpler.
+ *         https://grsmto.github.io/simplebar/
+ *         
+ *         Made by Adrien Grsmto from a fork by Jonathan Nicol
+ *         Under MIT License
+ *       
+ */
+[data-simplebar] {
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+  /* Trigger native scrolling for mobile, if not supported, plugin is used. */ }
+
+[data-simplebar="init"] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.simplebar-scroll-content {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  min-width: 100%;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box; }
+
+.simplebar-content {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  min-height: 100%; }
+
+.simplebar-track {
+  z-index: 100;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 11px; }
+
+.simplebar-scrollbar {
+  position: absolute;
+  right: 2px;
+  border-radius: 7px;
+  min-height: 10px;
+  width: 7px;
+  opacity: 0;
+  -webkit-transition: opacity 0.2s linear;
+  transition: opacity 0.2s linear;
+  background: gray;
+  background-clip: padding-box; }
+
+.simplebar-track:hover .simplebar-scrollbar {
+  /* When hovered, remove all transitions from drag handle */
+  opacity: 0.5;
+  -webkit-transition: opacity 0 linear;
+  transition: opacity 0 linear; }
+
+.simplebar-track .simplebar-scrollbar.visible {
+  opacity: 0.5; }
+
+.simplebar-track.horizontal {
+  left: 0;
+  width: auto;
+  height: 11px; }
+
+.simplebar-track.vertical {
+  top: 0; }
+
+.horizontal.simplebar-track .simplebar-scrollbar {
+  right: auto;
+  top: 2px;
+  height: 7px;
+  min-height: 0;
+  min-width: 10px;
+  width: auto; }

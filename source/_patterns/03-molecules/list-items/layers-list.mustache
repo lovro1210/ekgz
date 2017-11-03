@@ -1,15 +1,17 @@
+<!--<script src="../../js/simplebar.js"></script>--> 
+<div data-simplebar class="categories">
 {{# categories}}
     <div class="category">
     {{> 02-atoms/items/category }}
     <ul class="list">
     {{# layers-list}}
-
+ 
         <li class="list__item {{ css }}">    
-            {{> 02-atoms/items/item }}
-            <div class="list__icon-ok"><i class="ek-ok"></i></div>
+            {{> 02-atoms/items/item }}            
         </li>
 
     {{/ layers-list }}
     </ul>
     </div>
     {{/ categories}}
+    </div>

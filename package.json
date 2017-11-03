@@ -12,6 +12,7 @@
     "minimist": "^1.2.0",
     "patternlab-node": "^2.0.0",
     "sass-bem": "^2.6.5",
+    "simplebar": "^2.5.0",
     "starterkit-mustache-demo": "^4.0.2",
     "styleguidekit-assets-default": "^3.0.0",
     "styleguidekit-mustache-default": "^3.0.0"
