@@ -1,0 +1,23 @@
+{
+    "menu": {
+        "active": "is-active",
+        "selected": ""
+    },
+
+    "location-details" : {
+        "location-icon" : "ek-pipa",
+        "location-name" : "SLJEME",
+        "location-address" : "Negdje na Sljemenu"     
+    },
+
+    "tabs" : [
+        {
+            "content" : "INDEX",
+            "is-active": ""
+        },
+        {
+            "content" : "ONEČIŠĆUJUĆA TVAR",
+            "is-active": "is-active"
+        }
+    ]
+}

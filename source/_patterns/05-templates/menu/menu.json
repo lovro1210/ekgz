@@ -1,0 +1,6 @@
+{
+    "menu": {
+        "active": "is-active",
+        "selected": "is-selected"
+    }
+}

@@ -25,5 +25,9 @@
 ],
 "lorem" : {
     "med" : "This website use cookies. By continuing to browse the site you are agreeing to our use of cookies. "
+},
+"menu": {
+    "active": "is-active",
+    "selected": "is-selected"
 }
 }

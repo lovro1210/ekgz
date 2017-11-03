@@ -1036,7 +1036,7 @@ abbr {
     padding-left: 24px;
     padding-right: 24px;
     color: #0e8041;
-    font-size: 0.875rem;
+    font-size: 14px;
     z-index: 1;
     position: relative;
     text-align: center; }
@@ -1060,7 +1060,7 @@ abbr {
   .btn__link {
     margin-left: 4px;
     color: #525455;
-    font-size: 0.875rem;
+    font-size: 14px;
     text-decoration: underline;
     font-weight: 700; }
     .btn__link:hover {
@@ -1271,14 +1271,9 @@ abbr {
   font-weight: 700; }
 
 .medium-text {
-<<<<<<< HEAD
-  font-size: 16px;
-  color: #525455; }
-=======
-  font-size: 0.875rem;
+  font-size: 14px;
   color: #525455;
   margin-bottom: 0px; }
->>>>>>> 8c880872295fd38c7810651dc55c33d8f8f165b1
 
 .legend {
   width: inherit;
@@ -1462,7 +1457,6 @@ abbr {
     justify-content: center;
     align-items: center; }
 
-<<<<<<< HEAD
 .donut-chart {
   position: relative;
   width: 200px;
@@ -1538,7 +1532,7 @@ p.center-date {
   border-radius: 50%;
   line-height: 35px;
   padding: 15% 0 0; }
-=======
+
 .footer {
   display: flex;
   margin: 24px 0; }
@@ -1552,14 +1546,13 @@ p.center-date {
       width: 100%;
       height: auto; }
   .footer__text {
-    color: #e9ebef;
-    font-size: 0.875rem; }
+    color: rgba(188, 197, 212, 0.705);
+    font-size: 14px; }
 
 .list-item {
   display: flex;
   align-items: center;
   justify-content: space-between; }
->>>>>>> acf5e16ce1d34d621e42edbcb1031e817500c631
 
 .brand {
   display: flex;
@@ -1684,7 +1677,6 @@ p.center-date {
   .layers-list__item .layers-list__icon-ok {
     display: none; }
 
-<<<<<<< HEAD
 .list__item {
   display: flex;
   justify-content: space-between;
@@ -1699,10 +1691,9 @@ p.center-date {
     color: #8a9a9a; }
   .list__item .list__icon-ok {
     display: none; }
-=======
+
 .water-list .list-item {
   padding: 4px 0; }
->>>>>>> 8c880872295fd38c7810651dc55c33d8f8f165b1
 
 /*@include b('details'){
     height: 100vh;    
@@ -1752,14 +1743,11 @@ p.center-date {
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
   margin-right: 8px;
   height: 100vh; }
-<<<<<<< HEAD
-=======
   .left-menu__tabs {
     text-align: center; }
   .left-menu__input {
     padding: 8px;
     padding-top: 0px; }
->>>>>>> 8c880872295fd38c7810651dc55c33d8f8f165b1
 
 .cookie-alert {
   background-color: white;
