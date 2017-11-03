@@ -267,6 +267,7 @@
 
     "btn" : {
         "text" : "Accept",
+
         "link" : "Learn more",
         "share" : "ek-facebook-official"
     },
@@ -277,9 +278,10 @@
         "legend" : "Niska"
     },
 
-    "icon-text" : "Podijeli na facebook-u"
+    "icon-text" : "Podijeli na facebook-u",
+
         "link" : "Learn more"
-    },
+    ,
 
     "pelud-type": "Čempres",
     "pelud-sort": "DRVEĆE",
@@ -303,4 +305,5 @@
             "pelud-state": "Niska"           
         }
     ]
+
 }
