@@ -19,21 +19,56 @@
         {
             "pelud-type": "Čempres",
             "pelud-sort": "DRVEĆE",
-            "pelud-state": "Niska"           
+            "pelud-state": "Niska",
+            "pelud-date": "22.11.2020. 16:15:00",
+            "state-color": "green"           
         },
         {
             "pelud-type": "Čempres",
-            "pelud-sort": "DRVEĆE",
-            "pelud-state": "Niska"           
+            "pelud-sort": "TRAVA",
+            "pelud-state": "Visoka",
+            "pelud-date": "22.11.2020. 16:15:00",
+            "state-color": "red"            
         },
         {
-            "pelud-type": "Čempres",
-            "pelud-sort": "DRVEĆE",
-            "pelud-state": "Niska"           
+            "pelud-type": "Bor",
+            "pelud-sort": "KOROV",
+            "pelud-state": "Nema peludi",
+            "pelud-date": "22.11.2020. 16:15:00",
+            "state-color": "grey"             
         }
     ],
     "lorem" : {
         "med" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
     },
-    "text-header": "INFORMACIJE"
+    "text-header": "INFORMACIJE",
+
+    "legend-header": "LEGENDA",
+    "legend-list" : [
+        {
+            "circle-color": "circle--green",
+            "legend-state": "Niska",
+            "legend-description": "samo izuzetno osjetljive osobe imati će tegobe"           
+        },
+        {
+            "circle-color": "circle--yellow",
+            "legend-state": "Umjerena",
+            "legend-description": "većina osjetljivih osob imati će tegobe"          
+        },
+        {
+            "circle-color": "circle--red",
+            "legend-state": "Visoka",
+            "legend-description": "sve alergične osobe imati će tegobe"             
+        },
+        {
+            "circle-color": "circle--grey",
+            "legend-state": "Nema peludi",
+            "legend-description": ""             
+        },
+        {
+            "circle-color": "circle--light",
+            "legend-state": "Nema mjerenja",
+            "legend-description": ""             
+        }
+    ]
 }

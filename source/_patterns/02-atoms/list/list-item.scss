@@ -18,19 +18,43 @@
 
     .first-column{
         .sort{
-            font-size: $font-size-med;
-            color: $text-gray;
-            font-size: $font-size-small-2;
+            font-size: $font-size-small;
+            color: $text-gray; 
+            line-height: 2;           
         }
         .type{
-            font-size: $font-size-large;
+            font-size: $font-size-med;
             font-weight: 700;          
         }
     }
 
-    .state{
-        font-size: $font-size-large;
-        font-weight: 700;
-        color: $text-gray;
+    .second-column{
+        text-align: center;
+        .state{
+            font-size: $font-size-med;
+            font-weight: 700;
+            //color: $text-gray;
+
+            &.green{
+                color: $legend-green;
+            }
+            &.yellow{
+                color: $legend-yellow;
+            }
+            &.red{
+                color: $legend-red;
+            }
+            &.grey{
+                color: $legend-grey;
+            }
+            &.light{
+                color: $legend-light;
+            }
+        }
+        .date{
+            font-size: $font-size-smallest;
+            color: $text-gray;           
+        }
     }
+    
 }

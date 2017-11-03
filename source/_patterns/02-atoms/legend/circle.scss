@@ -1,0 +1,22 @@
+@include b('circle'){
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: block;
+
+    @include m(green){
+        background-color: $legend-green;
+    }
+    @include m(yellow){
+        background-color: $legend-yellow;
+    }
+    @include m(red){
+        background-color: $legend-red;
+    }
+    @include m(grey){
+        background-color: $legend-grey;
+    }
+    @include m(light){
+        background-color: $legend-light;
+    }
+}

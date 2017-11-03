@@ -1,5 +1,7 @@
 .text-box{
-    h4{
+    .text-header{
         padding-bottom: $pad;
+        font-size: $font-size-small-2;
+        font-weight: 700;
     }
 }

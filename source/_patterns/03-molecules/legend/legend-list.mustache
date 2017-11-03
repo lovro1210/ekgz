@@ -1,0 +1,18 @@
+<ul class="legend-list">
+    <li class="legend-list__header">{{legend-header}}</li>
+{{# legend-list}}
+    <li class="legend-list__item">
+        <div class="color">
+            {{> 02-atoms/legend/circle }}
+        </div>
+        <div class="textbox">
+            <div class="state">
+                {{legend-state}}
+            </div>
+            <div class="description">
+                {{legend-description}}
+            </div>
+        </div>
+    </li>
+{{/ legend-list}}
+</ul>
