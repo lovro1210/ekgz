@@ -75,3 +75,17 @@
     }
     
 }
+
+@include b('social-media-container') {
+    position: absolute;
+    top: 0;
+    width: 70%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+   // display: none;
+
+    &:active {
+        display: inherit;
+    }
+}

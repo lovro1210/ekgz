@@ -1,0 +1,14 @@
+@include b('disabled-input') {
+    display: flex;
+    @include e('input') {
+        font-size: $font-size-small-2;
+        padding: $pad;
+        flex-basis: 75%;
+        border-radius: 0px;
+    }
+}
+
+.disabled-input .btn__with-text-inverted {
+    flex-grow: 2;
+    border-radius: 0px;
+}

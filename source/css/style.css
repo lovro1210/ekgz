@@ -1133,7 +1133,41 @@ abbr {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 3px; }
+    border-radius: 3px;
+    position: relative; }
+    .btn__share:hover .btn__share-overlay {
+      height: 100%; }
+    .btn__share--facebook {
+      background-color: #36549C;
+      color: white;
+      border-color: #36549C; }
+    .btn__share--twitter {
+      background-color: #1DA1F2;
+      color: white;
+      border-color: #1DA1F2; }
+    .btn__share--email {
+      background-color: #E21C1F;
+      color: white;
+      border-color: #E21C1F; }
+  .btn__share-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease; }
+  .btn__share-text {
+    white-space: nowrap;
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); }
   .btn__close {
     color: #aaaeb0;
     height: 18px;
@@ -1161,6 +1195,24 @@ abbr {
       transform: translate(0, -4px); }
       .btn__caption:hover .btn__caption-text {
         transform: translate(0, -16px); }
+  .btn__with-text-inverted {
+    border-style: solid;
+    border-color: #0e8041;
+    border-radius: 3px;
+    border-width: 1px;
+    padding-left: 24px;
+    padding-right: 24px;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #0e8041; }
+    .btn__with-text-inverted:hover {
+      cursor: pointer;
+      color: #0e8041;
+      background-color: white; }
 
 .tab {
   cursor: pointer;
@@ -1176,7 +1228,19 @@ abbr {
     border-bottom-style: solid; }
 
 .btn__share i {
-  font-size: 54px; }
+  font-size: 30px; }
+
+.btn__share--facebook .btn__share-overlay {
+  background-color: #36549C; }
+
+.btn__share--twitter .btn__share-overlay {
+  background-color: #1DA1F2; }
+
+.btn__share--email .btn__share-overlay {
+  background-color: #E21C1F; }
+
+.btn__with-text-inverted-container {
+  background: #0e8041; }
 
 .logo {
   height: auto;
@@ -1535,6 +1599,18 @@ https://markus.oberlehner.net/blog/pure-css-animated-svg-circle-chart/
     font-weight: 700;
     color: #8c96a9; }
 
+.disabled-input {
+  display: flex; }
+  .disabled-input__input {
+    font-size: 14px;
+    padding: 8px;
+    flex-basis: 75%;
+    border-radius: 0px; }
+
+.disabled-input .btn__with-text-inverted {
+  flex-grow: 2;
+  border-radius: 0px; }
+
 .brand {
   display: flex;
   padding: 16px;
@@ -1561,7 +1637,8 @@ https://markus.oberlehner.net/blog/pure-css-animated-svg-circle-chart/
   background-color: rgba(235, 237, 238, 0.3);
   box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1); }
   .location-header__close-btn {
-    margin-right: 16px; }
+    margin-right: 16px;
+    margin-top: 8px; }
 
 .tabs {
   border-bottom-style: solid;
@@ -1743,6 +1820,9 @@ https://markus.oberlehner.net/blog/pure-css-animated-svg-circle-chart/
 .parameter-table {
   padding: 8px; }
 
+section .icon-text-row {
+  margin-bottom: 16px; }
+
 .left-menu {
   width: 320px;
   background-color: white;
@@ -1781,6 +1861,28 @@ https://markus.oberlehner.net/blog/pure-css-animated-svg-circle-chart/
     margin-right: 0px; }
   .cookie-alert .btn__with-text {
     width: 100%; } }
+
+.social-media {
+  background-color: white;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.5);
+  display: flex;
+  padding: 24px;
+  margin-right: 8px;
+  display: flex;
+  flex-direction: column; }
+  .social-media__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px; }
+  .social-media__content {
+    margin-bottom: 16px; }
+  .social-media__title {
+    margin-bottom: 8px;
+    color: #8c96a9; }
+
+.social-media__header .btn__close {
+  margin-top: -12px;
+  margin-right: -3px; }
 
 .location-details {
   width: 100%;
@@ -1904,6 +2006,16 @@ https://markus.oberlehner.net/blog/pure-css-animated-svg-circle-chart/
     width: 100%;
     margin-left: 8px;
     margin-right: 8px; } }
+
+.social-media-container {
+  position: absolute;
+  top: 0;
+  width: 70%;
+  margin: 0 auto;
+  left: 0;
+  right: 0; }
+  .social-media-container:active {
+    display: inherit; }
 
 /*!
  * 

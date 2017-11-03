@@ -267,9 +267,10 @@
 
     "btn" : {
         "text" : "Accept",
-
+        "text-inverted" : "Kopiraj link",
         "link" : "Learn more",
-        "share" : "ek-facebook-official"
+        "share" : "ek-facebook",
+        "share-color" : "btn__share--facebook"
     },
 
     "donut" : {
@@ -304,6 +305,7 @@
             "pelud-sort": "DRVEĆE",
             "pelud-state": "Niska"           
         }
-    ]
+    ],
+    "input-disabled" : "https://app.karte.nesto"
 
 }

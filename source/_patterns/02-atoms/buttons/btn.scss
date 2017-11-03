@@ -161,6 +161,53 @@
         justify-content: center;
         align-items: center;
         border-radius: 3px;
+        position: relative;
+        &:hover .btn__share-overlay {
+            height: 100%;
+          }
+
+        @include m('facebook') {
+            background-color: #36549C;
+            color: white;
+            border-color: #36549C;
+        }
+
+        @include m('twitter') {
+            background-color: #1DA1F2;
+            color: white;
+            border-color: #1DA1F2;
+        }
+
+        @include m('email') {
+            background-color: #E21C1F;
+            color: white;
+            border-color: #E21C1F;
+        }
+    }
+
+    @include e('share-overlay') {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        overflow: hidden;
+        width: 100%;
+        height: 0;
+        transition: .5s ease;
+    }
+
+    @include e('share-text') {
+      
+            white-space: nowrap; 
+            color: white;
+            font-size: $font-size-small;
+            position: absolute;
+            overflow: hidden;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+          
     }
 
     @include e('close') {
@@ -202,6 +249,29 @@
     }
 
 }
+
+@include e('with-text-inverted') {
+    border-style: solid;
+    border-color: $palette-primary;
+    border-radius: 3px;
+    border-width: 1px;
+    padding-left: $pad-triple;
+    padding-right: $pad-triple;
+    color: white;
+    font-size: $font-size-small-2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: $palette-primary;
+    &:hover {
+        cursor: pointer;
+        color: $palette-primary;
+        background-color: white;
+    }
+}
+
+
 }
 
 @include b('tab') {
@@ -224,5 +294,26 @@
      
 
 .btn__share i {
-    font-size: 54px;
+    font-size: 30px;
 }
+
+
+
+
+ 
+
+  .btn__share--facebook .btn__share-overlay {
+    background-color: #36549C;
+  }
+
+  .btn__share--twitter .btn__share-overlay {
+    background-color: #1DA1F2;
+  }
+
+  .btn__share--email .btn__share-overlay {
+    background-color: #E21C1F;
+  }
+
+  .btn__with-text-inverted-container {
+      background: $palette-primary;
+  }

@@ -36,4 +36,35 @@
     }
 }
 
+@include b('social-media') {
+    background-color: white;	
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,0.5);
+    display: flex;
+    padding: $pad-triple;
+    margin-right: $pad;
+    display: flex;
+    flex-direction: column;
+    @include e('header') {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: $space-triple;
+    }
+
+    @include e('content') {
+        margin-bottom: $space-double
+    }
+
+    @include e('title') {
+        margin-bottom: $space;
+        color:  $text-gray;
+    }
+}
+
+.social-media__header .btn__close {
+    margin-top: -12px;
+    margin-right: -3px;
+}
+
+
+
 
