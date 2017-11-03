@@ -29,5 +29,8 @@
 "menu": {
     "active": "is-active",
     "selected": "is-selected"
+},
+"details":{
+    "active": "is-active"
 }
 }

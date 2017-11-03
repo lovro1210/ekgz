@@ -29,4 +29,13 @@
         padding: $pad;
         padding-top: $pad-double;        
     }
+
+    @include e('box-wide') {
+        width: 100%;
+        padding-top: $pad-double;       
+    }
+
+    @include e('box-text') {       
+        padding: $pad-double;       
+    }
 }

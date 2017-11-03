@@ -93,3 +93,22 @@
         padding: $pad-half 0;
     }    
 }
+
+@include b("pelud-list"){
+
+    @include e("item"){
+        padding: $pad $pad-double;        
+        border-bottom: 2px solid $border-light;
+    }
+    @include e('header'){
+        padding: $pad $pad-double;
+        font-weight: 700;
+        font-size: $font-size-small-2;
+        border-bottom: 2px solid $border-light;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+}
+

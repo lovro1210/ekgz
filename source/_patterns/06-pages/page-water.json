@@ -3,6 +3,9 @@
         "active": "is-active",
         "selected": ""
     },
+    "details":{
+        "active": "is-active"
+    },
 
     "location-details" : {
         "location-icon" : "ek-pipa",
