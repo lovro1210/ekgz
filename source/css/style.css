@@ -1244,7 +1244,7 @@ abbr {
     color: #0e8041;
     margin-right: 24px; }
   .location-title__title {
-    font-size: 17px;
+    font-size: 18px;
     font-weight: bold;
     line-height: 33px; }
   .location-title__subtitle {
@@ -1326,7 +1326,7 @@ abbr {
 
 .legend-icon {
   color: #0e8041;
-  font-size: 23px; }
+  font-size: 24px; }
 
 .search {
   padding: 16px;
@@ -1510,6 +1510,22 @@ https://markus.oberlehner.net/blog/pure-css-animated-svg-circle-chart/
   align-items: center;
   justify-content: space-between; }
 
+.pelud-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  .pelud-row .first-column .sort {
+    font-size: 16px;
+    color: #8c96a9;
+    font-size: 14px; }
+  .pelud-row .first-column .type {
+    font-size: 24px;
+    font-weight: 700; }
+  .pelud-row .state {
+    font-size: 24px;
+    font-weight: 700;
+    color: #8c96a9; }
+
 .brand {
   display: flex;
   padding: 16px;
@@ -1659,6 +1675,22 @@ https://markus.oberlehner.net/blog/pure-css-animated-svg-circle-chart/
 .water-list .list-item {
   padding: 4px 0; }
 
+.pelud-list__item {
+  padding: 8px 16px;
+  border-bottom: 2px solid #e9ebef; }
+
+.pelud-list__header {
+  padding: 8px 16px;
+  font-weight: 700;
+  font-size: 14px;
+  border-bottom: 2px solid #e9ebef;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.text-box h4 {
+  padding-bottom: 8px; }
+
 /*@include b('details'){
     height: 100vh;    
     width: 30%;
@@ -1765,6 +1797,11 @@ https://markus.oberlehner.net/blog/pure-css-animated-svg-circle-chart/
   .location-details__list {
     padding: 8px;
     padding-top: 16px; }
+  .location-details__box-wide {
+    width: 100%;
+    padding-top: 16px; }
+  .location-details__box-text {
+    padding: 16px; }
 
 .menu {
   height: 100vh;
