@@ -266,6 +266,15 @@
 
     "btn" : {
         "text" : "Accept",
-        "link" : "Learn more"
-    }
+        "link" : "Learn more",
+        "share" : "ek-facebook-official"
+    },
+
+    "donut" : {
+        "percent" : "60",
+        "text" : "0.4",
+        "legend" : "Niska"
+    },
+
+    "icon-text" : "Podijeli na facebook-u"
 }

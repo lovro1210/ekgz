@@ -1,8 +1,14 @@
-<div class="donut-chart">
-     <div id="porcion1" class="donut-chart__outline"><div class="donut-chart__data" data-rel="21"></div></div>
-     <div id="porcion2" class="donut-chart__outline"><div class="donut-chart__data" data-rel="39"></div></div>
-     <div id="porcion3" class="donut-chart__outline"><div class="donut-chart__data" data-rel="31"></div></div>
-     <div id="porcionFin" class="donut-chart__outline"><div class="donut-chart__data" data-rel="9"></div></div>
-      <p class="donut-chart__hole"> </p>            
-</div>
+ <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="130" height="130" xmlns="http://www.w3.org/2000/svg">
+      <circle class="circle-chart__background" stroke="#efefef" stroke-width="2" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
+      <circle class="circle-chart__circle" stroke="rgb(14,128,65)" stroke-width="2" stroke-dasharray="{{donut.percent}},100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
+      <g class="circle-chart__info">
+        <text class="circle-chart__percent" fill="rgb(14,128,65)" x="16.91549431" y="15.5" alignment-baseline="central" text-anchor="middle" font-size="10" font-weight="300">{{donut.text}}</text>
+        <text class="circle-chart__subline" fill="rgb(14,128,65)" x="16.91549431" y="24.5" alignment-baseline="central" text-anchor="middle" font-size="4" font-weight="200">{{donut.legend}}</text>
+      </g>
+</svg>
           
+
+
+<!--
+To set percentage change first number before comma to percent you want show
+-->
