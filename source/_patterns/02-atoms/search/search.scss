@@ -10,7 +10,8 @@
         font-size: $font-size-small-2;
         padding: $pad-half $pad-half $pad-half $pad-quad;
         color:  $light-gray;
-        border: $border-s solid $border-light;
+        font-weight: 500;
+        border: $border-xs solid $border-light;
         &:focus {
             outline: -webkit-focus-ring-color auto 5px; 
             outline-color: $palette-primary;   

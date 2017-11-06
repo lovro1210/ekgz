@@ -1,0 +1,24 @@
+@include b('header-item'){
+    &.is-close {
+        .list {
+            display: none;
+        }
+    }
+
+    @include e('icon') {
+        color:  $palette-primary;
+        margin: 0 $pad-double;
+
+    }
+    @include e('title') {
+
+        font-size: $font-size-small;
+        color:  $palette-tertiary;	
+        font-weight: 700;	
+
+        @include m('big'){
+            
+        }
+    }
+
+}

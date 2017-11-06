@@ -1,6 +1,7 @@
 @include b('footer') {   
     display: flex;  
-    padding: $pad-quad $pad-double $pad-double $pad-double;     
+    padding: $pad-quad $pad-double $pad-double $pad-double; 
+    border-top: $border-xs solid $border-light;    
     
     @include e('icon') {
         width: $pad-quad;

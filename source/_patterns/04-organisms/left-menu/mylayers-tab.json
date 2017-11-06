@@ -6,11 +6,11 @@
         },
         {
             "content" : "MOJI SLOJEVI",
-            "is-active": ""
+            "is-active": "is-active"
         },
         {
             "content" : "SVI SLOJEVI",
-            "is-active": "is-active"
+            "is-active": ""
         }
     ] ,
     "search" : {  
@@ -28,14 +28,14 @@
                  {
                      "item-title" : "Dušikov oksid (NO2)",
                      "item-subtitle" : "Datum zadnje izmjene",
-                     "item-icon": "ek ek--12x16 ek-bookmark-empty",
+                     "item-icon": "ek ek--12x16 ek--yellow ek-bookmark",
                      "item-icon-style": "small",
-                     "css": "is-active"
+                     "css": ""
                  },
                  {
                      "item-title" : "Dušikov oksid (NO2)",
                      "item-subtitle" : "Datum zadnje izmjene",
-                     "item-icon": "ek ek--12x16 ek-bookmark-empty",
+                     "item-icon": "ek ek--12x16 ek--yellow ek-bookmark",
                      "item-icon-style": "small",
                      "css": "is-active"
                  },
@@ -49,35 +49,14 @@
                  {
                      "item-title" : "Dušikov oksid (NO2)",
                      "item-subtitle" : "Datum zadnje izmjene",
-                     "item-icon": "ek ek--12x16 ek-bookmark-empty",
+                     "item-icon": "ek ek--12x16 ek--yellow ek-bookmark",
                      "item-icon-style": "small",
                      "css": ""
                  },
                  {
                      "item-title" : "Dušikov oksid (NO2)",
                      "item-subtitle" : "Datum zadnje izmjene",
-                     "item-icon": "ek ek--12x16 ek-bookmark-empty",
-                     "item-icon-style": "small",
-                     "css": ""
-                 },
-                 {
-                     "item-title" : "Dušikov oksid (NO2)",
-                     "item-subtitle" : "Datum zadnje izmjene",
-                     "item-icon": "ek ek--12x16 ek-bookmark-empty",
-                     "item-icon-style": "small",
-                     "css": ""
-                 },
-                 {
-                     "item-title" : "Dušikov oksid (NO2)",
-                     "item-subtitle" : "Datum zadnje izmjene",
-                     "item-icon": "ek ek--12x16 ek-bookmark-empty",
-                     "item-icon-style": "small",
-                     "css": ""
-                 },
-                 {
-                     "item-title" : "Dušikov oksid (NO2)",
-                     "item-subtitle" : "Datum zadnje izmjene",
-                     "item-icon": "ek ek--12x16 ek-bookmark-empty",
+                     "item-icon": "ek ek--12x16 ek--yellow ek-bookmark",
                      "item-icon-style": "small",
                      "css": ""
                  }
@@ -90,42 +69,28 @@
               {
                   "item-title" : "Dušikov oksid (NO2)",
                   "item-subtitle" : "Datum zadnje izmjene",
-                  "item-icon": "ek ek--12x16 ek-bookmark-empty",
+                  "item-icon": "ek ek--12x16 ek--yellow ek-bookmark",
                   "item-icon-style": "small",
                   "css": "is-active"
               },
               {
                   "item-title" : "Dušikov oksid (NO2)",
                   "item-subtitle" : "Datum zadnje izmjene",
-                  "item-icon": "ek ek--12x16 ek-bookmark-empty",
+                  "item-icon": "ek ek--12x16 ek--yellow ek-bookmark",
                   "item-icon-style": "small",
                   "css": ""
               },
               {
                   "item-title" : "Dušikov oksid (NO2)",
                   "item-subtitle" : "Datum zadnje izmjene",
-                  "item-icon": "ek ek--12x16 ek-bookmark-empty",
+                  "item-icon": "ek ek--12x16 ek--yellow ek-bookmark",
                   "item-icon-style": "small",
                   "css": ""
               },
               {
                   "item-title" : "Dušikov oksid (NO2)",
                   "item-subtitle" : "Datum zadnje izmjene",
-                  "item-icon": "ek ek--12x16 ek-bookmark-empty",
-                  "item-icon-style": "small",
-                  "css": ""
-              },
-              {
-                  "item-title" : "Dušikov oksid (NO2)",
-                  "item-subtitle" : "Datum zadnje izmjene",
-                  "item-icon": "ek ek--12x16 ek-bookmark-empty",
-                  "item-icon-style": "small",
-                  "css": ""
-              },
-              {
-                  "item-title" : "Dušikov oksid (NO2)",
-                  "item-subtitle" : "Datum zadnje izmjene",
-                  "item-icon": "ek ek--12x16 ek-bookmark-empty",
+                  "item-icon": "ek ek--12x16 ek--yellow ek-bookmark",
                   "item-icon-style": "small",
                   "css": ""
               }

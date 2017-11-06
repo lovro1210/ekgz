@@ -46,9 +46,17 @@
   }
 
   .ek--12x16{
-    width: 16px;
-    height: 12px;
+    width: 12px;
+    height: 16px;
     font-size: 16px;
+  }
+
+  .ek--green {
+    color: $palette-primary;
+  }
+
+  .ek--yellow {
+    color: $pallette-yellow;
   }
       
    [class^="ek-"]:before, [class*=" ek-"]:before {

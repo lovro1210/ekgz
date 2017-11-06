@@ -1,23 +1,4 @@
 {
-    "threeTabs" : [
-        {
-            "content" : "LOKACIJE",
-            "is-active": "is-active"
-        },
-        {
-            "content" : "MOJI SLOJEVI",
-            "is-active": ""
-        },
-        {
-            "content" : "SVI SLOJEVI",
-            "is-active": ""
-        }
-    ] ,
-    "search" : {  
-        "icon" : "ek-search",
-        "placeholder" : "Upiši adresu"    
-    },
-
     "list": [
         {   "list-class": "",
             "categories": [
