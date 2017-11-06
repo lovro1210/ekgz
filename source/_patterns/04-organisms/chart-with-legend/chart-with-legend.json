@@ -1,0 +1,31 @@
+{
+    "legend-header": "LEGENDA ONEČIŠĆENJA",
+    "legend-list" : [
+        {
+            "circle-color": "circle--red",
+            "legend-state": "Vrlo visoko"
+                      
+        },
+        {
+            "circle-color": "circle--orange",
+            "legend-state": "Visoko"
+                      
+        },
+        {
+            "circle-color": "circle--yellow",
+            "legend-state": "Srednje"
+                  
+        },
+        {
+            "circle-color": "circle--green",
+            "legend-state": "Nisko"
+                      
+        },       
+        {
+            "circle-color": "circle--darkgreen",
+            "legend-state": "Vrlo nisko"
+                        
+        }
+        
+    ]
+}

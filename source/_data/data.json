@@ -188,6 +188,10 @@
         "footer": {
             "src": "../../images/in2_logo.png",
             "alt": "IN2 Logo"
+        },
+        "smiley": {
+            "src": "../../images/Oval@1x.png",
+            "alt": "Bad smiley"
         }
     },
     
@@ -342,6 +346,30 @@
             "legend-description": ""             
         }
     ],
-    "input-disabled" : "https://app.karte.nesto"
+    "input-disabled" : "https://app.karte.nesto",
+
+    "smiley": {
+        "info": "Interna mreža",
+        "status": "NESUKLADAN UZORAK VODE ZA LJUDSKU POTROŠNJU",
+        "date": "Datum uzrokovanja 25.10.2017 12:00"
+    },
+
+    "group-buttons" : [
+        {
+           "text": "Dan",
+           "icon": "",
+           "is-active": ""         
+        },
+        {
+            "text": "Tjedan" ,
+            "icon": "" ,
+            "is-active": ""       
+         },
+         {
+            "text": ""  ,
+            "icon": "ek ek-layers",
+            "is-active": "is-active"       
+         }
+    ]
 
 }

@@ -1,0 +1,30 @@
+@include b('graph-box'){
+    
+    @include e('header'){
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: $pad; 
+    }
+
+    @include e('title'){
+        font-size: $font-size-small-2;
+        font-weight: 700;
+    }
+    
+    @include e('graph'){
+        
+    }
+
+    @include e('buttons'){
+        display: flex;
+    }
+
+    @include e('col1'){
+        padding-right: $pad-double;
+    }
+    @include e('col2'){
+        
+    }
+
+}

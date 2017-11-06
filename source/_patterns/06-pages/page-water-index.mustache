@@ -1,0 +1,22 @@
+<main class="app">
+<header>
+    {{> 05-templates/menu/menu }}
+</header>
+<main class="">
+    <map></map>    
+</main>
+<aside class="details {{details.active}}">
+    <section class="details__icons">
+        <div class="top">
+            {{> 03-molecules/icons/icons-top}}
+        </div>
+        <div class="bottom">
+            {{> 03-molecules/icons/icons-bottom}}
+        </div>
+    </section>
+    <section class="details__box">
+        {{> 05-templates/water-details/water-details-index }}
+    </section> 
+</aside>
+<div class="cookie-container">{{> 05-templates/modals/cookie-alert }}</div>
+</main>

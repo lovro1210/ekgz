@@ -1,0 +1,40 @@
+{
+    "graph-list1" : [
+        {
+            "group-buttons" : [
+                {
+                   "text": "Dan",
+                   "icon": ""  ,
+                   "is-active": "is-active"       
+                },
+                {
+                    "text": "Tjedan" ,
+                    "icon": "" ,
+                    "is-active": ""       
+                 },
+                 {
+                    "text": "Mjesec"  ,
+                    "icon": "" ,
+                    "is-active": ""      
+                 }
+            ]       
+        }
+    ],
+
+    "graph-list2" : [
+        {
+            "group-buttons" : [
+                {
+                   "text": "",
+                   "icon": "ek ek-layers",
+                   "is-active": ""         
+                },
+                {
+                    "text": "" ,
+                    "icon": "ek ek-layers",
+                    "is-active": "is-active"        
+                 }
+            ]       
+        }
+    ]
+}
