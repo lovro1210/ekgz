@@ -1,0 +1,27 @@
+@include b('chart-with-legend'){
+    display: flex;
+    
+    @include e('row1'){
+        padding: $pad-double;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    @include e('row2'){
+        padding: $pad-double; 
+        padding-left: $pad-triple;   
+    }
+
+    @include e('chart'){
+        
+    }    
+    @include e('date-label'){
+        font-size: $font-size-small;
+        color: $text-gray;
+    }
+    @include e('date'){
+        font-size: $font-size-small-2;        
+        font-weight: 600;
+    }    
+    
+}

@@ -291,16 +291,45 @@
         border-bottom-style: solid;
     }
 }
+
+@include b('btn-group') {
+    border: 1px solid $border-light;
+    border-radius: $border-radius;
+    width: fit-content;
+    font-size: $font-size-small-2;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+
+    @include e('button'){
+        padding: $pad;
+        background-color: $lightest-gray;
+        border-right: 1px solid $border-light;
+        cursor: pointer;
+
+        &:last-child{
+            border-right: none;
+        }
+
+        &:hover{
+            background-color:  $light-gray;
+        }
+
+        &.is-active{
+            color: $palette-primary;
+
+            &:hover{
+                background-color: $lightest-gray;
+                cursor: default;
+            }
+        }
+    }
+}
      
 
 .btn__share i {
     font-size: 30px;
-}
-
-
-
-
- 
+} 
 
   .btn__share--facebook .btn__share-overlay {
     background-color: #36549C;

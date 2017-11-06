@@ -62,4 +62,18 @@
         height: fit-content;
         display: none; 
     }
+
+    
+    @media only screen and (max-width: $bp-xl) {
+        left: -278px;
+
+        &.is-active{            
+            transform: translate(278px,0);
+        }
+
+        .menu__box{
+            width: 270px;  
+        }
+        
+    }
 }

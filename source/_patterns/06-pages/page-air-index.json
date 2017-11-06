@@ -1,0 +1,94 @@
+{
+    "menu": {
+        "active": "",
+        "selected": ""
+    },
+    "details":{
+        "active": "is-active"
+    },
+    "location-details" : {
+        "location-icon" : "ek-zrak",
+        "location-name" : "KAJZERICA",
+        "location-address" : "Negdje na hipodromu"     
+    },
+
+    "tabs" : [
+        {
+            "content" : "INDEX",
+            "is-active": "is-active"
+        },
+        {
+            "content" : "ONEČIŠĆUJUĆA TVAR",
+            "is-active": ""
+        }
+    ],
+
+    "legend-header": "LEGENDA ONEČIŠĆENJA",
+    "legend-list" : [
+        {
+            "circle-color": "circle--red",
+            "legend-state": "Vrlo visoko"
+                      
+        },
+        {
+            "circle-color": "circle--orange",
+            "legend-state": "Visoko"
+                      
+        },
+        {
+            "circle-color": "circle--yellow",
+            "legend-state": "Srednje"
+                  
+        },
+        {
+            "circle-color": "circle--green",
+            "legend-state": "Nisko"
+                      
+        },       
+        {
+            "circle-color": "circle--darkgreen",
+            "legend-state": "Vrlo nisko"
+                        
+        }        
+    ],
+
+    "graph-list1" : [
+        {
+            "group-buttons" : [
+                {
+                   "text": "Dan",
+                   "icon": ""  ,
+                   "is-active": "is-active"       
+                },
+                {
+                    "text": "Tjedan" ,
+                    "icon": "" ,
+                    "is-active": ""       
+                 },
+                 {
+                    "text": "Mjesec"  ,
+                    "icon": "" ,
+                    "is-active": ""      
+                 }
+            ]       
+        }
+    ],
+
+    "graph-list2" : [
+        {
+            "group-buttons" : [
+                {
+                   "text": "",
+                   "icon": "ek ek-layers",
+                   "is-active": ""         
+                },
+                {
+                    "text": "" ,
+                    "icon": "ek ek-layers",
+                    "is-active": "is-active"        
+                 }
+            ]       
+        }
+    ]
+    
+}

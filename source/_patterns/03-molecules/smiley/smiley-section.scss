@@ -1,0 +1,28 @@
+@include b('smiley-section'){
+    display: flex;
+    align-items: center;
+
+    @include e('row1'){
+        padding: $pad;
+    }
+
+    @include e('row2'){
+        padding: $pad;    
+    }
+    @include e('info'){
+        font-size: $font-size-small;
+        font-weight: 600;
+    }
+    
+    @include e('status'){
+        font-size: $font-size-med-2;
+        padding: $pad 0;
+        font-weight: 700;
+    }
+    
+    @include e('date'){
+        font-size: $font-size-small;
+        color: $text-gray;
+    }
+    
+}

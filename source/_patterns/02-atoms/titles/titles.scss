@@ -1,9 +1,10 @@
 @include b('location-title') {
     display: flex;
     @include e('icon') {
-        font-size: 40px;
+        font-size: 32px;
         color:  $palette-primary;
-        padding: 0 $pad;
+        padding: 0 $pad-double;
+        align-self: center;
         //margin-right: $pad-triple;
     }
     @include e('title') {

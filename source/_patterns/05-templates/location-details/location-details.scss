@@ -25,17 +25,26 @@
         padding-top: $pad;
     }
 
-    @include e('list') {
+  /*  @include e('list') {
         padding: $pad;
         padding-top: $pad-double;        
-    }
+    }*/
 
     @include e('box-wide') {
         width: 100%;
         padding-top: $pad-double;       
     }
 
-    @include e('box-text') {       
-        padding: $pad-double;       
+    @include e('box') {       
+        padding: $pad-double;  
+        
+        @include m('gray'){
+            background-color:  $lightest-gray;
+        }
+
+        @include m('bordered'){
+            border-top:  1px solid $border-light;
+            border-bottom:  1px solid $border-light;
+        }
     }
 }

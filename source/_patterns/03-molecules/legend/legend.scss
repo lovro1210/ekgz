@@ -45,6 +45,7 @@
     @include e("item"){
         display: flex;
         align-items: baseline;
+        padding: $pad-half 0;
 
         .color{
             padding-right: $pad;

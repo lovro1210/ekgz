@@ -4,11 +4,17 @@
     border-radius: 50%;
     display: block;
 
+    @include m(darkgreen){
+        background-color: $legend-darkgreen;
+    }
     @include m(green){
         background-color: $legend-green;
     }
     @include m(yellow){
         background-color: $legend-yellow;
+    }
+    @include m(orange){
+        background-color: $legend-orange;
     }
     @include m(red){
         background-color: $legend-red;
