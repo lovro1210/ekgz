@@ -32,5 +32,22 @@
 },
 "details":{
     "active": "is-active"
-}
+},
+"shareList" : [
+    { "icon-text" : "Podijeli na facebook-u",
+        "btn" : {
+            "share" : "ek-facebook",
+            "share-color" : "btn__share--facebook"
+    }},
+    { "icon-text" : "Podijeli na twitter-u",
+        "btn" : {
+            "share" : "ek-twitter",
+            "share-color" : "btn__share--twitter"
+    }},
+    { "icon-text" : "Podijeli na emailu-u",
+        "btn" : {
+            "share" : "ek-mail",
+            "share-color" : "btn__share--email"
+    }}
+]
 }
