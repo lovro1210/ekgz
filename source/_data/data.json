@@ -337,6 +337,11 @@
         "color": "circle--yellow",
         "size": "circle--big",
         "number": "160"
+    },
+
+    "element": {
+        "symbol": "Cd",
+        "color": "element-cell__color--green"
     }
 
 }

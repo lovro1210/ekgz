@@ -5,3 +5,11 @@
 section .icon-text-row {
     margin-bottom: $space-double;
 }
+
+@include b('element-table') {
+    padding-right: $pad;
+
+    &:last-child{
+        padding-right: 0; 
+    }
+}

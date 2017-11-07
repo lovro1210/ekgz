@@ -1,0 +1,53 @@
+{
+    "menu": {
+        "active": "",
+        "selected": ""
+    },
+    "details":{
+        "active": "is-active"
+    },
+
+    "location-details" : {
+        "location-icon" : "ek-tlo",
+        "location-name" : "VUKOVARSKA-MIRAMARSKA",
+        "location-address" : "Raskrižje Vukovarske i Miramarske"     
+    },
+
+    "elementList" : [
+        {"element":
+            {"symbol" : "Cd",
+            "color"  : "element-cell__color--green",
+            "name": "Kadmij",
+            "time": "prije 2 mjeseca",
+            "data": "50 mg/kg" 
+            }
+        },
+        {"element":
+            {"symbol" : "Cd",
+                "color"  : "element-cell__color--green",
+                "name": "Kadmij",
+                "time": "prije 2 mjeseca",
+                "data": "50 mg/kg"
+            }
+        },
+        {"element":
+            {"symbol" : "NO",
+            "color"  : "element-cell__color--yellow",
+            "name": "Dušićni monoksid",
+            "time": "prije 2 mjeseca",
+            "data": "80 mg/kg" 
+            }
+        },
+        {"element":
+            {"symbol" : "NO",
+            "color"  : "element-cell__color--red",
+            "name": "Dušićni monoksid",
+            "time": "prije 2 mjeseca",
+            "data": "90 mg/kg" 
+            }
+        }
+       
+    ]
+
+    
+}
