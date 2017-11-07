@@ -2,6 +2,8 @@
     "item-title" : "Vukovarska",
     "item-address" : "Vukovarska ulica",
     "item-icon": "ek-pipa ek--green",
+    "category-name": "ZRAK",
+    "category-icon": "ek ek--12x12 ek-zrak ek--green",
     
    "list": [
     {   "list-class": "list__with-headers",
