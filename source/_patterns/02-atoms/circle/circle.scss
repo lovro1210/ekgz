@@ -1,0 +1,43 @@
+@include b('circle'){
+    width: 75px;
+    height: 75px;
+    font-size: $font-size-med-2;    
+    border-radius: 50%;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @include m('small'){
+        width: 40px;
+        height: 40px;
+        font-size: $font-size-small; 
+    }
+    @include m('big'){
+        width: 110px;
+        height: 110px;
+        font-size: $font-size-huge;        
+    }    
+
+    @include m('darkgreen'){
+        background-color: $legend-darkgreen;
+    }
+    @include m('green'){
+        background-color: $legend-green;
+    }
+    @include m('yellow'){
+        background-color: $legend-yellow;
+    }
+    @include m('orange'){
+        background-color: $legend-orange;
+    }
+    @include m('red'){
+        background-color: $legend-red;
+    }
+    @include m('grey'){
+        background-color: $legend-grey;
+    }
+    @include m('light'){
+        background-color: $legend-light;
+    }
+}

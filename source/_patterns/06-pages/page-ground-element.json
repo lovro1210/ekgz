@@ -1,0 +1,67 @@
+{
+    "menu": {
+        "active": "",
+        "selected": ""
+    },
+    "details":{
+        "active": "is-active"
+    },
+
+    "location-details" : {
+        "location-icon" : "ek-tlo",
+        "location-name" : "VUKOVARSKA-MIRAMARSKA",
+        "location-address" : "Raskrižje Vukovarske i Miramarske"     
+    },
+
+    "circle": {
+        "color": "circle--yellow",
+        "size": "circle--big",
+        "number": "160"
+    },
+
+    "ground-element": {
+        "name": "CINK",
+        "label": "Datum zadnjeg mjerenja",
+        "date": "25.11.2017 12:00"
+    },
+
+    "graph-list1" : [
+        {
+            "group-buttons" : [
+                {
+                   "text": "Dan",
+                   "icon": ""  ,
+                   "is-active": "is-active"       
+                },
+                {
+                    "text": "Tjedan" ,
+                    "icon": "" ,
+                    "is-active": ""       
+                 },
+                 {
+                    "text": "Mjesec"  ,
+                    "icon": "" ,
+                    "is-active": ""      
+                 }
+            ]       
+        }
+    ],
+
+    "graph-list2" : [
+        {
+            "group-buttons" : [
+                {
+                   "text": "",
+                   "icon": "ek ek-layers",
+                   "is-active": ""         
+                },
+                {
+                    "text": "" ,
+                    "icon": "ek ek-layers",
+                    "is-active": "is-active"        
+                 }
+            ]       
+        }
+    ]
+
+}

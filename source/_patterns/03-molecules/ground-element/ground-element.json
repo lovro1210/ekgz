@@ -1,0 +1,13 @@
+{
+    "circle": {
+        "color": "circle--yellow",
+        "size": "circle--big",
+        "number": "160"
+    },
+
+    "ground-element": {
+        "name": "CINK",
+        "label": "Datum zadnjeg mjerenja",
+        "date": "25.11.2017 12:00"
+    }
+}

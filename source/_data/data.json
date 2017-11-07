@@ -331,6 +331,12 @@
             "icon": "ek ek-layers",
             "is-active": "is-active"       
          }
-    ]
+    ],
+
+    "circle": {
+        "color": "circle--yellow",
+        "size": "circle--big",
+        "number": "160"
+    }
 
 }
