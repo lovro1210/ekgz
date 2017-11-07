@@ -13,6 +13,16 @@
         "location-address" : "Raskrižje Vukovarske i Miramarske"     
     },
 
+    "tabs" : [
+        {
+            "content" : "INDEX",
+            "is-active": ""
+        },
+        {
+            "content" : "ONEČIŠĆUJUĆA TVAR",
+            "is-active": "is-active"
+        }
+    ],
     
     "elementList" : [
         {"element":
