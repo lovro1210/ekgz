@@ -1352,6 +1352,39 @@ abbr {
   line-height: 18px;
   font-weight: 700; }
 
+.element-cell {
+  height: 40px;
+  width: 40px;
+  border: 1px solid #e9ebef;
+  border-radius: 2px 4px 2px 0;
+  cursor: pointer; }
+  .element-cell__symbol {
+    height: 36px;
+    width: 40px;
+    padding: 4px;
+    color: #8c96a9;
+    font-weight: 600;
+    display: flex;
+    align-items: center; }
+  .element-cell__color {
+    height: 4px;
+    width: 100%;
+    display: block; }
+    .element-cell__color--darkgreen {
+      background-color: #0D8040; }
+    .element-cell__color--green {
+      background-color: #4CAF50; }
+    .element-cell__color--yellow {
+      background-color: #F8E71C; }
+    .element-cell__color--orange {
+      background-color: #F5A623; }
+    .element-cell__color--red {
+      background-color: #EF6F6C; }
+    .element-cell__color--grey {
+      background-color: #9B9B9B; }
+    .element-cell__color--light {
+      background-color: #CFE3F0; }
+
 .medium-text {
   font-size: 14px;
   color: #525455;
@@ -1750,6 +1783,27 @@ https://markus.oberlehner.net/blog/pure-css-animated-svg-circle-chart/
     font-size: 16px;
     color: #525455; }
 
+.element-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 0; }
+  .element-row__col1 {
+    display: flex;
+    align-items: center; }
+  .element-row__col2 {
+    padding: 0 8px; }
+  .element-row__col3 {
+    font-weight: 600;
+    font-size: 12px; }
+  .element-row__name {
+    font-weight: 600;
+    font-size: 12px; }
+  .element-row__time {
+    font-size: 10px;
+    color: #8c96a9;
+    line-height: 1; }
+
 .icons {
   width: inherit; }
   .icons__item {
@@ -1951,6 +2005,11 @@ https://markus.oberlehner.net/blog/pure-css-animated-svg-circle-chart/
 section .icon-text-row {
   margin-bottom: 16px; }
 
+.element-table {
+  padding-right: 8px; }
+  .element-table:last-child {
+    padding-right: 0; }
+
 .left-menu {
   background-color: white;
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
@@ -2009,7 +2068,7 @@ section .icon-text-row {
   background-color: white;
   box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.5);
   display: flex;
-  padding: 24px;
+  padding: 32px;
   margin-right: 8px;
   display: flex;
   flex-direction: column; }
@@ -2063,6 +2122,11 @@ section .icon-text-row {
     .location-details__box--bordered {
       border-top: 1px solid #e9ebef;
       border-bottom: 1px solid #e9ebef; }
+  .location-details__table {
+    display: flex;
+    justify-content: space-between; }
+    .location-details__table section {
+      width: 100%; }
 
 .menu {
   height: 100vh;
@@ -2127,11 +2191,11 @@ section .icon-text-row {
   display: flex;
   transition: transform 500ms,-webkit-transform 500ms;
   position: absolute;
-  right: -450px; }
+  right: -470px; }
   .details.is-active {
-    transform: translate(-450px, 0); }
+    transform: translate(-470px, 0); }
   .details__box {
-    width: 450px;
+    width: 470px;
     background-color: white;
     box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
     margin-left: 8px; }
@@ -2145,11 +2209,11 @@ section .icon-text-row {
     justify-content: space-between; }
   @media only screen and (max-width: 73em) {
     .details {
-      right: -350px; }
+      right: -370px; }
       .details.is-active {
-        transform: translate(-350px, 0); }
+        transform: translate(-370px, 0); }
       .details .details__box {
-        width: 350px; } }
+        width: 370px; } }
 
 .cookie-container {
   position: absolute;
@@ -2160,7 +2224,7 @@ section .icon-text-row {
   left: 0;
   right: 0;
   display: none; }
-  .cookie-container:active {
+  .cookie-container.is-active {
     display: inherit; }
 
 @media only screen and (max-width: 480px) {
@@ -2174,11 +2238,30 @@ section .icon-text-row {
 .social-media-container {
   position: absolute;
   top: 0;
-  width: 70%;
+  width: 40%;
   margin: 0 auto;
   left: 0;
-  right: 0; }
-  .social-media-container:active {
+  right: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); }
+
+@media only screen and (max-width: 66em) {
+  .social-media-container {
+    width: 95%; } }
+
+.modal-overlay {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.7); }
+  .modal-overlay.is-active {
     display: inherit; }
 
 /*!

@@ -47,4 +47,13 @@
             border-bottom:  1px solid $border-light;
         }
     }
+
+    @include e('table') {       
+        display: flex;        
+        justify-content: space-between;   
+        
+        section{
+            width: 100%;
+        }
+    }
 }
