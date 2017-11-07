@@ -25,3 +25,31 @@
         color: $palette-tertiary;
     }
 }
+
+@include b('element-row') {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: $pad 0;
+
+    @include e('col1') {
+        display: flex;
+        align-items: center;
+    }
+    @include e('col2') {
+        padding: 0 $pad;    
+    }
+    @include e('col3') {
+        font-weight: 600;
+        font-size: $font-size-small;
+    }
+    @include e('name') {
+        font-weight: 600;
+        font-size: $font-size-small;
+    }
+    @include e('time') {
+        font-size: $font-size-smallest;
+        color: $text-gray;
+        line-height: 1;
+    }
+}

@@ -276,10 +276,9 @@
 
 @include b('tab') {
     cursor: pointer;
-    color: $palette-tertiary;
-    font-size: $font-size-small;	
+    color: $palette-tertiary;	
     text-align: center;
-    padding: $pad-half $pad;
+    padding: 0 $pad-one-and-half $pad $pad-one-and-half;
     &:hover {
         color: $palette-primary;
 
@@ -287,8 +286,7 @@
 
     &.is-active {
         color: $palette-primary;
-        border-bottom: $palette-primary;
-        border-bottom-style: solid;
+        border-bottom: $border-s solid $palette-primary;
     }
 }
 

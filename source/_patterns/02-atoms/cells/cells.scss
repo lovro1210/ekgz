@@ -23,3 +23,48 @@
     line-height: 18px;
     font-weight: 700;
 }
+
+@include b('element-cell') {
+    height: 40px;
+    width: 40px;
+    border: 1px solid $border-light;
+    border-radius: 2px 4px 2px 0;	
+    cursor: pointer;
+
+    @include e('symbol'){
+        height: 36px;
+        width: 40px;
+        padding: $pad-half;
+        color: $text-gray;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+    }
+    @include e('color'){
+        height: 4px;
+        width: 100%; 
+        display: block;
+        
+        @include m('darkgreen'){
+            background-color: $legend-darkgreen;
+        }
+        @include m('green'){
+            background-color: $legend-green;
+        }
+        @include m('yellow'){
+            background-color: $legend-yellow;
+        }
+        @include m('orange'){
+            background-color: $legend-orange;
+        }
+        @include m('red'){
+            background-color: $legend-red;
+        }
+        @include m('grey'){
+            background-color: $legend-grey;
+        }
+        @include m('light'){
+            background-color: $legend-light;
+        }
+    }
+}

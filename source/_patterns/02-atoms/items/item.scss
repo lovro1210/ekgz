@@ -13,7 +13,7 @@
 
     @include e('text'){
         color:  $color-black;	
-        flex-basis: calc(100vh - 88px);	
+        flex-basis: calc(100% - 88px);	
     }
     @include e('title') {
         font-size: $font-size-small;

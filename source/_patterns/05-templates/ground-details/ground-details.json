@@ -1,0 +1,46 @@
+{
+    
+    "location-details" : {
+        "location-icon" : "ek-tlo",
+        "location-name" : "VUKOVARSKA-MIRAMARSKA",
+        "location-address" : "Raskrižje Vukovarske i Miramarske"     
+    },
+
+    
+    "elementList" : [
+        {"element":
+            {"symbol" : "NO",
+            "color"  : "element-cell__color--green",
+            "name": "Dušićni monoksid",
+            "time": "prije 2 mjeseca",
+            "data": "100 mg/kg" 
+            }
+        },
+        {"element":
+            {"symbol" : "NO",
+            "color"  : "element-cell__color--red",
+            "name": "Dušićni monoksid",
+            "time": "prije 2 mjeseca",
+            "data": "100 mg/kg" 
+            }
+        },
+        {"element":
+            {"symbol" : "NO",
+            "color"  : "element-cell__color--yellow",
+            "name": "Dušićni monoksid",
+            "time": "prije 2 mjeseca",
+            "data": "100 mg/kg" 
+            }
+        },
+        {"element":
+            {"symbol" : "NO",
+            "color"  : "element-cell__color--orange",
+            "name": "Dušićni monoksid",
+            "time": "prije 2 mjeseca",
+            "data": "100 mg/kg" 
+            }
+        }
+       
+    ]
+    
+}
