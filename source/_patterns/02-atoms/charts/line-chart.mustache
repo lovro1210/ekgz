@@ -1,0 +1,31 @@
+<canvas id="myChart" width="200" height="200"></canvas>
+<script>
+var ctx = document.getElementById("myChart").getContext('2d');
+var myChart = new Chart(ctx, {
+    type: 'line',
+    data: {
+        labels: ["1st", "2nd", "3rd", "4th"],
+        datasets: [{
+            label: '',
+            data: [700, 1200, 400, 1400],
+            borderColor: [
+                'rgb(14,128,65)'
+            ],
+            borderWidth: 4,
+            lineTension: 0,
+            backgroundColor: [
+                rgba(0, 0, 0, 0)
+            ]
+        }]
+    },
+    options: {
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero:true
+                }
+            }]
+        }
+    }
+});
+</script>
