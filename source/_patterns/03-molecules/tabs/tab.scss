@@ -1,14 +1,12 @@
 @include b('tabs') {
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    padding-top: $pad-one-quarter;
-    padding-bottom: $pad-one-quarter;
-    border-bottom-color:  $light-gray;
+    border-bottom: $border-xs solid $light-gray;
+    padding-top: $pad;
+    padding-bottom: $pad;
+    font-size: $font-size-small;
 
-    li {
+    @include e('item'){
         display: inline;
-        padding-left: $pad;
-        padding-right: $pad;
+        padding: 0 $pad;
     }
 
     @include m('centered'){

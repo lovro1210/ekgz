@@ -3,11 +3,14 @@
     display: flex;
     align-items: center;
     color: $light-gray;
-    box-shadow: 0 1px 0 0 rgba(0,0,0,0.1);
+    position: relative;
+    border-bottom: $border-xs solid $border-light;
+    
 
     @include e('input') {
         margin:0;
         font-size: $font-size-small-2;
+        line-height: 24px;
         padding: $pad-half $pad-half $pad-half $pad-quad;
         color:  $light-gray;
         font-weight: 500;
@@ -24,7 +27,8 @@
 
     @include e('icon') {
         position:absolute;
-        padding: $pad-double;
+        top: $pad-triple;
+        left: $pad-triple;
     }
 
     
