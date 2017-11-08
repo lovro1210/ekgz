@@ -13,12 +13,16 @@ var myChart = new Chart(ctx, {
             ],
             borderWidth: 4,
             lineTension: 0,
-            backgroundColor: [
-                rgba(0, 0, 0, 0)
-            ]
+            fill: false
         }]
     },
     options: {
+        scaleShowVerticalLines: false,
+        maintainAspectRatio: false,
+        responsive: true,
+        legend: {
+            display: false
+         },
         scales: {
             yAxes: [{
                 ticks: {
