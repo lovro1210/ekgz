@@ -2134,7 +2134,8 @@ section .icon-text-row {
   display: flex;
   transition: transform 500ms,-webkit-transform 500ms;
   left: -328px;
-  position: absolute; }
+  position: absolute;
+  z-index: 2; }
   .menu.is-active {
     transform: translate(328px, 0); }
     .menu.is-active .btn--main .inactive {
@@ -2169,11 +2170,21 @@ section .icon-text-row {
     display: none; }
   @media only screen and (max-width: 73em) {
     .menu {
-      left: -278px; }
+      left: -288px; }
       .menu.is-active {
-        transform: translate(278px, 0); }
+        transform: translate(288px, 0); }
       .menu .menu__box {
-        width: 270px; } }
+        width: 280px; } }
+  @media only screen and (max-width: 46.8em) {
+    .menu {
+      left: calc(-100% + 72px);
+      right: calc(100% - 72px); }
+      .menu.is-active {
+        transform: translate(calc(100% - 72px), 0); }
+      .menu .menu__box {
+        width: 100%; }
+      .menu .menu__bottom {
+        display: none; } }
 
 .right-aside {
   position: absolute;
@@ -2191,9 +2202,9 @@ section .icon-text-row {
   display: flex;
   transition: transform 500ms,-webkit-transform 500ms;
   position: absolute;
-  right: -470px; }
+  right: -478px; }
   .details.is-active {
-    transform: translate(-470px, 0); }
+    transform: translate(-478px, 0); }
   .details__box {
     width: 470px;
     background-color: white;
@@ -2209,11 +2220,19 @@ section .icon-text-row {
     justify-content: space-between; }
   @media only screen and (max-width: 73em) {
     .details {
-      right: -370px; }
+      right: -378px; }
       .details.is-active {
-        transform: translate(-370px, 0); }
+        transform: translate(-378px, 0); }
       .details .details__box {
         width: 370px; } }
+  @media only screen and (max-width: 46.8em) {
+    .details {
+      right: calc(-100% + 72px);
+      left: calc(100% - 72px); }
+      .details.is-active {
+        transform: translate(calc(-100% + 72px), 0); }
+      .details .details__box {
+        width: inherit; } }
 
 .cookie-container {
   position: absolute;

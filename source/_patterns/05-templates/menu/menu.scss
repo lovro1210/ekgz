@@ -5,6 +5,7 @@
     transition: transform 500ms,-webkit-transform 500ms;  
     left: -328px;
     position: absolute; 
+    z-index: 2;
 
     &.is-active{
         transform: translate(328px,0);
@@ -65,14 +66,32 @@
 
     
     @media only screen and (max-width: $bp-xl) {
-        left: -278px;
+        left: -288px;
 
         &.is-active{            
-            transform: translate(278px,0);
+            transform: translate(288px,0);
         }
 
         .menu__box{
-            width: 270px;  
+            width: 280px;  
+        }
+        
+    }
+
+    @media only screen and (max-width: $bp-med) {
+        left: calc(-100% + 72px);
+        right: calc(100% - 72px);
+        
+        &.is-active{            
+            transform: translate(calc(100% - 72px), 0);
+        }
+
+        .menu__box{
+            width: 100%;  
+        }
+
+        .menu__bottom{
+            display: none;
         }
         
     }
