@@ -33,6 +33,17 @@
         justify-content: center;  
     } 
 
+    @media only screen and (max-width: $bp-med) {
+        height: 40px;
+
+        .legend-menu__close{
+            width: 40px;
+        }        
+        .legend-menu__legend{
+            padding: 0;
+        }
+    }
+
 }
 
 @include b("legend-list"){

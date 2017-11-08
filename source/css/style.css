@@ -1426,33 +1426,58 @@ h4.section-title {
   display: flex; }
   .legend__item {
     padding: 0 8px; }
+    @media only screen and (max-width: 46.8em) {
+      .legend__item {
+        padding: 0; } }
     .legend__item .element {
       display: flex;
       height: 30px;
       justify-content: center;
       align-items: center; }
+      @media only screen and (max-width: 46.8em) {
+        .legend__item .element {
+          height: 20px;
+          width: 41px; } }
       .legend__item .element span {
         border-radius: 50%;
         background-color: #FFDF00; }
         .legend__item .element span.xl {
           width: 25px;
           height: 25px; }
+          @media only screen and (max-width: 46.8em) {
+            .legend__item .element span.xl {
+              width: 18px;
+              height: 18px; } }
         .legend__item .element span.l {
           width: 20px;
           height: 20px; }
+          @media only screen and (max-width: 46.8em) {
+            .legend__item .element span.l {
+              width: 14px;
+              height: 14px; } }
         .legend__item .element span.m {
           width: 15px;
           height: 15px; }
+          @media only screen and (max-width: 46.8em) {
+            .legend__item .element span.m {
+              width: 10px;
+              height: 10px; } }
         .legend__item .element span.s {
           width: 8px;
           height: 8px; }
+          @media only screen and (max-width: 46.8em) {
+            .legend__item .element span.s {
+              width: 6px;
+              height: 6px; } }
     .legend__item .text {
       font-size: 12px;
       text-align: center; }
+      @media only screen and (max-width: 46.8em) {
+        .legend__item .text {
+          font-size: 10px; } }
 
 .select-item {
-  font-weight: 600;
-  width: 96px; }
+  font-weight: 600; }
 
 .close {
   color: #aaaeb0;
@@ -1833,10 +1858,19 @@ https://markus.oberlehner.net/blog/pure-css-animated-svg-circle-chart/
   width: inherit; }
   .icons__item {
     margin: 8px; }
+    @media only screen and (max-width: 46.8em) {
+      .icons__item {
+        margin: 4px; } }
     .icons__item--first {
       margin-bottom: 16px; }
+      @media only screen and (max-width: 46.8em) {
+        .icons__item--first {
+          margin-right: 16px; } }
     .icons__item--last {
       margin-top: 16px; }
+  @media only screen and (max-width: 46.8em) {
+    .icons--horizontal-mob {
+      display: flex; } }
 
 .legend-menu {
   width: fit-content;
@@ -1867,6 +1901,13 @@ https://markus.oberlehner.net/blog/pure-css-animated-svg-circle-chart/
     display: flex;
     align-items: center;
     justify-content: center; }
+  @media only screen and (max-width: 46.8em) {
+    .legend-menu {
+      height: 40px; }
+      .legend-menu .legend-menu__close {
+        width: 40px; }
+      .legend-menu .legend-menu__legend {
+        padding: 0; } }
 
 .legend-list__header {
   padding-bottom: 8px;
@@ -2194,8 +2235,14 @@ section .icon-text-row {
     display: flex;
     flex-direction: column;
     justify-content: space-between; }
+    @media only screen and (max-width: 46.8em) {
+      .menu__iconbox {
+        padding: 8px 0; } }
   .menu__top {
     display: flex; }
+    @media only screen and (max-width: 46.8em) {
+      .menu__top {
+        width: 56px; } }
   .menu__bottom {
     margin-left: 8px; }
   .menu__icons {
@@ -2205,6 +2252,9 @@ section .icon-text-row {
     margin: 8px;
     height: fit-content;
     display: none; }
+    @media only screen and (max-width: 46.8em) {
+      .menu__legend {
+        margin: 4px; } }
   @media only screen and (max-width: 73em) {
     .menu {
       left: -288px; }
@@ -2267,11 +2317,13 @@ section .icon-text-row {
   @media only screen and (max-width: 46.8em) {
     .details {
       right: calc(-100%);
-      left: calc(100%); }
+      left: calc(100%);
+      top: 30%; }
       .details.is-active {
-        transform: translate(calc(-100% + 8px), 0); }
+        transform: translate(calc(-100%), 0); }
       .details .details__box {
-        width: 100%; }
+        width: 100%;
+        margin-left: 0; }
       .details .details__icons {
         display: none; } }
 

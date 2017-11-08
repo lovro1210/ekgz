@@ -42,11 +42,19 @@
         background-color:  transparent;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;           
+        justify-content: space-between;    
+        
+        @media only screen and (max-width: $bp-med) {
+            padding: $pad 0;
+        }
     }
 
     @include e('top'){
         display: flex;
+
+        @media only screen and (max-width: $bp-med) {
+            width: 56px;
+        }
     }
 
     @include e('bottom'){
@@ -62,6 +70,10 @@
         margin: $pad;           
         height: fit-content;
         display: none; 
+
+        @media only screen and (max-width: $bp-med) {
+            margin: $pad-half;
+        }
     }
 
     
