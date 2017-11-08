@@ -1035,6 +1035,10 @@ abbr {
   border-radius: 2px;
   cursor: pointer;
   box-shadow: 0 0 8px 0 rgba(74, 74, 74, 0.1), 0 2px 4px 0 rgba(0, 0, 0, 0.1); }
+  @media only screen and (max-width: 46.8em) {
+    .btn {
+      width: 40px;
+      height: 40px; } }
   .btn__with-text {
     border-style: solid;
     border-color: #0e8041;
@@ -1113,8 +1117,14 @@ abbr {
       color: #fff; }
       .btn--secondary.is-active .btn__caption {
         transform: translate(0, -4px); }
+        @media only screen and (max-width: 46.8em) {
+          .btn--secondary.is-active .btn__caption {
+            transform: translate(0, -6px); } }
       .btn--secondary.is-active .btn__caption-text {
         transform: translate(0, -16px); }
+        @media only screen and (max-width: 46.8em) {
+          .btn--secondary.is-active .btn__caption-text {
+            transform: translate(0, -12px); } }
       .btn--secondary.is-active:hover {
         background-color: rgba(255, 255, 255, 0.9);
         color: #8a9a9a;
@@ -1185,6 +1195,11 @@ abbr {
     padding: 12px;
     transition: transform 500ms,-webkit-transform 500ms;
     position: relative; }
+    @media only screen and (max-width: 46.8em) {
+      .btn__caption {
+        width: 40px;
+        height: 40px;
+        padding: 10px; } }
     .btn__caption-text {
       position: absolute;
       bottom: -16px;
@@ -1194,10 +1209,20 @@ abbr {
       left: 0;
       overflow: hidden;
       text-overflow: clip; }
+      @media only screen and (max-width: 46.8em) {
+        .btn__caption-text {
+          font-size: 10px;
+          width: 40px; } }
     .btn__caption:hover {
       transform: translate(0, -4px); }
+      @media only screen and (max-width: 46.8em) {
+        .btn__caption:hover {
+          transform: translate(0, -6px); } }
       .btn__caption:hover .btn__caption-text {
         transform: translate(0, -16px); }
+        @media only screen and (max-width: 46.8em) {
+          .btn__caption:hover .btn__caption-text {
+            transform: translate(0, -12px); } }
   .btn__with-text-inverted {
     border-style: solid;
     border-color: #0e8041;
@@ -2133,6 +2158,12 @@ section .icon-text-row {
     justify-content: space-between; }
     .location-details__table section {
       width: 100%; }
+  .location-details__content {
+    width: 100%;
+    height: calc(100vh - 110px);
+    overflow-y: auto; }
+    .location-details__content--without-tabs {
+      height: calc(100vh - 75px); }
 
 .menu {
   height: 100vh;
@@ -2183,14 +2214,16 @@ section .icon-text-row {
         width: 280px; } }
   @media only screen and (max-width: 46.8em) {
     .menu {
-      left: calc(-100% + 72px);
-      right: calc(100% - 72px); }
+      left: calc(-100% + 64px);
+      right: calc(100% - 64px); }
       .menu.is-active {
-        transform: translate(calc(100% - 72px), 0); }
+        transform: translate(calc(100% - 64px), 0); }
       .menu .menu__box {
         width: 100%; }
       .menu .menu__bottom {
-        display: none; } }
+        display: none; }
+      .menu .menu__icons {
+        width: 56px; } }
 
 .right-aside {
   position: absolute;
@@ -2233,12 +2266,14 @@ section .icon-text-row {
         width: 370px; } }
   @media only screen and (max-width: 46.8em) {
     .details {
-      right: calc(-100% + 72px);
-      left: calc(100% - 72px); }
+      right: calc(-100%);
+      left: calc(100%); }
       .details.is-active {
-        transform: translate(calc(-100% + 72px), 0); }
+        transform: translate(calc(-100% + 8px), 0); }
       .details .details__box {
-        width: inherit; } }
+        width: 100%; }
+      .details .details__icons {
+        display: none; } }
 
 .cookie-container {
   position: absolute;

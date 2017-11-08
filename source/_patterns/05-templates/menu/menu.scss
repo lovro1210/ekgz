@@ -79,11 +79,11 @@
     }
 
     @media only screen and (max-width: $bp-med) {
-        left: calc(-100% + 72px);
-        right: calc(100% - 72px);
+        left: calc(-100% + 64px);
+        right: calc(100% - 64px);
         
         &.is-active{            
-            transform: translate(calc(100% - 72px), 0);
+            transform: translate(calc(100% - 64px), 0);
         }
 
         .menu__box{
@@ -92,6 +92,10 @@
 
         .menu__bottom{
             display: none;
+        }
+
+        .menu__icons{
+            width: 56px;  
         }
         
     }
