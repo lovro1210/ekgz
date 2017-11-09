@@ -41,11 +41,11 @@
     }
     @include e('col3') {
         font-weight: 600;
-        font-size: $font-size-small;
+        font-size: $font-size-small-2;
     }
     @include e('name') {
         font-weight: 600;
-        font-size: $font-size-small;
+        font-size: $font-size-small-2;
     }
     @include e('time') {
         font-size: $font-size-smallest;
