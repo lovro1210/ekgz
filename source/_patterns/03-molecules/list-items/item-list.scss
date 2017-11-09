@@ -28,7 +28,7 @@
     }
 
     @include e('scrollable'){
-        height: calc(100vh - 220px);
+        height: calc(100vh - 229px);
     }
 
     @include e('with-headers'){
@@ -41,15 +41,34 @@
 }
 
 
-.water-list{
-    .list-item{
+@include b('water-list'){
+    font-size: $font-size-small-2;
+    
+    @include e('item'){
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        //padding: $pad 0;
         padding: $pad-half 0;
-        border-bottom: 1px solid $border-light;
-
+        border-bottom: $border-xs solid $border-light;
+    
         &:first-child{
-            border-top: 1px solid $border-light;
+            border-top: $border-xs solid $border-light;
         }
-    }    
+    }
+
+    @include e('desc'){
+        font-size: 10px;
+        color: $text-gray;
+    }
+
+    @include e('name'){
+        font-weight: 600;
+    }
+
+    @include e('value'){
+        color: $text-gray;
+    }
 }
 
 @include b("pelud-list"){

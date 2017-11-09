@@ -1944,16 +1944,28 @@ https://markus.oberlehner.net/blog/pure-css-animated-svg-circle-chart/
   border-bottom: 1px solid #e9ebef; }
 
 .list__scrollable {
-  height: calc(100vh - 220px); }
+  height: calc(100vh - 229px); }
 
 .list__with-headers .list__header-item {
   display: flex; }
 
-.water-list .list-item {
-  padding: 4px 0;
-  border-bottom: 1px solid #e9ebef; }
-  .water-list .list-item:first-child {
-    border-top: 1px solid #e9ebef; }
+.water-list {
+  font-size: 14px; }
+  .water-list__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 0;
+    border-bottom: 1px solid #e9ebef; }
+    .water-list__item:first-child {
+      border-top: 1px solid #e9ebef; }
+  .water-list__desc {
+    font-size: 10px;
+    color: #8c96a9; }
+  .water-list__name {
+    font-weight: 600; }
+  .water-list__value {
+    color: #8c96a9; }
 
 .pelud-list__item {
   padding: 8px 16px;
