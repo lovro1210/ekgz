@@ -5,6 +5,12 @@
         align-items: center;
         justify-content: space-between;
         padding-bottom: $pad; 
+        margin-bottom: $space-double;
+        border-bottom: 1px solid $border-light;
+        margin-left: -$pad-double;
+        margin-right: -$pad-double;
+        padding-left: $pad-double;
+        padding-right: $pad-double;
     }
 
     @include e('title'){

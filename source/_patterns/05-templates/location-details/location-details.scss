@@ -56,4 +56,14 @@
             width: 100%;
         }
     }
+
+    @include e('content') {       
+        width: 100%;
+        height: calc(100vh - 110px);
+        overflow-y: auto;
+
+        @include m('without-tabs'){
+            height: calc(100vh - 75px);
+        }
+    }
 }

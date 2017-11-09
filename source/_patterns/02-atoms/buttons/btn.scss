@@ -5,6 +5,11 @@
     border-radius: $border-radius;   
     cursor: pointer; 
     box-shadow: 0 0 8px 0 rgba(74,74,74,0.1), 0 2px 4px 0 rgba(0,0,0,0.1);  
+
+    @media only screen and (max-width: $bp-med) {
+        width: 40px;
+        height: 40px;         
+    }
     
     @include e('with-text') {
         border-style: solid;
@@ -114,10 +119,18 @@
             
             .btn__caption{
                 transform: translate(0,-4px);
+
+                @media only screen and (max-width: $bp-med) {            
+                    transform: translate(0,-6px);  
+                }
                 
             }
             .btn__caption-text{
                 transform: translate(0,-16px);
+
+                @media only screen and (max-width: $bp-med) {            
+                    transform: translate(0,-12px);  
+                }
             }
 
             &:hover{
@@ -229,6 +242,12 @@
     transition: transform 500ms,-webkit-transform 500ms;
     position: relative; 
 
+    @media only screen and (max-width: $bp-med) {
+        width: 40px;
+        height: 40px;  
+        padding: 10px;              
+    }
+
     &-text{
         position: absolute;
         bottom: -16px;
@@ -238,12 +257,26 @@
         left: 0;
         overflow: hidden;
         text-overflow: clip;
+
+        @media only screen and (max-width: $bp-med) {            
+            font-size: 10px;            
+            width: 40px;      
+        }
     }   
 
     &:hover{  
         transform: translate(0,-4px);
+
+        @media only screen and (max-width: $bp-med) {            
+            transform: translate(0,-6px);  
+        }
+        
         .btn__caption-text{
             transform: translate(0,-16px);
+
+            @media only screen and (max-width: $bp-med) {            
+                transform: translate(0,-12px);  
+            }
         }
 
     }

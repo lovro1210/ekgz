@@ -4,8 +4,16 @@
     @include e('item'){
         margin: $pad;
 
+        @media only screen and (max-width: $bp-med) {            
+            margin: $pad-half;            
+        }
+
         @include m('first'){
-            margin-bottom: $pad-double;   
+            margin-bottom: $pad-double;  
+            
+            @media only screen and (max-width: $bp-med) {            
+                margin-right: $pad-double;            
+            }
             
         } 
         @include m('last'){
@@ -13,5 +21,13 @@
             
         } 
     }    
+
+    @include m('horizontal-mob'){
+
+        @media only screen and (max-width: $bp-med) {
+            display: flex;       
+            
+        }
+    }
 
 }

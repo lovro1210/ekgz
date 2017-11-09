@@ -16,12 +16,12 @@
     display: flex;  
     transition: transform 500ms,-webkit-transform 500ms;      
     position: absolute; 
-    right: -470px;
+    right: -478px;
     //overflow: hidden;
 
     &.is-active{
         //transform: translate(calc(100% - 64px),0);
-        transform: translate(-470px,0);
+        transform: translate(-478px,0);
     }
     
     @include e('box'){
@@ -50,14 +50,33 @@
     }
 
     @media only screen and (max-width: $bp-xl) {
-        right: -370px;
+        right: -378px;
 
         &.is-active{            
-            transform: translate(-370px,0);
+            transform: translate(-378px,0);
         }
 
         .details__box{
             width: 370px;  
+        }
+        
+    }
+
+    @media only screen and (max-width: $bp-med) {
+        right: calc(-100%);
+        left: calc(100%);
+        top: 30%;
+
+        &.is-active{            
+            transform: translate(calc(-100%),0);
+        }
+
+        .details__box{
+            width: 100%;  
+            margin-left: 0;
+        }
+        .details__icons{
+            display: none; 
         }
         
     }
