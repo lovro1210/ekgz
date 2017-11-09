@@ -1,6 +1,6 @@
 {
     "menu": {
-        "active": "",
+        "active": "is-active",
         "selected": ""
     },
     "details":{
@@ -47,7 +47,107 @@
             }
         }
        
-    ]
+    ],
+
+    "threeTabs" : [
+        {
+            "content" : "LOKACIJE",
+            "is-active": "is-active"
+        },
+        {
+            "content" : "MOJI SLOJEVI",
+            "is-active": ""
+        },
+        {
+            "content" : "SVI SLOJEVI",
+            "is-active": ""
+        }
+    ] ,
+    "search" : {  
+        "icon" : "ek-search",
+        "placeholder" : "Upiši adresu"    
+    },
+
+    "list": [
+        {   "list-class": "",
+            "categories": [
+            {
+                "item-list" : [
+                 {
+                     "item-title" : "Vukovarska-Miramarska",
+                     "item-subtitle" : "Vukovarska ulica",
+                     "item-icon": "ek ek--green ek-tlo",
+                     "item-icon-style": "small",
+                     "css": "is-active"
+                 },
+                 {
+                    "item-title" : "Držićeva",
+                    "item-subtitle" : "Križanje Držićeve",
+                    "item-icon": "ek ek--green ek-pelud",
+                    "item-icon-style": "small",
+                    "css": ""
+                },
+                {
+                    "item-title" : "Miramarska",
+                    "item-subtitle" : "Miramarska ulica",
+                    "item-icon": "ek ek--green ek-temp",
+                    "item-icon-style": "small",
+                    "css": ""
+                },
+                {
+                    "item-title" : "Vukovarska",
+                    "item-subtitle" : "Vukovarska",
+                    "item-icon": "ek ek--green ek-zrak",
+                    "item-icon-style": "small",
+                    "css": ""
+                },
+                {
+                    "item-title" : "Vukovarska",
+                    "item-subtitle" : "Vukovarska",
+                    "item-icon": "ek ek--green ek-tlo",
+                    "item-icon-style": "small",
+                    "css": ""
+                },
+                {
+                    "item-title" : "Vukovarska",
+                    "item-subtitle" : "Vukovarska",
+                    "item-icon": "ek ek--green ek-pipa",
+                    "item-icon-style": "small",
+                    "css": ""
+                },
+                {
+                    "item-title" : "Vukovarska",
+                    "item-subtitle" : "Vukovarska",
+                    "item-icon": "ek ek--green ek-pipa",
+                    "item-icon-style": "small",
+                    "css": ""
+                },
+                {
+                    "item-title" : "Vukovarska",
+                    "item-subtitle" : "Vukovarska",
+                    "item-icon": "ek ek--green ek-zrak",
+                    "item-icon-style": "small",
+                    "css": ""
+                },
+                {
+                    "item-title" : "Miramarska",
+                    "item-subtitle" : "Miramarska ulica",
+                    "item-icon": "ek ek--green ek-temp",
+                    "item-icon-style": "small",
+                    "css": ""
+                },
+                {
+                    "item-title" : "Miramarska",
+                    "item-subtitle" : "Miramarska ulica",
+                    "item-icon": "ek ek--green ek-tlo",
+                    "item-icon-style": "small",
+                    "css": ""
+                }
+             ]
+            }
+        ]
+         }
+        ]
 
     
 }

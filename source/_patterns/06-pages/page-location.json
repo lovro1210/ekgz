@@ -12,7 +12,7 @@
 "threeTabs" : [
     {
         "content" : "LOKACIJE",
-        "is-active": "is-active"
+        "is-active": ""
     },
     {
         "content" : "MOJI SLOJEVI",
@@ -20,7 +20,7 @@
     },
     {
         "content" : "SVI SLOJEVI",
-        "is-active": ""
+        "is-active": "is-active"
     }
 ],
 "lorem" : {

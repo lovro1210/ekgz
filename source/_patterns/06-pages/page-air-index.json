@@ -1,6 +1,6 @@
 {
     "menu": {
-        "active": "",
+        "active": "is-active",
         "selected": ""
     },
     "details":{
@@ -89,6 +89,106 @@
                  }
             ]       
         }
-    ]
+    ],
+
+    "threeTabs" : [
+        {
+            "content" : "LOKACIJE",
+            "is-active": ""
+        },
+        {
+            "content" : "MOJI SLOJEVI",
+            "is-active": "is-active"
+        },
+        {
+            "content" : "SVI SLOJEVI",
+            "is-active": ""
+        }
+    ] ,
+    "search" : {  
+        "icon" : "ek-search",
+        "placeholder" : "Naziv sloja"    
+    },
+
+    "list": [
+        {   "list-class": "list__with-headers",
+            "categories": [
+            {
+                "category-name": "ZRAK",
+                "category-icon": "ek ek--12x12 ek-zrak ek--green",
+                "item-list" : [
+                 {
+                     "item-title" : "Dušikov oksid (NO2)",
+                     "item-subtitle" : "Datum zadnje izmjene",
+                     "item-icon": "ek ek--12x16 ek--yellow ek-bookmark",
+                     "item-icon-style": "small",
+                     "css": ""
+                 },
+                 {
+                     "item-title" : "Dušikov oksid (NO2)",
+                     "item-subtitle" : "Datum zadnje izmjene",
+                     "item-icon": "ek ek--12x16 ek--yellow ek-bookmark",
+                     "item-icon-style": "small",
+                     "css": "is-active"
+                 },
+                 {
+                     "item-title" : "Dušikov oksid (NO2)",
+                     "item-subtitle" : "Datum zadnje izmjene",
+                     "item-icon": "ek ek--12x16 ek--yellow ek-bookmark",
+                     "item-icon-style": "small",
+                     "css": ""
+                 },
+                 {
+                     "item-title" : "Dušikov oksid (NO2)",
+                     "item-subtitle" : "Datum zadnje izmjene",
+                     "item-icon": "ek ek--12x16 ek--yellow ek-bookmark",
+                     "item-icon-style": "small",
+                     "css": ""
+                 },
+                 {
+                     "item-title" : "Dušikov oksid (NO2)",
+                     "item-subtitle" : "Datum zadnje izmjene",
+                     "item-icon": "ek ek--12x16 ek--yellow ek-bookmark",
+                     "item-icon-style": "small",
+                     "css": ""
+                 }
+             ]
+            },
+            {
+             "category-name": "VODA",
+             "category-icon": "ek-pipa",
+             "item-list" : [
+              {
+                  "item-title" : "Dušikov oksid (NO2)",
+                  "item-subtitle" : "Datum zadnje izmjene",
+                  "item-icon": "ek ek--12x16 ek--yellow ek-bookmark",
+                  "item-icon-style": "small",
+                  "css": ""
+              },
+              {
+                  "item-title" : "Dušikov oksid (NO2)",
+                  "item-subtitle" : "Datum zadnje izmjene",
+                  "item-icon": "ek ek--12x16 ek--yellow ek-bookmark",
+                  "item-icon-style": "small",
+                  "css": ""
+              },
+              {
+                  "item-title" : "Dušikov oksid (NO2)",
+                  "item-subtitle" : "Datum zadnje izmjene",
+                  "item-icon": "ek ek--12x16 ek--yellow ek-bookmark",
+                  "item-icon-style": "small",
+                  "css": ""
+              },
+              {
+                  "item-title" : "Dušikov oksid (NO2)",
+                  "item-subtitle" : "Datum zadnje izmjene",
+                  "item-icon": "ek ek--12x16 ek--yellow ek-bookmark",
+                  "item-icon-style": "small",
+                  "css": ""
+              }
+          ]
+         }
+        ]}
+       ]
     
 }
