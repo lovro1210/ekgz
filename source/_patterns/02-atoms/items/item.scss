@@ -16,14 +16,14 @@
         flex-basis: calc(100% - 88px);	
     }
     @include e('title') {
-        font-size: $font-size-small;
+        font-size: $font-size-small-2;
         color: $palette-tertiary;
         font-weight: 600;		
         line-height: 20px;
     }
     @include e('subtitle') {
         color: #72727D;	
-        font-size: $font-size-smallest;
+        font-size: $font-size-small;
         line-height: 16px;
     }
 }

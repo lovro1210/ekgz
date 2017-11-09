@@ -11,6 +11,12 @@
         margin-right: -$pad-double;
         padding-left: $pad-double;
         padding-right: $pad-double;
+
+        
+        @media only screen and (max-width: $bp-small-2) {
+            flex-direction: column;
+            align-items: flex-start;
+        }
     }
 
     @include e('title'){

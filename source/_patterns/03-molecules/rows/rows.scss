@@ -42,13 +42,14 @@
     @include e('col3') {
         font-weight: 600;
         font-size: $font-size-small-2;
+        color: $text-gray;
     }
     @include e('name') {
         font-weight: 600;
         font-size: $font-size-small-2;
     }
     @include e('time') {
-        font-size: $font-size-smallest;
+        font-size: $font-size-small;
         color: $text-gray;
         line-height: 1;
     }

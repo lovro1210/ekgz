@@ -17,7 +17,7 @@
                  "item-subtitle" : "Datum zadnje izmjene",
                  "item-icon": "ek ek--12x16 ek-bookmark-empty",
                  "item-icon-style": "small",
-                 "css": "is-active"
+                 "css": ""
              },
              {
                  "item-title" : "Dušikov oksid (NO2)",
@@ -79,7 +79,7 @@
               "item-subtitle" : "Datum zadnje izmjene",
               "item-icon": "ek ek--12x16 ek-bookmark-empty",
               "item-icon-style": "small",
-              "css": "is-active"
+              "css": ""
           },
           {
               "item-title" : "Dušikov oksid (NO2)",

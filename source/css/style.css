@@ -1313,14 +1313,14 @@ abbr {
   flex-basis: calc(100% - 88px); }
 
 .item__title {
-  font-size: 12px;
+  font-size: 14px;
   color: #525455;
   font-weight: 600;
   line-height: 20px; }
 
 .item__subtitle {
   color: #72727D;
-  font-size: 10px;
+  font-size: 12px;
   line-height: 16px; }
 
 .header-item.is-close .list {
@@ -1845,12 +1845,13 @@ https://markus.oberlehner.net/blog/pure-css-animated-svg-circle-chart/
     padding: 0 8px; }
   .element-row__col3 {
     font-weight: 600;
-    font-size: 14px; }
+    font-size: 14px;
+    color: #8c96a9; }
   .element-row__name {
     font-weight: 600;
     font-size: 14px; }
   .element-row__time {
-    font-size: 10px;
+    font-size: 12px;
     color: #8c96a9;
     line-height: 1; }
 
@@ -1934,8 +1935,10 @@ https://markus.oberlehner.net/blog/pure-css-animated-svg-circle-chart/
   border-bottom: 1px solid #e9ebef; }
   .list__item:hover {
     background-color: rgba(235, 237, 238, 0.3); }
-  .list__item.is-active .item__icon-ok {
-    display: flex; }
+  .list__item.is-active {
+    background-color: rgba(235, 237, 238, 0.3); }
+    .list__item.is-active .item__icon-ok {
+      display: flex; }
 
 .list__header-item {
   display: none;
@@ -1960,7 +1963,7 @@ https://markus.oberlehner.net/blog/pure-css-animated-svg-circle-chart/
     .water-list__item:first-child {
       border-top: 1px solid #e9ebef; }
   .water-list__desc {
-    font-size: 10px;
+    font-size: 12px;
     color: #8c96a9; }
   .water-list__name {
     font-weight: 600; }
@@ -2014,6 +2017,10 @@ https://markus.oberlehner.net/blog/pure-css-animated-svg-circle-chart/
   margin-right: -16px;
   padding-left: 16px;
   padding-right: 16px; }
+  @media only screen and (max-width: 29.75em) {
+    .graph-box__header {
+      flex-direction: column;
+      align-items: flex-start; } }
 
 .graph-box__title {
   font-size: 14px;

@@ -10,6 +10,7 @@
         }
     
         &.is-active {
+            background-color: $lightest-gray;
             .item__icon-ok {
                 display: flex;
                 
@@ -58,7 +59,7 @@
     }
 
     @include e('desc'){
-        font-size: 10px;
+        font-size: $font-size-small;
         color: $text-gray;
     }
 
