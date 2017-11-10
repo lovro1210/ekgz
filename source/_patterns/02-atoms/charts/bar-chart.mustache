@@ -1,0 +1,73 @@
+<canvas id="barChart" width="200" height="200"></canvas>
+<script>
+var ctx = document.getElementById("barChart").getContext('2d');
+var myChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels: ["00", "02", "04", "06", "08", "10", "12", "14", "16", "18", "20", "22", "00"],
+        datasets: [{
+            label: 'oborina',
+            data: [0, 0, 1, 1.5, 2, 1.3 , 0, 1, 1.5, 2, 1.3, 0, 1, 1.5, 2, 1.3, 0, 1, 1.5, 2, 1.3, 0, 1, 1.5, 2, 1.3],
+            backgroundColor: 'red',
+            borderColor: 'red',
+            borderWidth: 1,
+            lineTension: 0,
+            fill: true
+        }]
+    },
+    options: {
+        categoryPercentage: 1.0,
+        barPercentage: 0.5,
+        scaleShowVerticalLines: false,
+        maintainAspectRatio: false,
+        responsive: true,
+        legend: {
+            display: false
+         },
+        scales: {
+           xAxes: [{
+            gridLines: {
+                offsetGridLines: true
+            }
+        }]
+        }
+    }
+});
+</script>
+
+
+<!--
+var MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+        var color = Chart.helpers.color;
+        var barChartData = {
+            labels: ["January", "February", "March", "April", "May", "June", "July"],
+            datasets: [{
+                label: 'Dataset 1',
+                backgroundColor: color(window.chartColors.red).alpha(0.5).rgbString(),
+                borderColor: window.chartColors.red,
+                borderWidth: 1,
+                data: [
+                    randomScalingFactor(),
+                    randomScalingFactor(),
+                    randomScalingFactor(),
+                    randomScalingFactor(),
+                    randomScalingFactor(),
+                    randomScalingFactor(),
+                    randomScalingFactor()
+                ]
+            }, {
+                label: 'Dataset 2',
+                backgroundColor: color(window.chartColors.blue).alpha(0.5).rgbString(),
+                borderColor: window.chartColors.blue,
+                borderWidth: 1,
+                data: [
+                    randomScalingFactor(),
+                    randomScalingFactor(),
+                    randomScalingFactor(),
+                    randomScalingFactor(),
+                    randomScalingFactor(),
+                    randomScalingFactor(),
+                    randomScalingFactor()
+                ]
+            }]
+        };-->
