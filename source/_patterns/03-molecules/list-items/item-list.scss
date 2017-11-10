@@ -90,3 +90,47 @@
 
 }
 
+@include b('temp-list'){
+    font-size: $font-size-small-2;
+    
+    @include e('item'){
+        display: flex;
+        align-items: center;
+        justify-content: space-between;        
+        padding: $pad-half 0;
+        border-bottom: $border-xs solid $border-light;
+    
+        &:first-child{
+            border-top: $border-xs solid $border-light;
+        }
+    }   
+
+    @include e('name'){
+        font-weight: 600;
+    }
+
+    @include e('value'){
+        color: $text-gray;
+    }
+}
+
+@include b('link-list'){
+    font-size: $font-size-small-2;
+    list-style-type: circle;
+    padding-left: $pad-double;
+    
+    @include e('item'){      
+        a{
+            color: $palette-tertiary;
+        }  
+    
+        &:hover{
+            a{
+                text-decoration: underline;
+                color: $palette-primary;
+            }            
+        }
+    }  
+     
+}
+

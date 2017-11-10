@@ -1419,6 +1419,14 @@ h4.section-title {
   padding-bottom: 8px;
   font-size: 14px;
   font-weight: 700; }
+  h4.section-title.section-title--no-padding {
+    padding-bottom: 0; }
+
+h5.section-subtitle {
+  padding-bottom: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #8c96a9; }
 
 .legend {
   width: inherit;
@@ -1671,6 +1679,26 @@ https://markus.oberlehner.net/blog/pure-css-animated-svg-circle-chart/
   .footer__text {
     color: rgba(188, 197, 212, 0.705);
     font-size: 12px; }
+
+.footer-map {
+  display: flex;
+  width: 450px;
+  border: 1px solid #e9ebef;
+  background: rgba(235, 237, 238, 0.8);
+  font-size: 12px;
+  font-weight: 600;
+  position: inherit;
+  margin-left: -395px; }
+  .footer-map__item {
+    padding: 4px 8px; }
+  .footer-map__distance-line {
+    display: inline-block;
+    height: 4px;
+    border: 2px solid #8a9a9a;
+    border-top: none; }
+  @media only screen and (max-width: 46.8em) {
+    .footer-map {
+      display: none; } }
 
 .list-item {
   display: flex;
@@ -1983,6 +2011,31 @@ https://markus.oberlehner.net/blog/pure-css-animated-svg-circle-chart/
   display: flex;
   align-items: center;
   justify-content: space-between; }
+
+.temp-list {
+  font-size: 14px; }
+  .temp-list__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 0;
+    border-bottom: 1px solid #e9ebef; }
+    .temp-list__item:first-child {
+      border-top: 1px solid #e9ebef; }
+  .temp-list__name {
+    font-weight: 600; }
+  .temp-list__value {
+    color: #8c96a9; }
+
+.link-list {
+  font-size: 14px;
+  list-style-type: circle;
+  padding-left: 16px; }
+  .link-list__item a {
+    color: #525455; }
+  .link-list__item:hover a {
+    text-decoration: underline;
+    color: #0e8041; }
 
 .text-box .text-header {
   padding-bottom: 8px;

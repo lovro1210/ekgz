@@ -8,4 +8,14 @@ h4.section-title{
     padding-bottom: $pad;
     font-size: $font-size-small-2;
     font-weight: 700;
+
+    &.section-title--no-padding{
+        padding-bottom: 0;
+    }
+}
+h5.section-subtitle{
+    padding-bottom: $pad;
+    font-size: $font-size-small;
+    font-weight: 600;
+    color: $text-gray;    
 }

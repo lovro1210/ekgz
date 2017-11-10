@@ -21,3 +21,29 @@
         font-size: $font-size-small;
     }
 }
+
+@include b('footer-map') {   
+    display: flex;  
+    width: 450px; 
+    border: $border-xs solid $border-light;
+    background: rgba(235, 237, 238, 0.8);      
+    font-size: $font-size-small;
+    font-weight: 600;
+    position: inherit;
+    margin-left: -395px;
+
+    @include e('item') {        
+        padding: $pad-half $pad; 
+    }
+
+    @include e('distance-line'){
+        display: inline-block;
+        height: 4px;
+        border: 2px solid $color-gray;
+        border-top: none;
+    }
+
+    @media only screen and (max-width: $bp-med) {
+        display: none;
+    }
+}

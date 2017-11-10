@@ -237,6 +237,42 @@
             "desc" : "prije 2 sata"                
         }
     ],
+    "temp-list" : [
+        {
+            "name" : "Temperatura",
+            "value" : "35°C"          
+        },
+        {
+            "name" : "Temperatura",
+            "value" : "35°C"               
+        },
+        {
+            "name" : "Temperatura",
+            "value" : "35°C"                
+        },
+        {
+            "name" : "Temperatura",
+            "value" : "35°C"                
+        },
+        {
+            "name" : "Temperatura",
+            "value" : "35°C"                
+        }
+    ],
+    "link-list" : [
+        {
+            "text" : "Link na ..."                    
+        },
+        {
+            "text" : "Link na ..."            
+        },
+        {
+            "text" : "Link na ..."           
+        },
+        {
+            "text" : "Link na ..."           
+        }
+    ],
 
     "btn" : {
         "text" : "Accept",
