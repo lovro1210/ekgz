@@ -1895,7 +1895,8 @@ https://markus.oberlehner.net/blog/pure-css-animated-svg-circle-chart/
     padding: 0 8px;
     border-right: 1px solid #e9ebef;
     display: flex;
-    align-items: center; }
+    align-items: center;
+    width: max-content; }
   .legend-menu__close {
     width: 48px;
     padding: 8px;
@@ -2253,19 +2254,22 @@ section .icon-text-row {
     background-color: transparent;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; }
+    justify-content: space-between;
+    width: 64px; }
     @media only screen and (max-width: 46.8em) {
       .menu__iconbox {
-        padding: 8px 0; } }
+        padding: 8px 0;
+        height: fit-content; } }
   .menu__top {
     display: flex; }
     @media only screen and (max-width: 46.8em) {
       .menu__top {
         width: 56px; } }
   .menu__bottom {
-    margin-left: 8px; }
+    margin-left: 8px;
+    width: 184px; }
   .menu__icons {
-    width: 64px;
+    width: inherit;
     height: fit-content; }
   .menu__legend {
     margin: 8px;
@@ -2302,6 +2306,9 @@ section .icon-text-row {
   min-height: 100vh;
   width: 100%;
   background-color: lightblue;
+  background-image: url("../../images/zagreb_map.jpg");
+  background-position: center;
+  background-size: cover;
   display: block; }
 
 .details {

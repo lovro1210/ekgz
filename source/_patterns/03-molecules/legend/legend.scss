@@ -24,6 +24,7 @@
         border-right: 1px solid $border-light;
         display: flex;
         align-items: center;
+        width: max-content;
     } 
     @include e('close'){
         width: 48px;
