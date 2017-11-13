@@ -1,0 +1,28 @@
+@include b('admin-header'){
+    height: 100%;    
+    width: 100%;     
+    margin: 0;   
+    padding: $pad;
+    padding-bottom: 0;  
+    background-color: white;
+    border-bottom: $border-xs solid $light-gray;    
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+            
+    @include e('col1'){              
+        display: block;   
+    }
+    @include e('col2'){
+        display: flex;   
+    }
+
+    @include e('title'){
+        display: flex;   
+        padding-bottom: $pad-double;
+        padding-left: $pad;
+        font-size: $font-size-large;
+        font-weight: 700;
+    }
+
+}

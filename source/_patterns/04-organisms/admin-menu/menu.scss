@@ -1,0 +1,47 @@
+@include b('admin-menu'){       
+    width: 100%; 
+    height: 100%;    
+    margin: 0;    
+    background-color: $admin-menu-bg;    
+                
+    @include e('header'){
+       display: flex;
+       align-items: center;
+       justify-content: space-between;   
+    }
+    @include e('title'){
+        color: white;
+        padding: $pad;
+        padding-left: $pad-double;
+        font-size: $font-size-large;
+        font-weight: 700;   
+    }
+    @include e('logo'){
+        width: 88px;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        padding: $pad-double;
+        
+        span{
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+        }
+        img{
+            width: 48px;
+            height: auto;
+            margin-right: 4px;
+        }
+    }
+    @include e('list'){
+        
+        li{
+            padding: $pad-double 0;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "admin-icon": "ek-layers",
+    "admin-title": "EKOKARTA",
+    "admin-logo": "../../images/EkoKartaLogo@1x.png",
+    "admin-menu-list": [
+        {
+            "admin-text": "Menu",
+            "admin-icon": "ek-layers-all",
+            "admin-active": ""
+        },
+        {
+            "admin-text": "Menu",
+            "admin-icon": "ek-layers",
+            "admin-active": "is-active"
+        },
+        {
+            "admin-text": "Menu",
+            "admin-icon": "ek-layers",
+            "admin-active": ""
+        },
+        {
+            "admin-text": "Menu",
+            "admin-icon": "ek-layers",
+            "admin-active": ""
+        },
+        {
+            "admin-text": "Menu",
+            "admin-icon": "ek-layers",
+            "admin-active": ""
+        }
+    ]
+}

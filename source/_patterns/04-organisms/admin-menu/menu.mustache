@@ -1,0 +1,17 @@
+<div class="admin-menu">
+    <div class="admin-menu__header">
+        <div class="admin-menu__title">
+            {{admin-title}}
+        </div>
+        <div class="admin-menu__logo">
+            <span><img src="{{admin-logo}}" alt="logo"/></span>
+        </div>
+    </div>
+    <ul class="admin-menu__list">
+    {{# admin-menu-list}}
+        <li class="">    
+            {{> 03-molecules/admin-menu/menu-item }}            
+        </li>
+    {{/ admin-menu-list }}
+    </ul>
+</div>

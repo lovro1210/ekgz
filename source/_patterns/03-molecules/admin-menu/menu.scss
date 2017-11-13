@@ -1,0 +1,41 @@
+@include b('admin-menu-item'){       
+    width: 100%;     
+    margin: 0;        
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    cursor: pointer;
+            
+    @include e('text'){
+        color: white;
+        padding: $pad;
+        padding-left: $pad-double;
+        font-size: $font-size-med-2;
+        font-weight: 600;   
+    }
+    @include e('iconbox'){
+        width: 88px;
+        display: flex;
+        justify-content: center;
+        align-items: center;   
+    }
+    @include e('icon'){
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        color: white;
+       
+    }
+
+    &.is-active{
+        .admin-menu-item__text{
+            color: $admin-green;
+        }
+        .admin-menu-item__icon{
+            background-color: $admin-green;
+        }
+    }
+}

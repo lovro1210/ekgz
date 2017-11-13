@@ -1,0 +1,16 @@
+@include b('admin-tabs') {    
+    padding-top: $pad;
+    padding-bottom: $pad;
+    font-size: $font-size-small-2;
+    font-weight: 600;
+
+    @include e('item'){
+        display: inline;
+        padding: 0 $pad;
+    }
+
+    @include m('centered'){
+        display: flex;
+        justify-content: center;
+    }
+}

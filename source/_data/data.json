@@ -386,6 +386,63 @@
     "element": {
         "symbol": "Cd",
         "color": "element-cell__color--green"
-    }
+    },
+
+    "admin-icon": "ek-layers",
+    "admin-title": "EKOKARTA",
+    "admin-logo": "../../images/EkoKartaLogo@1x.png",
+    "admin-menu-list": [
+        {
+            "admin-text": "Menu",
+            "admin-icon": "ek-layers",
+            "admin-active": ""
+        },
+        {
+            "admin-text": "Menu",
+            "admin-icon": "ek-layers",
+            "admin-active": "is-active"
+        },
+        {
+            "admin-text": "Menu",
+            "admin-icon": "ek-layers",
+            "admin-active": ""
+        },
+        {
+            "admin-text": "Menu",
+            "admin-icon": "ek-layers",
+            "admin-active": ""
+        },
+        {
+            "admin-text": "Menu",
+            "admin-icon": "ek-layers",
+            "admin-active": ""
+        }
+    ],
+
+    "admin-tabs" : [
+        {
+            "content" : "PODACI SA SENZORA",
+            "is-active": "is-active"
+        },
+        {
+            "content" : "OBAVIJESTI",
+            "is-active": ""
+        },
+        {
+            "content" : "POVIJEST UVOZA PODATAKA",
+            "is-active": ""
+        }
+        ,
+        {
+            "content" : "PARAMETRI",
+            "is-active": ""
+        }
+        ,
+        {
+            "content" : "AKTIVNOSTI",
+            "is-active": ""
+        }
+    ]
+
 
 }

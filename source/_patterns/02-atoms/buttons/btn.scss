@@ -322,6 +322,21 @@
         border-bottom: $border-s solid $palette-primary;
     }
 }
+@include b('admin-tab') {
+    cursor: pointer;
+    color: $palette-tertiary;	
+    text-align: center;
+    padding: 0 $pad-one-and-half $pad $pad-one-and-half;
+    &:hover {
+        color: $admin-green;
+
+    }
+
+    &.is-active {
+        color: $admin-green;
+        border-bottom: $border-s solid $admin-green;
+    }
+}
 
 @include b('btn-group') {
     border: 1px solid $border-light;
