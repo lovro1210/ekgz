@@ -1,6 +1,9 @@
 <main class="admin">
 <aside class="admin__menu is-active">
-    {{> 04-organisms/admin-menu/menu}}
+    <section class="">
+        {{> 04-organisms/admin-menu/menu}}
+    </section>
+    
 </aside>
 <section class="admin__content-box">
     <header class="admin__header">
@@ -11,7 +14,7 @@
             Lista ....
         </article>
         <aside class="admin__sidebar is-active">
-            <div style="width:400px">Detalji</div>
+            {{> 04-organisms/admin-details/admin-details}}
         </aside>
     </section>
 <section>

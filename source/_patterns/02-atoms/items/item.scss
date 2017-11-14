@@ -14,6 +14,11 @@
     @include e('text'){
         color:  $color-black;	
         flex-basis: calc(100% - 88px);	
+
+        @include m('2'){
+            flex-basis: calc(100% - 64px);
+            padding-left: $pad-double;
+        }
     }
     @include e('title') {
         font-size: $font-size-small-2;
@@ -26,6 +31,11 @@
         font-size: $font-size-small;
         line-height: 16px;
     }
+
+    @include e('compound'){
+        width: 48px;
+    }
+
 }
 
 

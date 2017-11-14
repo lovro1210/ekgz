@@ -442,7 +442,54 @@
             "content" : "AKTIVNOSTI",
             "is-active": ""
         }
+    ],
+
+    "admin-details-list": [
+            {
+                 "title" : "1000 mg/kg",
+                 "modificator": "item__text--2",
+                 "compound": "NO2",
+                 "icon2": "ek ek-down-open"
+            },
+            {
+                "title" : "1000 mg/kg",
+                "modificator": "item__text--2",
+                "compound": "NO2",
+                "icon2": "ek ek-down-open"
+            },
+            {
+                "title" : "1000 mg/kg",
+                "modificator": "item__text--2",
+                "compound": "NO2",
+                "icon2": "ek ek-down-open"
+            },
+            {
+                "title" : "1000 mg/kg",
+                "modificator": "item__text--2",
+                "compound": "NO2",
+                "icon2": "ek ek-down-open"
+            },
+            {
+                "title" : "1000 mg/kg",
+                "modificator": "item__text--2",
+                "compound": "NO2",
+                "icon2": "ek ek-down-open"
+            },
+            {
+                "title" : "1000 mg/kg",
+                "modificator": "item__text--2",
+                "compound": "NO2",
+                "icon2": "ek ek-down-open"
+            },
+            {
+                "title" : "1000 mg/kg",
+                "modificator": "item__text--2",
+                "compound": "NO2",
+                "icon2": "ek ek-down-open"
+            }
+            
     ]
+
 
 
 }

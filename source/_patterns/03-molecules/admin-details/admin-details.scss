@@ -1,0 +1,27 @@
+@include b('admin-details'){
+    @include e('header'){
+        display: flex;
+        align-items: center;
+        padding: $pad-double;
+        border: $border-xs solid $border-light;
+    }
+
+    @include e('text'){
+        display: flex;
+        align-items: center;
+    }
+
+    @include e('title'){
+        font-size: $font-size-med-2;
+        padding-left: $pad-double;
+        font-weight: 600;
+        flex-basis: calc(100% - 64px);
+    }
+
+    @include e('item'){
+        display: flex;
+        align-items: center;
+        padding: $pad-double;
+        font-size: $font-size-small;
+    }
+}

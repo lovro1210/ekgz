@@ -1190,8 +1190,6 @@ abbr {
     -ms-transform: translate(-50%, -50%); }
   .btn__close {
     color: #aaaeb0;
-    height: 18px;
-    width: 18px;
     border-radius: 9px; }
     .btn__close:hover {
       cursor: pointer;
@@ -1350,6 +1348,9 @@ abbr {
 .item__text {
   color: black;
   flex-basis: calc(100% - 88px); }
+  .item__text--2 {
+    flex-basis: calc(100% - 64px);
+    padding-left: 16px; }
 
 .item__title {
   font-size: 14px;
@@ -1361,6 +1362,9 @@ abbr {
   color: #72727D;
   font-size: 12px;
   line-height: 16px; }
+
+.item__compound {
+  width: 48px; }
 
 .header-item.is-close .list {
   display: none; }
@@ -1562,6 +1566,32 @@ h5.section-subtitle {
     top: 24px;
     left: 24px; }
 
+.admin-search {
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  color: #69758B;
+  position: relative;
+  border-bottom: 1px solid #e9ebef; }
+  .admin-search__input {
+    margin: 0;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 4px 4px 4px 32px;
+    color: #69758B;
+    font-weight: 500;
+    border-radius: 4px;
+    border: 1px solid #69758B; }
+    .admin-search__input:focus {
+      outline: -webkit-focus-ring-color auto 5px;
+      outline-color: #69758B; }
+    .admin-search__input--small {
+      font-size: 12px; }
+  .admin-search__icon {
+    position: absolute;
+    top: 24px;
+    left: 24px; }
+
 ::-webkit-input-placeholder {
   /* WebKit, Blink, Edge */
   color: rgba(188, 197, 212, 0.705); }
@@ -1583,6 +1613,28 @@ h5.section-subtitle {
 ::-ms-input-placeholder {
   /* Microsoft Edge */
   color: rgba(188, 197, 212, 0.705); }
+
+input.admin-search__input::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #69758B; }
+
+input.admin-search__input:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #69758B;
+  opacity: 1; }
+
+input.admin-search__input::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #69758B;
+  opacity: 1; }
+
+input.admin-search__input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #69758B; }
+
+input.admin-search__input::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #69758B; }
 
 .pin.is-active .pin__pulse {
   display: block; }
@@ -2186,6 +2238,28 @@ https://markus.oberlehner.net/blog/pure-css-animated-svg-circle-chart/
     display: flex;
     justify-content: center; }
 
+.admin-details__header {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  border: 1px solid #e9ebef; }
+
+.admin-details__text {
+  display: flex;
+  align-items: center; }
+
+.admin-details__title {
+  font-size: 18px;
+  padding-left: 16px;
+  font-weight: 600;
+  flex-basis: calc(100% - 64px); }
+
+.admin-details__item {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  font-size: 12px; }
+
 /*@include b('details'){
     height: 100vh;    
     width: 30%;
@@ -2528,7 +2602,6 @@ section .icon-text-row {
   .admin__sidebar {
     width: 400px;
     height: inherit;
-    background-color: #bef5be;
     margin-right: -400px;
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out; }

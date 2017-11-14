@@ -236,8 +236,8 @@
 
     @include e('close') {
         color:   $icon-close-color;
-        height: 18px;	
-        width: 18px;	
+        // height: 18px;	
+        // width: 18px;	
         border-radius: 9px;
         &:hover {
              cursor: pointer;
