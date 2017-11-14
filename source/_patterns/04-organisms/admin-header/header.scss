@@ -2,8 +2,7 @@
     height: 100%;    
     width: 100%;     
     margin: 0;   
-    padding: $pad;
-    padding-bottom: 0;  
+    padding: $pad $pad-double 0 $pad-double;   
     background-color: white;
     border-bottom: $border-xs solid $light-gray;    
     display: flex; 
@@ -14,15 +13,24 @@
         display: block;   
     }
     @include e('col2'){
-        display: flex;   
+        display: flex;  
+        width: 384px;
+        background-color: gray 
     }
 
-    @include e('title'){
+    @include e('titlebox'){
         display: flex;   
-        padding-bottom: $pad-double;
-        padding-left: $pad;
+        align-items: baseline;
+        padding-bottom: $pad-double;         
+    }
+    @include e('title'){        
         font-size: $font-size-large;
         font-weight: 700;
+    }
+    @include e('link'){            
+        padding-left: $pad;
+        font-size: $font-size-med;
+        color: $admin-green;
     }
 
 }

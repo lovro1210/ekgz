@@ -63,6 +63,17 @@
         }
     }
 
+    @include m('gray'){
+        background-color: $lightest-gray;       
+        display: flex;
+        justify-content: center;
+        align-items: center;       
+               
+        &:hover{
+            border-color: $color-gray-active;
+        }
+    }
+
     @include m('main'){
         background-color: rgba($palette-secondary, 0.9);
         border-color: $palette-secondary;
@@ -326,6 +337,7 @@
     cursor: pointer;
     color: $palette-tertiary;	
     text-align: center;
+    font-weight: 600;
     padding: 0 $pad-one-and-half $pad $pad-one-and-half;
     &:hover {
         color: $admin-green;
@@ -371,7 +383,34 @@
         }
     }
 }
+
+@include b('btn-with-icon') {
+    padding: $pad $pad-double;
+    border: 1px solid;
+    border-radius: $border-radius;
+    width: fit-content;
+    font-size: $font-size-small-2;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+
+    @include m('green'){
+        background-color: $admin-green;
+        border-color: $admin-green;
+        color:  white;
+
+        &:hover{
+            background-color: white;
+            border-color: $admin-green;
+            color: $admin-green;
+        }
+    }
+
+    i{
+        margin-right: $pad;
+    }
      
+}
 
 .btn__share i {
     font-size: 30px;

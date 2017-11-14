@@ -6,7 +6,7 @@
 
     @include e('item'){
         display: inline;
-        padding: 0 $pad;
+        //padding: 0 $pad;
     }
 
     @include m('centered'){
