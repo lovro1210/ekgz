@@ -442,7 +442,12 @@
             "content" : "AKTIVNOSTI",
             "is-active": ""
         }
-    ]
+    ],
+
+    "button": {
+        "icon": "ek ek-pipa",
+        "text": "Upload"
+    }
 
 
 }

@@ -64,13 +64,16 @@
     }
 
     @include m('gray'){
-        background-color: $lightest-gray;       
+        width: 40px;
+        height: 40px;
+        background-color: $lightest-gray;  
+        border-color: $border-light;     
         display: flex;
         justify-content: center;
         align-items: center;       
                
         &:hover{
-            border-color: $color-gray-active;
+            opacity: 0.8;
         }
     }
 
