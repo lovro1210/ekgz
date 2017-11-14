@@ -488,7 +488,11 @@
                 "icon2": "ek ek-down-open"
             }
             
-    ]
+    ],
+    "button": {
+        "icon": "ek ek-pipa",
+        "text": "Upload"
+    }
 
 
 

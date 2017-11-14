@@ -1079,12 +1079,15 @@ abbr {
       cursor: pointer;
       color: #0e8041; }
   .btn--gray {
+    width: 40px;
+    height: 40px;
     background-color: rgba(235, 237, 238, 0.3);
+    border-color: #e9ebef;
     display: flex;
     justify-content: center;
     align-items: center; }
     .btn--gray:hover {
-      border-color: #414040; }
+      opacity: 0.8; }
   .btn--main {
     background-color: rgba(39, 49, 66, 0.9);
     border-color: #273142;
@@ -1892,6 +1895,39 @@ https://markus.oberlehner.net/blog/pure-css-animated-svg-circle-chart/
   .circle--light {
     background-color: #CFE3F0; }
 
+.profile {
+  display: flex;
+  align-items: center; }
+  .profile__name {
+    font-size: 18px;
+    color: #8c96a9; }
+  .profile__picture {
+    width: 40px;
+    height: 40px;
+    margin-left: 8px; }
+    .profile__picture img {
+      border-radius: 50%; }
+
+.select-style {
+  border: 1px solid #8a9a9a;
+  width: 120px;
+  border-radius: 2px;
+  overflow: hidden;
+  background: #fff url("img/icon-select.png") no-repeat 90% 50%; }
+
+.select-style select {
+  color: #525455;
+  padding: 5px 8px;
+  width: 130%;
+  border: none;
+  box-shadow: none;
+  background: transparent;
+  background-image: none;
+  -webkit-appearance: none; }
+
+.select-style select:focus {
+  outline: none; }
+
 .brand {
   display: flex;
   padding: 16px;
@@ -2388,7 +2424,7 @@ section .icon-text-row {
   .admin-header__col2 {
     display: flex;
     width: 384px;
-    background-color: gray; }
+    justify-content: space-between; }
   .admin-header__titlebox {
     display: flex;
     align-items: baseline;
@@ -2399,7 +2435,8 @@ section .icon-text-row {
   .admin-header__link {
     padding-left: 8px;
     font-size: 16px;
-    color: #2DA698; }
+    color: #2DA698;
+    cursor: pointer; }
 
 .cookie-alert {
   background-color: white;

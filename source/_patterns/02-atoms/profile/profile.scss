@@ -1,0 +1,18 @@
+@include b('profile'){
+    display: flex;
+    align-items: center;
+
+    @include e('name'){
+        font-size: $font-size-med-2; 
+        color: $text-gray;
+    }
+    @include e('picture'){
+        width: 40px;
+        height: 40px;
+        margin-left: $pad;
+
+        img{
+            border-radius: 50%; 
+        }        
+    }
+}
