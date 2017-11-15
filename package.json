@@ -1,7 +1,7 @@
 {
   "name": "edition-node-gulp",
   "description": "The gulp wrapper around patternlab-node core, providing tasks to interact with the core library and move supporting frontend assets.",
-  "version": "1.4.0",
+  "version": "1.0.0-SNAPSHOT.1",
   "dependencies": {
     "browser-sync": "^2.0.0",
     "chalk": "^1.1.3",
@@ -12,10 +12,7 @@
     "minimist": "^1.2.0",
     "patternlab-node": "^2.0.0",
     "sass-bem": "^2.6.5",
-    "simplebar": "^2.5.0",
-    "starterkit-mustache-demo": "^4.0.2",
-    "styleguidekit-assets-default": "^3.0.0",
-    "styleguidekit-mustache-default": "^3.0.0"
+    "simplebar": "^2.5.0"
   },
   "keywords": [
     "Pattern Lab",
@@ -33,7 +30,8 @@
   "scripts": {
     "start": "gulp patternlab:serve",
     "postinstall": "node scripts/postinstall.js",
-    "gulp": "gulp -- "
+    "gulp": "gulp -- ",
+    "serve": "gulp patternlab:serve"
   },
   "license": "MIT",
   "engines": {
@@ -43,3 +41,6 @@
     "gulp-concat-css": "^2.3.0"
   }
 }
+
+
+
