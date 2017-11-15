@@ -2296,6 +2296,17 @@ https://markus.oberlehner.net/blog/pure-css-animated-svg-circle-chart/
   padding: 16px;
   font-size: 12px; }
 
+.admin-details__notification {
+  margin: 0 16px;
+  border-top: 1px solid #e9ebef;
+  border-bottom: 1px solid #e9ebef; }
+
+.admin-details__notification-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 0; }
+
 /*@include b('details'){
     height: 100vh;    
     width: 30%;
@@ -2373,41 +2384,39 @@ section .icon-text-row {
     font-size: 14px;
     font-weight: 600; }
 
-.admin-menu {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  background-color: rgba(51, 50, 61, 0.95); }
-  .admin-menu__header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between; }
-  .admin-menu__title {
-    color: white;
-    padding: 8px;
-    padding-left: 16px;
-    font-size: 24px;
-    font-weight: 700; }
-  .admin-menu__logo {
-    width: 88px;
+.admin-menu__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.admin-menu__title {
+  color: white;
+  padding: 8px;
+  padding-left: 16px;
+  font-size: 24px;
+  font-weight: 700; }
+
+.admin-menu__logo {
+  width: 88px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px; }
+  .admin-menu__logo span {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: white;
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 16px; }
-    .admin-menu__logo span {
-      width: 56px;
-      height: 56px;
-      border-radius: 50%;
-      background-color: white;
-      display: flex;
-      justify-content: center;
-      align-items: center; }
-    .admin-menu__logo img {
-      width: 48px;
-      height: auto;
-      margin-right: 4px; }
-  .admin-menu__list li {
-    padding: 16px 0; }
+    align-items: center; }
+  .admin-menu__logo img {
+    width: 48px;
+    height: auto;
+    margin-right: 4px; }
+
+.admin-menu__list li {
+  padding: 16px 0; }
 
 .admin-header {
   height: 100%;
@@ -2620,8 +2629,10 @@ section .icon-text-row {
     width: 400px;
     height: 100vh;
     margin-left: -302px;
+    border-left: 1px solid #e9ebef;
     transition-duration: 0.5s;
-    transition-timing-function: ease-in-out; }
+    transition-timing-function: ease-in-out;
+    background-color: rgba(51, 50, 61, 0.95); }
     .admin__menu.is-active {
       margin-left: 0; }
   .admin__header {
@@ -2637,7 +2648,7 @@ section .icon-text-row {
     height: inherit;
     background-color: #d6f1fc; }
   .admin__sidebar {
-    width: 400px;
+    min-width: 400px;
     height: inherit;
     margin-right: -400px;
     transition-duration: 0.5s;

@@ -1,9 +1,4 @@
-@include b('admin-menu'){       
-    width: 100%; 
-    height: 100%;    
-    margin: 0;    
-    background-color: $admin-menu-bg;    
-                
+@include b('admin-menu'){                          
     @include e('header'){
        display: flex;
        align-items: center;

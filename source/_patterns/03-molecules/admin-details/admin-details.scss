@@ -24,4 +24,17 @@
         padding: $pad-double;
         font-size: $font-size-small;
     }
+
+    @include e('notification'){
+        margin: 0 $pad-double;
+        border-top: $border-xs solid $border-light;
+        border-bottom: $border-xs solid $border-light;
+    }
+
+    @include e('notification-item'){
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: $pad 0;
+    }
 }

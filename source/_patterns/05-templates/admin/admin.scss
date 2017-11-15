@@ -13,8 +13,10 @@
         width: 400px;
         height: 100vh;                     
         margin-left: -302px;         
+        border-left: $border-xs solid $border-light;
         transition-duration: 0.5s;
-        transition-timing-function: ease-in-out;         
+        transition-timing-function: ease-in-out; 
+        background-color: $admin-menu-bg;        
     
         &.is-active{            
             margin-left: 0;
@@ -37,7 +39,7 @@
        
     }
     @include e('sidebar'){
-        width: 400px;
+        min-width: 400px;
         height: inherit;
        // background-color: rgb(190, 245, 190);              
         margin-right: -400px;         

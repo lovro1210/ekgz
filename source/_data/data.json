@@ -444,51 +444,129 @@
         }
     ],
 
-    "admin-details-list": [
+    "admin-details": {
+        "list":[
             {
-                 "title" : "1000 mg/kg",
-                 "modificator": "item__text--2",
-                 "compound": "NO2",
-                 "icon2": "ek ek-down-open"
-            },
-            {
-                "title" : "1000 mg/kg",
-                "modificator": "item__text--2",
+                "title1" : "NO2",
+                "title1-style": "item__compound", 
+                "title2" : "1000 mg/kg",
+                "title2-style": "item__text item__text--2",
                 "compound": "NO2",
                 "icon2": "ek ek-down-open"
             },
             {
-                "title" : "1000 mg/kg",
-                "modificator": "item__text--2",
+                "title1" : "NO2",
+                "title1-style": "item__compound", 
+                "title2" : "1000 mg/kg",
+                "title2-style": "item__text item__text--2",
                 "compound": "NO2",
                 "icon2": "ek ek-down-open"
             },
             {
-                "title" : "1000 mg/kg",
-                "modificator": "item__text--2",
+                "title1" : "NO2",
+                "title1-style": "item__compound", 
+                "title2" : "1000 mg/kg",
+                "title2-style": "item__text item__text--2",
                 "compound": "NO2",
                 "icon2": "ek ek-down-open"
             },
             {
-                "title" : "1000 mg/kg",
-                "modificator": "item__text--2",
+                "title1" : "NO2",
+                "title1-style": "item__compound", 
+                "title2" : "1000 mg/kg",
+                "title2-style": "item__text item__text--2",
                 "compound": "NO2",
                 "icon2": "ek ek-down-open"
             },
             {
-                "title" : "1000 mg/kg",
-                "modificator": "item__text--2",
+                "title1" : "NO2",
+                "title1-style": "item__compound", 
+                "title2" : "1000 mg/kg",
+                "title2-style": "item__text item__text--2",
                 "compound": "NO2",
                 "icon2": "ek ek-down-open"
             },
             {
-                "title" : "1000 mg/kg",
-                "modificator": "item__text--2",
+                "title1" : "NO2",
+                "title1-style": "item__compound", 
+                "title2" : "1000 mg/kg",
+                "title2-style": "item__text item__text--2",
+                "compound": "NO2",
+                "icon2": "ek ek-down-open"
+            },
+            {
+                "title1" : "NO2",
+                "title1-style": "item__compound", 
+                "title2" : "1000 mg/kg",
+                "title2-style": "item__text item__text--2",
+                "compound": "NO2",
+                "icon2": "ek ek-down-open"
+            },
+            {
+                "title1" : "NO2",
+                "title1-style": "item__compound", 
+                "title2" : "1000 mg/kg",
+                "title2-style": "item__text item__text--2",
+                "compound": "NO2",
+                "icon2": "ek ek-down-open"
+            },
+            {
+                "title1" : "NO2",
+                "title1-style": "item__compound", 
+                "title2" : "1000 mg/kg",
+                "title2-style": "item__text item__text--2",
+                "compound": "NO2",
+                "icon2": "ek ek-down-open"
+            },
+            {
+                "title1" : "NO2",
+                "title1-style": "item__compound", 
+                "title2" : "1000 mg/kg",
+                "title2-style": "item__text item__text--2",
+                "compound": "NO2",
+                "icon2": "ek ek-down-open"
+            },
+            {
+                "title1" : "NO2",
+                "title1-style": "item__compound", 
+                "title2" : "1000 mg/kg",
+                "title2-style": "item__text item__text--2",
+                "compound": "NO2",
+                "icon2": "ek ek-down-open"
+            },
+            {
+                "title1" : "NO2",
+                "title1-style": "item__compound", 
+                "title2" : "1000 mg/kg",
+                "title2-style": "item__text item__text--2",
+                "compound": "NO2",
+                "icon2": "ek ek-down-open"
+            },
+            {
+                "title1" : "NO2",
+                "title1-style": "item__compound", 
+                "title2" : "1000 mg/kg",
+                "title2-style": "item__text item__text--2",
                 "compound": "NO2",
                 "icon2": "ek ek-down-open"
             }
             
-    ],
+        ],
+        "notification": {
+            "publish": {
+                "title": "Objavi podatke javnosti",
+                "title-style": "",
+                "input-type": "checkbox",
+                "input-style": ""
+            },
+            "notification":{
+                "title": "Obavijest",
+                "title-style": "",
+                "icon": "ek ek-info"
+            }
+        }
+    },
+
     "button": {
         "icon": "ek ek-pipa",
         "text": "Upload"
