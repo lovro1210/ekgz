@@ -18,6 +18,7 @@
       "patterns" : "./public/patterns/",
       "data" : "./public/styleguide/data/",
       "annotations" : "./public/annotations/",
+      "styleguide" : "./public/styleguide/",
       "js" : "./public/js",
       "images" : "./public/images",
       "fonts" : "./public/fonts",
